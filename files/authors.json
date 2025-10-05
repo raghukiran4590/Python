@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "id": 101,
+            "name": "Jane Doe",
+            "bio": "Jane is a seasoned writer with a passion for storytelling.",
+            "profile_picture": "https://example.com/images/jane_doe.jpg"
+        },
+        {
+            "id": 2,
+            "name": "John Smith",
+            "bio": "John specializes in technology and innovation topics.",
+            "profile_picture": "https://example.com/images/john_smith.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "bio": "Alice is an expert in health and wellness writing.",
+            "profile_picture": "https://example.com/images/alice_johnson.jpg"
+        }
+    ]
+}
