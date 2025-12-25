@@ -1,0 +1,17 @@
+Legacy Instructions:
+
+Go to 232861963405 as ADFS-DBA to start. 
+
+Click on switch role and enter 462968192212 and DatabaseAdministratorExecutionRole
+
+Advanced Queries -> Use Anthem-AWS-Compliance on query scope for us-east-1
+
+Advanced Queries -> Use Anthem-AWS-Compliance-us-east-2 on query scope fro us-east-2
+
+LZ Instructions:
+
+Go to 738234568511 with antm-dbaudit 
+
+Click on switch role and go to Master account: 192007111311 with antm-dbaudit 
+
+Advanced Queries -> Use aws-controltower-GuardrailsComplianceAggregator on query scope

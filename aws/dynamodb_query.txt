@@ -1,0 +1,20 @@
+select
+  configurationItemCaptureTime,
+  resourceCreationTime,
+  configurationItemStatus,
+  configuration.tableStatus,
+  accountId,
+  arn,
+  resourceType,
+  configuration.tableArn,
+  configuration.tableName,
+  configuration.ssedescription.status,
+  tags.tag
+where
+  resourceType = 'AWS::DynamoDB::Table'
+  and accountId not in ( '158371838529','017287187116','663843836677','706161135636','845408662851','335131837504','544086441256','721031640279',
+    '894621422711','719174457454','076094374445','829257691050','956725757217'
+,'544086441256','894621422711','721031640279','304616321332','868159525660')
+order by
+  accountId,
+  resourceName

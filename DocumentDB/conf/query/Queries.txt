@@ -1,0 +1,22 @@
+SELECT DISTINCT
+ i.CONNECT_STRING AS connection_string,
+ lower(i.SERVER_NAME) AS server_nm,
+ CASE
+        WHEN i.DBMS_TYPE = 'DOCUMENTDB' THEN 'DOCUMENTDB'
+        ELSE i.DBMS_TYPE
+    END AS dbms_type,
+i.INSTANCE_NM as instance_nm,
+i.SYS_ID as sys_id,
+i.INSTANCE_KEY as instance_key,
+i.production_ind AS prod_ind,
+i.environment 
+FROM 
+    INSTANCES i
+WHERE 
+   i.OPERATIONAL_STATUS not in ( 'Retired','Inactive')
+    AND i.NETWORK_ACCESS_TYPE = 'O'
+    AND UPPER(i.INSTANCE_TYPE) = 'DBMS INSTANCE'
+    AND i.CO_BU IN ('Anthem', 'Elevance Health', 'GBD', 'IngenioRx', 'CarelonRX')
+    and  NVL(i.ENVIRONMENT, 'NULL') != 'f3d555bddb9817008b8f74b5ae9619a7'
+     and  i.DBMS_TYPE = 'DOCUMENTDB'
+     and i.production_ind =

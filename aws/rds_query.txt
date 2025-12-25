@@ -1,0 +1,48 @@
+select
+  configurationItemCaptureTime,
+  resourceCreationTime,
+  configurationItemStatus,
+  accountId,
+  configuration.engine,
+  configuration.engineVersion,
+  arn,
+  resourceid,
+  configuration.readReplicaDBClusterIdentifiers,
+  configuration.readReplicaDBInstanceIdentifiers,
+  configuration.readReplicaSourceDBInstanceIdentifier,
+  configuration.dBName,
+  configuration.endpoint.address,  
+  configuration.endpoint.port,
+  configuration.storageEncrypted,
+  configuration.dBClusterIdentifier,
+  configuration.dBInstanceIdentifier,
+  configuration.dBInstanceStatus,
+  configuration.backupRetentionPeriod,
+  configuration.masterUsername,
+  configuration.listenerEndpoint.address,
+  configuration.listenerEndpoint.port ,
+  tags.tag
+where
+  resourceType = 'AWS::RDS::DBInstance'
+  and accountId not in (
+    '158371838529',
+    '017287187116',
+    '663843836677',
+    '706161135636',
+    '845408662851',
+    '335131837504',
+    '544086441256',
+    '721031640279',
+    '894621422711',
+    '719174457454',
+    '076094374445',
+    '829257691050',
+    '956725757217',
+    '544086441256',
+    '894621422711',
+    '721031640279',
+    '304616321332',
+    '868159525660')
+order by
+  accountId,
+  resourceName

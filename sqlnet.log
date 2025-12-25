@@ -1,0 +1,1 @@
+Fatal NI connect error 12599 [Time : 06-DEC-2025 22:29:42] [NS errors [12599:TNS-12599: TNS:cryptographic checksum mismatch] 2526] [NT errors [0 0] 0] [Oracle errors [0 ] 0] [Server Address: (null)] [Trace: /tmp/sqlnet_98573.trc]

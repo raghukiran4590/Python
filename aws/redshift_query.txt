@@ -1,0 +1,27 @@
+select
+ configurationItemCaptureTime,
+ configurationItemStatus,
+  resourceCreationTime,
+  accountId,
+  configuration.endpoint.address,
+  arn,
+  resourceName,
+  resourceType,
+  configuration.dBName,
+  configuration.endpoint.address,
+  configuration.endpoint.port,
+ configuration.clusterIdentifier,
+ configuration.clusterAvailabilityStatus,
+  configuration.encrypted,
+  configuration.masterUsername,
+  configuration.availabilityZone,
+  tags.tag
+where
+  resourceType = 'AWS::Redshift::Cluster'
+  and (accountId not in 
+  ( '158371838529','017287187116','663843836677','706161135636','845408662851','335131837504','544086441256','721031640279',
+    '894621422711','719174457454','076094374445','829257691050','956725757217','544086441256',
+'894621422711','721031640279','304616321332','868159525660','585768148382') or resourceName in ('aredsft-apm1007515-prdcl01'))
+order by
+  accountId,
+  resourceName
