@@ -1,0 +1,137 @@
+Introduction to Agentic AI
+1
+What are agents?
+2
+Agentic AI vs AI agents
+3
+Agentic AI vs Generative AI
+4
+Multi-agent systems
+5
+Agentic AI frameworks
+
+LangGraph Fundamentals
+1
+Introduction to LangGraph
+2
+Simple graph construction
+3
+Node connections
+4
+LangGraph Studio
+5
+Chains and routers
+6
+Building agents
+7
+Agent memory
+8
+Deployment basics
+
+State Management and Memory in LangGraph
+1
+State system in LangGraph
+2
+State schemas
+3
+Data flow
+4
+State reducers
+5
+Multiple schemas
+6
+Trimming messages
+7
+Filtering messages
+
+UX & Human-in-the-Loop Systems in LangGraph
+1
+Streaming for real-time updates
+2
+Understanding breakpoints
+3
+Human feedback integration
+4
+Editing state via feedback
+5
+Dynamic breakpoints
+6
+Time travel debugging
+
+Agentic RAG Systems
+1
+Adaptive RAG concepts
+2
+Adaptive RAG with Cohere
+3
+Running Adaptive RAG locally
+4
+Agentic RAG architecture
+5
+C-RAG (Contextual RAG)
+6
+Self-RAG systems
+7
+Self-RAG with vector databases
+8
+Deployment of Self-RAG
+
+Model Context Protocol (MCP)
+1
+Introduction to MCP
+2
+Core components
+3
+Communication flow between MCP components
+4
+Claude Desktop MCP integration
+5
+Cursor IDE MCP
+6
+Exploring MCP repositories
+7
+Building MCP servers using LangChain
+8
+Docker MCP catalog and toolkit
+
+Multi-Agent Systems for Research Automation
+1
+Introduction to multi-agent architecture
+2
+Designing specialized agents
+3
+Memory and communication state
+4
+Prompt engineering for multi-turn systems
+5
+Human feedback checkpoints
+6
+API integrations: arXiv, search, paper parsers
+7
+LangGraph workflow design
+8
+RAG for external knowledge
+9
+FastAPI backend for agents
+10
+Visualization UI for logs and graphs
+11
+CI/CD with GitHub Actions
+12
+Docker and AWS EC2 deployment
+
+End-to-End AI & Data Projects
+1
+Review scraper project
+2
+Supabase + Streamlit database application
+3
+Network intrusion detection ML project
+4
+Text summarization
+5
+Machine translation
+6
+Question answering
+7
+RAG system with CI/CD

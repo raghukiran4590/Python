@@ -1,0 +1,79 @@
+Introduction to Generative AI
+1
+What is Generative AI?
+2
+Why generative models matter
+3
+How generative models work
+4
+Generative vs discriminative models
+5
+Recent advancements in GenAI
+6
+Applications of generative models
+7
+End-to-end generative AI project lifecycle
+
+Vector Databases for AI Applications
+1
+Understanding embeddings and similarity search
+2
+Comparison with SQL and NoSQL
+3
+Vector database architecture
+4
+In-memory, on-disk, cloud vector DBs
+5
+ChromaDB
+6
+FAISS
+7
+Quadrant
+8
+Pinecone
+9
+LanceDB
+10
+Vector search with MongoDB and Cassandra
+
+Retrieval-Augmented Generation (RAG)
+1
+Understanding RAG
+2
+End-to-end RAG pipeline
+3
+Implementing RAG with LangChain and vector DBs
+4
+Hybrid search and reranking
+5
+Retrieval strategies for RAG
+6
+Memory in RAG systems
+7
+Multimodal RAG
+
+Comprehensive Guide to LangChain
+1
+LangChain fundamentals
+2
+Data connectors
+3
+API connectors
+4
+Chat models
+5
+LangChain tools and toolkits
+6
+Prompt templating
+7
+Chains, LCEL, Runnables
+8
+Synthetic data generation
+9
+Memory management
+10
+LangChain Agents
+11
+LangSmith
+12
+LangServe

@@ -1,0 +1,76 @@
+Foundations of Statistics
+1
+Basic statistical terms
+2
+Descriptive vs inferential statistics
+3
+Types of data and measurement levels
+4
+Mean, median, mode
+5
+Variance and standard deviation
+6
+Skewness and kurtosis
+7
+Covariance and correlation
+8
+Random variables
+9
+Probability basics
+10
+PDF, PMF, CDF
+11
+Binomial, Poisson, Normal, Bernoulli, Uniform distributions
+12
+Z-statistics
+13
+Central Limit Theorem
+14
+Estimation and confidence intervals
+
+Advanced Statistical Analysis
+1
+Hypothesis testing mechanism
+2
+P-values and significance
+3
+Confidence levels
+4
+Bayes theorem
+5
+Chi-square distribution
+6
+Goodness-of-fit test
+7
+Chi-square tests using Python
+
+Feature Engineering for Machine Learning
+1
+Handling missing data
+2
+Imbalanced dataset techniques
+3
+Outlier detection and treatment
+4
+Feature scaling: normalization, standardization
+5
+Encoding categorical variables
+6
+Backward & forward feature elimination
+7
+Covariance and correlation for feature relationships
+
+Exploratory Data Analysis (EDA)
+1
+Purpose of EDA
+2
+Visualizing data patterns
+3
+Trend and anomaly detection
+4
+Movie review sentiment analysis
+5
+Wine quality analysis
+6
+Forecasting stocks and commodities
+

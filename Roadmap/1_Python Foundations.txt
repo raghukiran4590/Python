@@ -1,0 +1,149 @@
+Python Foundations
+1
+Introduction to Python and comparison with other programming languages
+2
+Python objects: numbers, booleans, strings
+3
+Container objects and mutability
+4
+Operators: arithmetic, bitwise, comparison, assignment, precedence
+5
+Conditional statements: if, if-elif-else
+6
+Loops: for, while, break, continue, range
+7
+String basics, inbuilt methods, splitting, joining, formatting
+8
+Data structures: lists, tuples, sets, dictionaries
+9
+List & dictionary comprehensions
+10
+Dictionary view objects
+11
+Functions: basics, parameter passing
+12
+Iterators and generator functions
+13
+Lambda functions
+14
+Map and functional programming
+
+Advanced Python Programming
+1
+OOP concepts and class creation
+2
+Inheritance, polymorphism, encapsulation, abstraction
+3
+Decorators, class methods, static methods
+4
+Magic/Dunder methods
+5
+Reading and writing files
+6
+Buffered read/write operations
+7
+File handling methods
+8
+Modules and imports
+9
+Exception handling: try-except and custom exceptions
+
+Numerical Computing with NumPy
+1
+Understanding NdArray objects
+2
+Data types and array attributes
+3
+Creating arrays from existing data
+4
+Numerical range-based arrays
+5
+Indexing and slicing arrays
+6
+Broadcasting and array iteration
+7
+Array manipulation
+8
+Arithmetic and mathematical operations
+9
+Statistical functions
+10
+Sorting, searching, counting functions
+11
+Binary and string functions
+12
+Matrix operations
+13
+Copy vs view behavior
+
+Data Analysis with Pandas
+1
+Series, DataFrame, Panel structures
+2
+Basic functionality and reindexing
+3
+Iteration and sorting
+4
+Indexing and selecting data
+5
+Working with text data
+6
+Date and time handling
+7
+Timedelta and categorical data
+8
+Descriptive statistics
+9
+Visualization using Pandas
+
+Data Visualization with Matplotlib & Seaborn
+1
+Introduction to Matplotlib
+2
+Creating plots, charts, and figures
+3
+Customization and styling
+4
+Introduction to Seaborn
+5
+Statistical visualizations: histograms, pair plots, heatmaps
+6
+Aesthetic improvements for communication
+
+Working with Databases (SQL & NoSQL)
+1
+Understanding SQL queries
+2
+Primary key and foreign key
+3
+Joins and unions
+4
+Setting up Supabase with PostgreSQL
+5
+Executing SQL queries
+6
+MongoDB basics
+7
+Creating databases and collections
+8
+Insert, find, query, sort operations
+9
+Update and delete operations
+10
+Dropping collections
+
+
+Building Interactive Data Apps with Streamlit
+1
+Streamlit introduction and fundamentals
+2
+Interactive widgets
+3
+Session state management
+4
+Using async and await
+5
+Building dynamic dashboards
+
+
+
