@@ -1,0 +1,13 @@
+# # Define service principal details
+# $appId = "YOUR_APPLICATION_ID"
+# $clientSecret = "YOUR_CLIENT_SECRET"
+# $tenantId = "YOUR_TENANT_ID"
+
+# # Convert the client secret to a secure string
+# $secureClientSecret = $clientSecret | ConvertTo-SecureString -AsPlainText -Force
+
+# # Create the credential object
+# $credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $appId, $secureClientSecret
+
+# # Connect to Azure using the service principal
+# Connect-AzAccount -ServicePrincipal -Credential $credential -TenantId $tenantId

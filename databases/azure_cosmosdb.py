@@ -6,6 +6,9 @@ from azure.cosmos import exceptions # pyright: ignore[reportMissingImports]
 from azure.cosmos.partition_key import PartitionKey # pyright: ignore[reportMissingImports]
 import asyncio
 
+# /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/azureml-rg-aifoundryhubtesting_c0998e60-3142-47c9-a311-1a2bc05293e2/
+# providers/Microsoft.DocumentDb/databaseAccounts/cosmosdb169268627
+
 # Replace these values with your Cosmos DB connection information
 endpoint = "https://azure-cosmos-nosql.documents.azure.com:443/"
 key = "master_key"
