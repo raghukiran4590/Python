@@ -60,3 +60,19 @@ if __name__ == "__main__":
     matches = find_metacharacters(test_pattern, test_string)
     print("Matches found:", matches) # Output: Matches found: ['$100']
 
+# Demonstrating span() method
+text = "The quick brown fox jumps over the lazy dog"
+pattern = re.compile(r'fox')
+match = pattern.search(text)
+
+if match:
+    start_pos, end_pos = match.span()
+    print(f"Found 'fox' from position {start_pos} to {end_pos}")
+    # Output: Found 'fox' from position 16 to 19
+
+    matched_substring = text[start_pos:end_pos]
+    print(f"Matched text: '{matched_substring}'")
+    # Output: Matched text: 'fox'
+
+else:
+    print("No match found")
