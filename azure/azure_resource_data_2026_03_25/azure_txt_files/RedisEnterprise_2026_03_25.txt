@@ -1,0 +1,865 @@
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-90prd01
+name             : zredis-apm1081191-90prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081191-plat-vzm4t-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081191-90prd01.centralus.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; costcenter=5212032600; elvh-app-env=prod; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; company=Anthem; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; created-by=AN725132AD; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-prod; infra-env=plat; ci-owner=AF85271; app-env=prod; apm-id=apm1081191; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-90prd01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag2=Commercial; application_tag4=app-tag4; application_tag3=PROD; application_tag1=SmartHelpAPI; application_tag5=app-tag5; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-90prd02
+name             : zredis-apm1081191-90prd02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081191-plat-vzm4t-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081191-90prd02.centralus.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; costcenter=5212032600; elvh-app-env=prod; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; company=Anthem; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; created-by=AN725132AD; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-prod; infra-env=plat; ci-owner=AF85271; app-env=prod; apm-id=apm1081191; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-90prd02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag2=Commercial; application_tag4=app-tag4; application_tag3=PROD; application_tag1=SmartChat; application_tag5=app-tag5; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-90prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00prd01
+name             : zredis-apm1081191-00prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-plat-vzm4t-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081191-00prd01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081191-db-prod; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; costcenter=5212032600; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-prod; infra-env=plat; ci-owner=AF85271; company=Anthem; app-env=prod; created-by=AN725132AD; apm-id=apm1081191; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1081191-00prd01; db-patch-schedule=M00W0; database-platform=redis; application_tag5=app-tag5; application_tag3=PROD; application_tag1=SmartHelpAPI; application_tag4=app-tag4; application_tag2=Commercial; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.5; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00prd02
+name             : zredis-apm1081191-00prd02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-plat-vzm4t-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081191-00prd02.eastus2.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; costcenter=5212032600; elvh-app-env=prod; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; company=Anthem; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; created-by=AN725132AD; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-prod; infra-env=plat; ci-owner=AF85271; app-env=prod; apm-id=apm1081191; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-00prd02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag2=Commercial; application_tag4=app-tag4; application_tag3=PROD; application_tag1=SmartChat; application_tag5=app-tag5; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-90prd02
+name             : zredis-apm1081952-90prd02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081952-plat-99ap7-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=ComputeOptimized_X3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081952-90prd02.centralus.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1081952-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; costcenter=6590222500; elvh-app-env=prod; elvh-apm-id=apm1081952; app-servicenow-group=Benefit AI Application Support; application-name=apm1081952; company=Anthem; business-division=dig; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; created-by=AN775047AD; PatchWindow=default; PatchGroup=default; workspace=azrapm1081952-db-prod; infra-env=plat; ci-owner=AF85271; app-env=production; apm-id=apm1081952; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081952-90prd02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag2=Renuka Kasilal; application_tag4=APM1081952; application_tag3=DL-10XE-Benefits-ProdSupport@elevancehealth.com; application_tag1=Benefit AI Explainability; application_tag5=DR; provisioned_by=terraform-azurerm-managed-redis:1.0.3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-90prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00prd02
+name             : zredis-apm1081952-00prd02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081952-plat-99ap7-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=ComputeOptimized_X3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081952-00prd02.eastus2.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081952-db-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081952; app-servicenow-group=Benefit AI Application Support; costcenter=6590222500; application-name=apm1081952; business-division=dig; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; PatchWindow=default; created-by=AN775047AD; PatchGroup=default; workspace=azrapm1081952-db-prod; infra-env=plat; ci-owner=AF85271; company=Anthem; app-env=production; apm-id=apm1081952; provisioned_by=terraform-azurerm-managed-redis:1.0.3; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081952-00prd02; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag4=APM1081952; application_tag3=DL-10XE-Benefits-ProdSupport@elevancehealth.com; application_tag2=Renuka Kasilal; application_tag1=Benefit AI Explainability; application_tag5=Prod; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00prd02
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-90prd01
+name             : zredis-apm1081525-90prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081525-plat-q056w-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081525-90prd01.centralus.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; application-name=ZipDrug CareControl - AZURE; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081525-db-prod; elvh-ci-owner=AG74055; elvh-app-env=prod; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; app-servicenow-group=CPTC Application Support; business-division=irx; created-by=AN400527AD; PatchGroup=default; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchWindow=default; workspace=azrapm1081525-db-prod; infra-env=production; company=Community Pharmacy Total Care (ZipDrug); ci-owner=AG74055; app-env=prod; apm-id=apm1081525; project_vulcan=true; provisioned_by=terraform-azurerm-managed-redis:1.0.5; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081525-90prd01; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; application_tag4=app-tag4; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-00prd01
+name             : zredis-apm1081525-00prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081525-plat-q056w-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081525-00prd01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; application-name=ZipDrug CareControl - AZURE; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081525-db-prod; elvh-ci-owner=AG74055; elvh-app-env=prod; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; app-servicenow-group=CPTC Application Support; business-division=irx; created-by=AN400527AD; PatchGroup=default; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchWindow=default; workspace=azrapm1081525-db-prod; infra-env=production; company=Community Pharmacy Total Care (ZipDrug); ci-owner=AG74055; app-env=prod; apm-id=apm1081525; project_vulcan=true; provisioned_by=terraform-azurerm-managed-redis:1.0.5; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081525-00prd01; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; application_tag4=app-tag4; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-00prd01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00per01
+name             : zredis-apm1081191-00per01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-gld-wfvie-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1081191-00per01.eastus2.redis.azure.net; highAvailability=Enabled; resourceState=Running}
+tags             : @{environment=performance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1081191-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; company=Anthem; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081191; project_vulcan=true; created-by=AN725132AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-00per01; application_tag5=app-tag5; application_tag1=SmartHelpAPI; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-81; storage-persistence-security-exception=PER0007382}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00per02
+name             : zredis-apm1081191-00per02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-gld-wfvie-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081191-00per02.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=performance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1081191-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; company=Anthem; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081191; project_vulcan=true; created-by=AN725132AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-00per02; application_tag5=app-tag5; application_tag1=SmartChat; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00per02
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00uat01
+name             : zredis-apm1081191-00uat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-gld-wfvie-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081191-00uat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1081191-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; company=Anthem; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081191; project_vulcan=true; created-by=AN725132AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-00uat01; application_tag5=app-tag5; application_tag1=SmartHelpAPI; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00uat02
+name             : zredis-apm1081191-00uat02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081191-gld-wfvie-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081191-00uat02.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1081191-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; company=Anthem; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081191-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081191; project_vulcan=true; created-by=AN725132AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081191-00uat02; application_tag5=app-tag5; application_tag1=SmartChat; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081191-gld-wfvie-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00uat02
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00per01
+name             : zredis-apm1081266-00per01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081266-gld-t91t9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B20}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081266-00per01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=performance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081266-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081266; app-servicenow-group=Digital 10x Engineering Support; application-name=Benefits Modernization - BenefitX - AZURE; business-division=dig; company=Anthem; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081266-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081266; project_vulcan=true; created-by=AN619474AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081266-00per01; application_tag5=app-tag5; application_tag1=app-tag1; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.1; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00uat01
+name             : zredis-apm1081266-00uat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081266-gld-t91t9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B20}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081266-00uat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081266-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081266; app-servicenow-group=Digital 10x Engineering Support; application-name=Benefits Modernization - BenefitX - AZURE; business-division=dig; company=Anthem; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081266-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1081266; project_vulcan=true; created-by=AN619474AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081266-00uat01; application_tag5=app-tag5; application_tag1=app-tag1; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.1; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-perf1-managed-redisper001
+name             : zredis-APM1081667-apm1081667-perf1-managed-redisper001
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081667-gld-95huj-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=MemoryOptimized_M10}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-APM1081667-apm1081667-perf1-managed-redisper001.eastus2.redis.azure.net; highAvailability=Enabled; resourceState=CreateFailed}
+tags             : @{environment=performance; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081667-np02; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=APM1081667; app-servicenow-group=Secure Member Portal DevOps Support; application-name=Sydney Member Management Layer; business-division=dig; company=Anthem; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081667-np02; infra-env=test; ci-owner=AM33142; app-env=test; apm-id=APM1081667; created-by=AM33142; prepatch-snapshot-flag=true; database-platform-name=zredis-APM1081667-apm1081667-perf1-managed-redisper001; application_tag5=Memory Optimized M10; application_tag1=Sydney Member Management Layer; application_tag4=High Availability; application_tag3=Cache Layer; application_tag2=Performance Environment; db-patch-time-window=02:00-04:00; provisioned_by=terraform-azurerm-managed-redis:1.0.3; database-platform=Redis Enterprise; db-patch-schedule=Sunday; database-state=active; bcp-tier=tier2}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-perf1-managed-redisper001
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-uat1-managed-redisuat002
+name             : zredis-APM1081667-apm1081667-uat1-managed-redisuat002
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081667-gld-95huj-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-APM1081667-apm1081667-uat1-managed-redisuat002.eastus2.redis.azure.net; highAvailability=Enabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081667-np02; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=APM1081667; app-servicenow-group=Secure Member Portal DevOps Support; application-name=Sydney Member Management Layer; business-division=dig; company=Anthem; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081667-np02; infra-env=test; ci-owner=AM33142; app-env=test; apm-id=APM1081667; created-by=AM33142; prepatch-snapshot-flag=true; database-platform-name=zredis-APM1081667-apm1081667-uat1-managed-redisuat002; application_tag5=Balanced B5; application_tag1=Sydney Member Management Layer; application_tag4=High Availability; application_tag3=Cache Layer; application_tag2=UAT Environment; db-patch-time-window=02:00-04:00; provisioned_by=terraform-azurerm-managed-redis:1.0.3; database-platform=Redis Enterprise; db-patch-schedule=Sunday; database-state=active; bcp-tier=tier2}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-uat1-managed-redisuat002
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081952-gld-94no2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00per01
+name             : zredis-apm1081952-00per01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081952-gld-94no2-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=ComputeOptimized_X3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081952-00per01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=performance; costcenter=6590222500; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081952-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081952; app-servicenow-group=Benefit AI Application Support; application-name=apm1081952; business-division=dig; company=Anthem; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081952-db-np02; infra-env=gld; ci-owner=AF85271; app-env=performance; apm-id=apm1081952; created-by=AN627805AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081952-00per01; application_tag5=Perf; application_tag1=Benefit AI Explainability; application_tag4=APM1081952; application_tag3=DL-10XE-Benefits-ProdSupport@elevancehealth.com; application_tag2=Renuka-Kasilal; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.3; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081952-gld-94no2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081952-gld-94no2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00uat01
+name             : zredis-apm1081952-00uat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081952-gld-94no2-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=MemoryOptimized_M20}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081952-00uat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=6590222500; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081952-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081952; app-servicenow-group=Benefit AI Application Support; application-name=apm1081952; business-division=dig; company=Anthem; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081952-db-np02; infra-env=gld; ci-owner=AF85271; app-env=user_acceptance; apm-id=apm1081952; created-by=AN627805AD; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081952-00uat01; application_tag5=UAT; application_tag1=Benefit AI Explainability; application_tag4=APM1081952; application_tag3=DL-10XE-Benefits-ProdSupport@elevancehealth.com; application_tag2=Renuka-Kasilal; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-managed-redis:1.0.3; database-platform=redis; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081952-gld-94no2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00uat01
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1017603-slvr-44y6a-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-00prd01
+name             : zredis-apm1017603-00prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1017603-slvr-44y6a-01-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1017603-00prd01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Cloud Core Services - Azure Service Catalog Support; elvh-business-division=corp; elvh-application-name=Service Catalog - AZURE; elvh-app-support-dl=dl-ServiceCatalogTeam-Azure@elevancehealth.com; elvh-costcenter=6590215400; elvh-infra-env=development; elvh-workspace=azrapm1017603-dev30; elvh-ci-owner=AH96833; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1017603; costcenter=6590331700; app-servicenow-group=cloud core services - azure service catalog support; application-name=service catalog - azure; business-division=CORP; app-support-dl=dl-ServiceCatalogTeamAzure@elevancehealth.com; PatchWindow=default; created-by=AN400527AD; PatchGroup=default; workspace=azrapm1017603-dev30; company=anthem; infra-env=slvr; ci-owner=AH96833; app-env=development; apm-id=apm1017603; provisioned_by=terraform-azurerm-managed-redis:1.0.3; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1017603-00prd01; db-patch-schedule=M00W0; database-platform=redis; application_tag2=app-tag2; application_tag1=app-tag1; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1017603-slvr-44y6a-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-00prd01
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1017603-slvr-44y6a-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-90dev15
+name             : zredis-apm1017603-90dev15
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1017603-slvr-44y6a-01-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1017603-90dev15.centralus.redis.azure.net; resourceState=DeleteFailed; highAvailability=Disabled}
+tags             : @{environment=development; elvh-app-servicenow-group=Cloud Core Services - Azure Service Catalog Support; elvh-business-division=corp; elvh-application-name=Service Catalog - AZURE; elvh-app-support-dl=dl-ServiceCatalogTeam-Azure@elevancehealth.com; elvh-costcenter=6590215400; elvh-infra-env=development; elvh-workspace=azrapm1017603-dev28; elvh-ci-owner=AH96833; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1017603; costcenter=6590331700; app-servicenow-group=cloud core services - azure service catalog support; application-name=service catalog - azure; business-division=CORP; app-support-dl=dl-servicecatalogteam-azure@elevancehealth.com; PatchWindow=Default; created-by=AL50696; PatchGroup=Default; workspace=azrapm1017603-dev28; company=anthem; infra-env=slvr; ci-owner=AH96833; app-env=development; apm-id=apm1017603; provisioned_by=terraform-azurerm-mssql:1.0.0; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1017603-90dev15; db-patch-schedule=M00W0; database-platform=redis; application_tag2=app-tag2; application_tag1=app-tag1; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1017603-slvr-44y6a-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-90dev15
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00blueuat01
+name             : zredis-apm1081064-00blueuat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-gld-45p7c-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00blueuat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081064-db-np02; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; application-name=Sydney Medicaid Service Layer - AZURE; business-division=gbd; elvh-apm-id=apm1081064; costcenter=5100048000; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-np02; infra-env=test; ci-owner=AM33142; company=Anthem; app-env=test; apm-id=apm1081064; created-by=AN331323AD; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; database-platform-name=zredis-apm1081064-00blueuat01; application_tag1=app-tag1; application_tag4=app-tag4; application_tag5=app-tag5; application_tag2=app-tag2; application_tag3=app-tag3; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.1; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00blueuat01
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00greenuat01
+name             : zredis-apm1081064-00greenuat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-gld-45p7c-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00greenuat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081064-db-np02; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; application-name=Sydney Medicaid Service Layer - AZURE; business-division=gbd; elvh-apm-id=apm1081064; costcenter=5100048000; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-np02; infra-env=test; ci-owner=AM33142; company=Anthem; app-env=test; apm-id=apm1081064; created-by=AN331323AD; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; database-platform-name=zredis-apm1081064-00greenuat01; application_tag1=app-tag1; application_tag4=app-tag4; application_tag5=app-tag5; application_tag2=app-tag2; application_tag3=app-tag3; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.1; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00greenuat01
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00moper01
+name             : zredis-apm1081064-00moper01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-gld-45p7c-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00moper01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=performance; elvh-app-servicenow-group=Medicaid Service Layer Support; costcenter=5100048000; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-workspace=azrapm1081064-db-np02; elvh-infra-env=test; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; application-name=Sydney Medicaid Service Layer - AZURE; elvh-company=Anthem; elvh-app-env=test; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-np02; company=Anthem; infra-env=test; ci-owner=AM33142; app-env=test; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; database-platform-name=zredis-apm1081064-00moper01; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00moper01
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00per01
+name             : zredis-apm1081064-00per01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-gld-45p7c-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00per01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=performance; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; costcenter=5100048000; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; application-name=Sydney Medicaid Service Layer - AZURE; elvh-infra-env=test; elvh-workspace=azrapm1081064-db-np02; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; elvh-app-env=test; elvh-company=Anthem; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-np02; infra-env=test; ci-owner=AM33142; company=Anthem; app-env=test; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; database-platform=redis; db-patch-schedule=M00W0; application_tag3=app-tag3; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; application_tag5=app-tag5; database-state=Active; database-platform-name=zredis-apm1081064-00per01; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1081064-gld-45p7c-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00per01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081220-slvr-fhbck-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081220-00dev01
+name             : zredis-apm1081220-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081220-slvr-fhbck-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Balanced_B10}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081220-00dev01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=development; elvh-app-servicenow-group=Ingenio Rx Digital Mobile Support; elvh-business-division=irx; elvh-application-name=CarelonRx Standalone Mobile App (CRx) AZURE; elvh-app-support-dl=dl-IngenioRxDigitalMobile_Support@ingenio-rx.com; company=CarelonRx (IngenioRx); elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1081220-db-np01; elvh-ci-owner=AG66446; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081220; costcenter=6590211000; created-by=AN250757AD; application-name=CarelonRx Standalone Mobile App (CRx) AZURE; PatchGroup=default; workspace=azrapm1081220-db-np01; provisioned_by=terraform-azurerm-managed-redis:1.0.1; app-servicenow-group=Ingenio Rx Digital Mobile Support; business-division=irx; PatchWindow=default; app-support-dl=dl-IngenioRxDigitalMobile_Support@ingenio-rx.com; infra-env=development; ci-owner=AG66446; app-env=dev; apm-id=apm1081220; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081220-00dev01; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; application_tag3=app-tag3; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081220-slvr-fhbck-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081220-00dev01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081561-slvr-rtjmm-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081561-01dev01
+name             : zredis-apm1081561-01dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081561-slvr-rtjmm-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Balanced_B1}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081561-01dev01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=development; elvh-app-servicenow-group=Ingenio Rx Digital Portal Support; elvh-business-division=irx; elvh-application-name=CarelonRx Standalone Member Portal - AZURE; elvh-app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; costcenter=6590211000; elvh-costcenter=6590211000; elvh-workspace=azrapm1081561-db-np01; elvh-infra-env=development; elvh-ci-owner=AG53033; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081561; created-by=AN702077AD; PatchGroup=default; application-name=CarelonRx Standalone Member Portal - AZURE; company=CarelonRx (IngenioRx); provisioned_by=terraform-azurerm-managed-redis:1.0.1; PatchWindow=default; app-servicenow-group=Ingenio Rx Digital Portal Support; business-division=irx; app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; workspace=azrapm1081561-db-np01; infra-env=development; project_vulcan=true; ci-owner=AG53033; app-env=dev; apm-id=apm1081561; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081561-01dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081561-slvr-rtjmm-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081561-01dev01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00DRprd01
+name             : zredis-apm1081064-00DRprd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081064-plat-253tv-01-dr-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00DRprd01.centralus.redis.azure.net; resourceState=CreateFailed; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; app-servicenow-group=Medicaid Service Layer Support; elvh-infra-env=production; elvh-workspace=azrapm1081064-db-dr; costcenter=5100048000; elvh-ci-owner=AM33142; application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-env=prod; elvh-company=Anthem; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-dr; infra-env=production; company=Anthem; ci-owner=AM33142; app-env=prod; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zredis-apm1081064-00DRprd01; database-platform=redis; application_tag3=app-tag3; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00DRprd01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdDR01
+name             : zredis-apm1081064-00prdDR01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081064-plat-253tv-01-dr-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00prdDR01.centralus.redis.azure.net; resourceState=CreateFailed; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; costcenter=5100048000; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081064-db-dr; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; application-name=Sydney Medicaid Service Layer - AZURE; elvh-company=Anthem; elvh-app-env=prod; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-dr; infra-env=production; ci-owner=AM33142; company=Anthem; app-env=prod; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; database-platform-name=zredis-apm1081064-00prdDR01; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdDR01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-90prd01
+name             : zredis-apm1081064-90prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081064-plat-253tv-01-dr-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-90prd01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; costcenter=5100048000; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081064-db-dr; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; application-name=Sydney Medicaid Service Layer - AZURE; elvh-company=Anthem; elvh-app-env=prod; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-dr; infra-env=production; ci-owner=AM33142; company=Anthem; app-env=prod; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; database-platform-name=zredis-apm1081064-90prd01; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-90prd01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdblue01
+name             : zredis-apm1081064-00prdblue01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-plat-253tv-01-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00prdblue01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; costcenter=5100048000; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081064-db-prod; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; application-name=Sydney Medicaid Service Layer - AZURE; elvh-company=Anthem; elvh-app-env=prod; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-prod; infra-env=production; ci-owner=AM33142; company=Anthem; app-env=prod; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zredis-apm1081064-00prdblue01; database-platform=redis; application_tag4=app-tag4; application_tag5=app-tag5; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdblue01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdgreen01
+name             : zredis-apm1081064-00prdgreen01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081064-plat-253tv-01-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00prdgreen01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081064-db-prod; app-servicenow-group=Medicaid Service Layer Support; elvh-ci-owner=AM33142; costcenter=5100048000; elvh-app-env=prod; elvh-company=Anthem; application-name=Sydney Medicaid Service Layer - AZURE; business-division=gbd; elvh-apm-id=apm1081064; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081064-db-prod; infra-env=production; company=Anthem; ci-owner=AM33142; app-env=prod; apm-id=apm1081064; created-by=AN331323AD; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zredis-apm1081064-00prdgreen01; database-platform=redis; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1081064-plat-253tv-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00prdgreen01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081191-slvr-rh61u-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00dev01
+name             : zredis-apm1081191-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081191-slvr-rh61u-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081191-00dev01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=development; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081191-db-np01; elvh-ci-owner=AF85271; infra-env=development; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081191; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; created-by=AN725132AD; company=Anthem; workspace=azrapm1081191-db-np01; PatchWindow=default; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchGroup=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; ci-owner=AF85271; app-env=dev; apm-id=apm1081191; project_vulcan=true; provisioned_by=terraform-azurerm-managed-redis:1.0.5; storage-persistence-security-exception=PER0007382; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081191-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; application_tag1=SmartHelpAPI}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081191-slvr-rh61u-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081191-slvr-rh61u-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00dev02
+name             : zredis-apm1081191-00dev02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081191-slvr-rh61u-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081191-00dev02.centralus.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=development; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; created-by=AN725132AD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081191; provisioned_by=terraform-azurerm-managed-redis:1.0.5; workspace=azrapm1081191-db-np01; company=Anthem; PatchWindow=default; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081191; project_vulcan=true; application_tag1=SmartChat; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081191-00dev02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081191-slvr-rh61u-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081191-00dev02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081212-slvr-gmgbl-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081212-00dev01
+name             : zredis-apm1081212-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081212-slvr-gmgbl-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B10}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Disabled; privateEndpointConnections=System.Object[]; encryption=; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081212-00dev01.centralus.redis.azure.net; resourceState=CreateFailed; highAvailability=Disabled}
+tags             : @{environment=development; costcenter=5100048000; created-by=AN576601AD; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Anthem Reimagine RCP AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-workspace=azrapm1081212-np01db; elvh-infra-env=development; elvh-ci-owner=AM33142; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081212; provisioned_by=terraform-azurerm-managed-redis:1.0.5; workspace=azrapm1081212-np01db; application-name=Anthem Reimagine RCP AZURE; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; infra-env=development; ci-owner=AM33142; app-env=dev; apm-id=apm1081212; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081212-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081212-slvr-gmgbl-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081212-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081212-slvr-gmgbl-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081212-00dev02
+name             : zredis-apm1081212-00dev02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081212-slvr-gmgbl-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B10}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081212-00dev02.centralus.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=development; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; created-by=AN576601AD; elvh-application-name=Anthem Reimagine RCP AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=development; elvh-workspace=azrapm1081212-np01db; elvh-ci-owner=AM33142; application-name=Anthem Reimagine RCP AZURE; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081212; workspace=azrapm1081212-np01db; company=Anthem; PatchWindow=default; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchGroup=default; infra-env=development; ci-owner=AM33142; app-env=dev; apm-id=apm1081212; project_vulcan=true; provisioned_by=terraform-azurerm-managed-redis:1.0.5; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081212-00dev02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081212-slvr-gmgbl-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081212-00dev02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00dev01
+name             : zredis-apm1081266-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081266-slvr-miqyj-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B20}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081266-00dev01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=development; elvh-app-servicenow-group=Digital 10x Engineering Support; created-by=AN619474AD; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; costcenter=6590222500; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; application-name=Benefits Modernization - Experience Data Platform - AZURE; elvh-costcenter=6590222500; elvh-workspace=azrapm1081266-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081266; provisioned_by=terraform-azurerm-managed-redis:1.0.1; workspace=azrapm1081266-db-np01; PatchWindow=default; PatchGroup=default; company=Anthem; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081266; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=redis; database-platform-name=zredis-apm1081266-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081266-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081667-slvr-hy6p5-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-redis-sit1sit001
+name             : zredis-APM1081667-apm1081667-redis-sit1sit001
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081667-slvr-hy6p5-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-APM1081667-apm1081667-redis-sit1sit001.centralus.redis.azure.net; resourceState=CreateFailed; highAvailability=Enabled}
+tags             : @{environment=integration; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; created-by=AM33142; elvh-infra-env=development; elvh-workspace=azrapm1081667-np01; elvh-ci-owner=AM33142; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=APM1081667; apm-id=APM1081667; provisioned_by=terraform-azurerm-managed-redis:1.0.5; application_tag1=Sydney Member Management Layer; application_tag2=; application_tag3=; application_tag4=; application_tag5=; bcp-tier=tier2; database-platform=Azure Managed Redis; database-platform-name=zredis-APM1081667-apm1081667-redis-sit1sit001; database-state=active; db-patch-schedule=Sunday; db-patch-time-window=02:00-04:00; prepatch-snapshot-flag=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081667-slvr-hy6p5-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-APM1081667-apm1081667-redis-sit1sit001
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081709-slvr-or6he-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081709-crfacets-sit01
+name             : zredis-apm1081709-crfacets-sit01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081709-slvr-or6he-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B1}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081709-crfacets-sit01.centralus.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=integration; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-AtomicServicesLayer - AZURE; elvh-app-support-dl=IASMonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081709-db-np01; elvh-ci-owner=AF85271; created-by=AN331323AD; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081709; application-name=PS-ES-AtomicServicesLayer - AZURE; workspace=azrapm1081709-db-np01; PatchWindow=default; PatchGroup=default; company=Anthem; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=IASMonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081709; provisioned_by=terraform-azurerm-managed-redis:1.0.1; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=redis; database-platform-name=zredis-apm1081709-crfacets-sit01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081709-slvr-or6he-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081709-crfacets-sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081709-slvr-or6he-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081709-sps-sit01
+name             : zredis-apm1081709-sps-sit01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081709-slvr-or6he-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Balanced_B10}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081709-sps-sit01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=integration; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-AtomicServicesLayer - AZURE; elvh-app-support-dl=IASMonitoring@anthem.com; elvh-costcenter=5212032600; costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081709-db-np01; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081709; application-name=PS-ES-AtomicServicesLayer - AZURE; created-by=AN331323AD; workspace=azrapm1081709-db-np01; PatchWindow=default; app-servicenow-group=IAS SUPPORT; company=Anthem; business-division=dig; app-support-dl=IASMonitoring@anthem.com; PatchGroup=default; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081709; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081709-sps-sit01; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag5=app-tag5; application_tag3=app-tag3; provisioned_by=terraform-azurerm-managed-redis:1.0.1; database-state=Active; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081709-slvr-or6he-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081709-sps-sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081952-slvr-az2dr-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00dev01
+name             : zredis-apm1081952-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081952-slvr-az2dr-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=MemoryOptimized_M20}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081952-00dev01.centralus.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=development; costcenter=6590222500; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1081952-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081952; created-by=automated; application-name=Benefit AI -10X; workspace=azrapm1081952-db-np01; company=Anthem; PatchWindow=default; app-servicenow-group=Benefit AI Application Support; business-division=dig; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; PatchGroup=default; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1081952; provisioned_by=terraform-azurerm-managed-redis:1.0.5; database-platform-name=zredis-apm1081952-00dev01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081952-slvr-az2dr-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081952-00dev01
+
+id               : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1009165-90prd01
+name             : zredis-apm1009165-90prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1009165-plat-pyw8i-01-dr-rg
+subscriptionId   : ada453e0-81b7-4edd-89d9-b650585a7b0d
+managedBy        : 
+sku              : @{name=Balanced_B100}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1009165-90prd01.centralus.redis.azure.net; resourceState=CreateFailed; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=AWS Cloud DB Fulfillment; elvh-business-division=corp; costcenter=6590215400; elvh-application-name=CloudDBA; elvh-app-support-dl=dl-cloud-db-fulfillment@anthem.com; elvh-costcenter=6590215400; app-servicenow-group=AWS Cloud DB Fulfillment; application-name=CloudDBA; elvh-infra-env=production; elvh-workspace=azrapm1009165-db-prod; elvh-ci-owner=AG29970; business-division=corp; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1009165; app-support-dl=dl-cloud-db-fulfillment@anthem.com; PatchWindow=default; workspace=azrapm1009165-db-prod; PatchGroup=default; company=Anthem; infra-env=plat; ci-owner=AG29970; app-env=production; created-by=an863738ad; apm-id=apm1009165; provisioned_by=terraform-azurerm-managed-redis:1.0.1; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1009165-90prd01; database-platform=redis; db-patch-schedule=M00W0; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1009165-90prd01
+
+id               : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1009165-00prd01
+name             : zredis-apm1009165-00prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1009165-plat-pyw8i-01-rg
+subscriptionId   : ada453e0-81b7-4edd-89d9-b650585a7b0d
+managedBy        : 
+sku              : @{name=Balanced_B100}
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1009165-00prd01.eastus2.redis.azure.net; resourceState=CreateFailed; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=AWS Cloud DB Fulfillment; elvh-business-division=corp; costcenter=6590215400; elvh-application-name=CloudDBA; elvh-app-support-dl=dl-cloud-db-fulfillment@anthem.com; elvh-costcenter=6590215400; app-servicenow-group=AWS Cloud DB Fulfillment; application-name=CloudDBA; elvh-infra-env=production; elvh-workspace=azrapm1009165-db-prod; elvh-ci-owner=AG29970; business-division=corp; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1009165; app-support-dl=dl-cloud-db-fulfillment@anthem.com; PatchWindow=default; workspace=azrapm1009165-db-prod; PatchGroup=default; company=Anthem; infra-env=plat; ci-owner=AG29970; app-env=production; created-by=an863738ad; apm-id=apm1009165; provisioned_by=terraform-azurerm-managed-redis:1.0.3; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1009165-00prd01; database-platform=redis; db-patch-schedule=M00W0; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1009165-00prd01
+
+id               : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1017603-plat-a0le2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-00prd01
+name             : zredis-apm1017603-00prd01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1017603-plat-a0le2-01-rg
+subscriptionId   : ada453e0-81b7-4edd-89d9-b650585a7b0d
+managedBy        : 
+sku              : @{name=Balanced_B3}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=ZR; hostName=zredis-apm1017603-00prd01.eastus2.redis.azure.net; resourceState=Running; highAvailability=Enabled}
+tags             : @{environment=production; elvh-app-servicenow-group=Cloud Core Services - Azure Service Catalog Support; elvh-business-division=corp; costcenter=6590331700; elvh-application-name=Service Catalog - AZURE; elvh-app-support-dl=dl-ServiceCatalogTeam-Azure@elevancehealth.com; elvh-costcenter=6590215400; app-servicenow-group=Cloud Core Services - Azure Service Catalog Support; application-name=Service Catalog - AZURE; elvh-infra-env=production; elvh-workspace=azrapm1017603-db-prodv3; elvh-ci-owner=AH96833; business-division=corp; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1017603; app-support-dl=dl-ServiceCatalogTeam-Azure@elevancehealth.com; PatchWindow=default; workspace=azrapm1017603-db-prodv3; PatchGroup=default; company=Anthem; infra-env=plat; ci-owner=AH25067; app-env=development; created-by=AN400527AD; apm-id=apm1017603; provisioned_by=terraform-azurerm-managed-redis:1.0.3; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zredis-apm1017603-00prd01; database-platform=redis; db-patch-schedule=M00W0; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1017603-plat-a0le2-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1017603-00prd01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081220-gld-gnpyu-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081220-00uat02
+name             : zredis-apm1081220-00uat02
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081220-gld-gnpyu-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Balanced_B10}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081220-00uat02.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=6590211000; elvh-app-servicenow-group=Ingenio Rx Digital Mobile Support; elvh-business-division=irx; application-name=CarelonRx Standalone Mobile App (CRx) AZURE; elvh-application-name=CarelonRx Standalone Mobile App (CRx) AZURE; elvh-app-support-dl=dl-IngenioRxDigitalMobile_Support@ingenio-rx.com; elvh-costcenter=6590211000; app-servicenow-group=Ingenio Rx Digital Mobile Support; elvh-workspace=azrapm1081220-db-np02; elvh-infra-env=test; elvh-ci-owner=AG66446; business-division=irx; elvh-app-env=test; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081220; PatchWindow=default; app-support-dl=dl-IngenioRxDigitalMobile_Support@ingenio-rx.com; PatchGroup=default; company=CarelonRx (IngenioRx); created-by=AN735548AD; workspace=azrapm1081220-db-np02; infra-env=test; project_vulcan=true; ci-owner=AG66446; app-env=test; apm-id=apm1081220; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081220-00uat02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.1; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081220-gld-gnpyu-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081220-00uat02
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-00uat01
+name             : zredis-apm1081525-00uat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081525-gld-grqag-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Balanced_B0}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081525-00uat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; application-name=ZipDrug CareControl - AZURE; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; app-servicenow-group=CPTC Application Support; elvh-workspace=azrapm1081525-db-np02; elvh-infra-env=test; elvh-ci-owner=AG74055; business-division=irx; elvh-app-env=test; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; PatchWindow=default; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchGroup=default; company=Community Pharmacy Total Care (ZipDrug); created-by=AN400527AD; workspace=azrapm1081525-db-np02; infra-env=test; project_vulcan=true; ci-owner=AG74055; app-env=test; apm-id=apm1081525; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081525-00uat01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.1; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081525-00uat01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081561-gld-fppqc-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081561-01uat01
+name             : zredis-apm1081561-01uat01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : eastus2
+resourceGroup    : apm1081561-gld-fppqc-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Balanced_B1}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Enabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081561-01uat01.eastus2.redis.azure.net; highAvailability=Disabled; resourceState=Running}
+tags             : @{environment=user_acceptance; costcenter=6590211000; elvh-app-servicenow-group=Ingenio Rx Digital Portal Support; elvh-business-division=irx; application-name=CarelonRx Standalone Member Portal - AZURE; elvh-application-name=CarelonRx Standalone Member Portal - AZURE; elvh-app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; elvh-costcenter=6590211000; app-servicenow-group=Ingenio Rx Digital Portal Support; elvh-workspace=azrapm1081561-db-np02; elvh-infra-env=test; elvh-ci-owner=AG53033; business-division=irx; elvh-app-env=test; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081561; PatchWindow=default; app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; PatchGroup=default; company=CarelonRx (IngenioRx); created-by=AN702077AD; workspace=azrapm1081561-db-np02; infra-env=test; project_vulcan=true; ci-owner=AG53033; app-env=test; apm-id=apm1081561; prepatch-snapshot-flag=N; database-platform-name=zredis-apm1081561-01uat01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=redis; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; database-state=Active; provisioned_by=terraform-azurerm-managed-redis:1.0.1; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081561-gld-fppqc-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081561-01uat01
+
+id               : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1081064-slvr-y56h6-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00dev01
+name             : zredis-apm1081064-00dev01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081064-slvr-y56h6-01-rg
+subscriptionId   : f3d26a3b-0b31-4223-94ea-9683f2fd5af7
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; hostName=zredis-apm1081064-00dev01.centralus.redis.azure.net; resourceState=Running; highAvailability=Disabled}
+tags             : @{environment=development; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; costcenter=5100048000; elvh-costcenter=5100048000; elvh-workspace=azrapm1081064-db-np01; elvh-infra-env=development; elvh-ci-owner=AM33142; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081064; created-by=AN331323AD; application-name=Sydney Medicaid Service Layer - AZURE; company=Anthem; app-servicenow-group=Medicaid Service Layer Support; PatchGroup=default; business-division=gbd; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; provisioned_by=terraform-azurerm-managed-redis:1.0.1; PatchWindow=default; workspace=azrapm1081064-db-np01; infra-env=development; ci-owner=AM33142; app-env=dev; apm-id=apm1081064; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-state=Active; database-platform-name=zredis-apm1081064-00dev01; database-platform=redis; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1081064-slvr-y56h6-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00dev01
+
+id               : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1081064-slvr-y56h6-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00sit01
+name             : zredis-apm1081064-00sit01
+type             : microsoft.cache/redisenterprise
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : v2
+location         : centralus
+resourceGroup    : apm1081064-slvr-y56h6-01-rg
+subscriptionId   : f3d26a3b-0b31-4223-94ea-9683f2fd5af7
+managedBy        : 
+sku              : @{name=Balanced_B5}
+plan             : 
+properties       : @{provisioningState=Succeeded; publicNetworkAccess=Disabled; encryption=; privateEndpointConnections=System.Object[]; minimumTlsVersion=1.2; redundancyMode=None; resourceState=Running; hostName=zredis-apm1081064-00sit01.centralus.redis.azure.net; highAvailability=Disabled}
+tags             : @{environment=integration; elvh-app-servicenow-group=Medicaid Service Layer Support; elvh-business-division=gbd; elvh-application-name=Sydney Medicaid Service Layer - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; created-by=AN331323AD; elvh-costcenter=5100048000; costcenter=5100048000; elvh-infra-env=development; elvh-workspace=azrapm1081064-db-np01; elvh-ci-owner=AM33142; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081064; company=Anthem; application-name=Sydney Medicaid Service Layer - AZURE; workspace=azrapm1081064-db-np01; app-servicenow-group=Medicaid Service Layer Support; PatchWindow=default; PatchGroup=default; business-division=gbd; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; infra-env=development; provisioned_by=terraform-azurerm-managed-redis:1.0.1; ci-owner=AM33142; app-env=dev; apm-id=apm1081064; database-platform-name=zredis-apm1081064-00sit01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=redis; db-patch-schedule=M00W0; application_tag5=app-tag5; application_tag4=app-tag4; application_tag2=app-tag2; application_tag3=app-tag3; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1081064-slvr-y56h6-01-rg/providers/Microsoft.Cache/redisEnterprise/zredis-apm1081064-00sit01
+

@@ -1,0 +1,19 @@
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DocumentDB/mongoClusters/cosdb-apm1081762-edpclaims-sit-01
+name             : cosdb-apm1081762-edpclaims-sit-01
+type             : microsoft.documentdb/mongoclusters
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Failed; publicNetworkAccess=Enabled; privateEndpointConnections=System.Object[]; administratorLogin=apm1081762admin; infrastructureVersion=2.0; replica=; serverVersion=8.0; nodeGroupSpecs=System.Object[]; clusterStatus=Failed}
+tags             : @{elvh-costcenter=5212032600; elvh-apm-id=apm1081762}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DocumentDB/mongoClusters/cosdb-apm1081762-edpclaims-sit-01
+

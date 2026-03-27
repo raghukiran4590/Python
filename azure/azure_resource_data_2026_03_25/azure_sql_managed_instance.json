@@ -1,0 +1,13 @@
+[
+  {
+    "u_id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-90prd01",
+    "u_name": "zmssql-apm1001745-90prd01",
+    "u_type": "microsoft.sql/managedinstances",
+    "u_location": "centralus",
+    "u_resourcegroup": "apm1001745-plat-8u7lp-01-dr-rg",
+    "u_subscriptionid": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "u_fullyqualifieddomainname": "zmssql-apm1001745-90prd01.2b5e9aad9c2b.database.windows.net",
+    "u_tenantid": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "u_kind": ""
+  }
+]

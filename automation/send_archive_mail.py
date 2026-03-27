@@ -3,7 +3,7 @@ import os
 import glob
 
 try:
-    directory_path = "/Users/AF35861/Downloads/AWS"
+    directory_path = "/azure"
     zip_files = glob.glob(os.path.join(directory_path, "*.zip"))
     if not zip_files:
         print("No zip files found in the directory.")

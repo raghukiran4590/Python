@@ -1,0 +1,4356 @@
+[
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-90prd01",
+    "name": "zmysql-apm1080852-90prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1080852-plat-8krpr-01-dr-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E2ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080852-90prd01.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "dayOfWeek": 6,
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "Replica",
+      "replicaCapacity": 0,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-dr-cus-01",
+        "primaryKeyURI": "https://apm1080852-8krpr-01-dr.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-9230-V1/475379fe29c84a339e570f0d3a75b531"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-24T02:14:41.8521921Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42",
+      "sourceServerResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00prd01"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "IAS SUPPORT",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "PS-ES-EEE Domain Azure",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "costcenter": "5212032600",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1080852-db-prod",
+      "elvh-infra-env": "production",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "apm1080852",
+      "app-servicenow-group": "IAS SUPPORT",
+      "application-name": "PS-ES-EEE Domain Azure",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "created-by": "an571972ad",
+      "workspace": "azrapm1080852-db-prod",
+      "infra-env": "plat",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "production",
+      "apm-id": "apm1080852",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080852-90prd01",
+      "db-patch-time-window": "Sunday 0200",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag2": "DIG",
+      "application_tag1": "EEE",
+      "application_tag5": "MySQL",
+      "application_tag4": "member",
+      "application_tag3": "Production",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-prod-eus-01": {
+          "principalId": "55fdc325-7404-4d07-8e40-09b29ce6eea5",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-dr-cus-01": {
+          "principalId": "5746746f-7809-48c0-a946-5d9e8ee4618d",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-90prd01"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00prd01",
+    "name": "zmysql-apm1080852-00prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1080852-plat-8krpr-01-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E2ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080852-00prd01.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "dayOfWeek": 6,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "Healthy",
+        "mode": "ZoneRedundant",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": "2"
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "Source",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-prod-eus-01",
+        "primaryKeyURI": "https://apm1080852-8krpr-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-0507-V1/fabcea7a25e64cdc88a413c59ecfd4ec"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-20T09:06:03.9261196Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.44"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "IAS SUPPORT",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "PS-ES-EEE Domain Azure",
+      "costcenter": "5212032600",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-infra-env": "production",
+      "elvh-workspace": "azrapm1080852-db-prod",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "apm1080852",
+      "application-name": "PS-ES-EEE Domain Azure",
+      "created-by": "automated",
+      "app-servicenow-group": "IAS SUPPORT",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1080852-db-prod",
+      "infra-env": "plat",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "production",
+      "apm-id": "apm1080852",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080852-00prd01",
+      "db-patch-time-window": "Sunday 0200",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag3": "Production",
+      "application_tag5": "MySQL",
+      "application_tag4": "member",
+      "application_tag1": "EEE",
+      "application_tag2": "DIG",
+      "database-state": "Active",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-dr-cus-01": {
+          "principalId": "5746746f-7809-48c0-a946-5d9e8ee4618d",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-apm1080852-prod-eus-01": {
+          "principalId": "55fdc325-7404-4d07-8e40-09b29ce6eea5",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00prd01"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-90prd01",
+    "name": "zmysql-apm1081073-90prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081073-plat-2z3e0-01-dr-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D32ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3300,
+        "storageSizeGB": 1000,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-90prd01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "dayOfWeek": 5,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 0,
+      "replicationRole": "Replica",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-plat-2z3e0-01-identity-dr",
+        "primaryKeyURI": "https://apm1081073-2z3e0-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-5726-V1/7ad6f8f5633141209e41c1ed65e31792"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T04:00:22.0848549Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42",
+      "sourceServerResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "Sydney Enterprise DevOps Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Student Advantage Enroll - AZURE",
+      "costcenter": "6590189800",
+      "elvh-app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "elvh-costcenter": "6590189800",
+      "elvh-infra-env": "production",
+      "elvh-workspace": "azrapm1081073-db-prod",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "apm1081073",
+      "application-name": "Student Advantage Enroll - AZURE",
+      "created-by": "AN619474AD",
+      "app-servicenow-group": "Student Advantage Enroll DevOps Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1081073-db-prod",
+      "infra-env": "production",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "prod",
+      "apm-id": "apm1081073",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1081073-90prd01",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag3": "app-tag3",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-plat-2z3e0-01-identity-dr": {
+          "principalId": "26e42796-53d3-4dc2-849f-553915f0c941",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-90prd01"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01",
+    "name": "zmysql-apm1081073-00prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1081073-plat-2z3e0-01-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D32ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3300,
+        "storageSizeGB": 1000,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00prd01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "Healthy",
+        "mode": "ZoneRedundant",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": "2"
+      },
+      "replicationRole": "Source",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-plat-2z3e0-01-identity",
+        "primaryKeyURI": "https://apm1081073-2z3e0-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-5922-V1/7935e1c18f4c4e8a910a53ee0f3e4d32"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T04:40:25.0320893Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "Sydney Enterprise DevOps Support",
+      "elvh-business-division": "dig",
+      "aks-managed-cluster-name": "",
+      "elvh-application-name": "Student Advantage Enroll - AZURE",
+      "elvh-app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "costcenter": "6590189800",
+      "elvh-costcenter": "6590189800",
+      "elvh-workspace": "azrapm1081073-db-prod",
+      "elvh-infra-env": "production",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "APM1081073",
+      "app-servicenow-group": "Student Advantage Enroll DevOps Support",
+      "application-name": "Student Advantage Enroll - AZURE",
+      "business-division": "dig",
+      "app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "created-by": "AN619474AD",
+      "workspace": "azrapm1081073-db-prod",
+      "infra-env": "production",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "prod",
+      "apm-id": "apm1081073",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1081073-00prd01",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag2": "app-tag2",
+      "application_tag1": "app-tag1",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag3": "app-tag3",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-plat-2z3e0-01-identity": {
+          "principalId": "c8ddd9d8-2cd4-4bc2-99df-86798e0504ca",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-22",
+    "name": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-22",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082484-plat-6yhgg-01-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "1",
+      "storage": {
+        "iops": 900,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Enabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-22.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Disabled",
+        "startMinute": 0,
+        "dayOfWeek": 0,
+        "startHour": 0,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity",
+        "primaryKeyURI": "https://apm1082484-6yhgg-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-4022-V1/4b1797a65327405da07a4c3251ab3a72"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-23T04:00:24.0487525Z",
+        "backupRetentionDays": 1,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.44"
+    },
+    "tags": {
+      "environment": "prod",
+      "elvh-app-servicenow-group": "Rubrik Cloud Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "Rubrik - Exo - ElevanceHeath AZURE - GBD",
+      "costcenter": "6590221900",
+      "elvh-app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "elvh-costcenter": "6590221900",
+      "elvh-infra-env": "prod",
+      "elvh-workspace": "cyber resiliancy automation",
+      "elvh-ci-owner": "AG23865",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "APM1081511",
+      "application-name": "Rubrik - Exo - ElevanceHeath AZURE",
+      "created-by": "cyber resiliancy automation",
+      "app-servicenow-group": "Rubrik Cloud Support",
+      "business-division": "GBD",
+      "app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "PatchWindow": "Default",
+      "PatchGroup": "Default",
+      "workspace": "cyber resiliancy automation",
+      "infra-env": "plat",
+      "ci-owner": "AG23865",
+      "company": "Anthem",
+      "app-env": "prod",
+      "apm-id": "apm1081511",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "bcp-tier": "Tier-84",
+      "source_server_id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01",
+      "date_created": "2026-03-22"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity": {
+          "principalId": "8745e889-c8e1-4a73-b4fd-27cdc8ba8c6f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-22"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-23",
+    "name": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-23",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082484-plat-6yhgg-01-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "1",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 900,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Enabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-23.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Disabled",
+        "dayOfWeek": 0,
+        "startMinute": 0,
+        "startHour": 0,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity",
+        "primaryKeyURI": "https://apm1082484-6yhgg-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-4022-V1/4b1797a65327405da07a4c3251ab3a72"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-23T04:20:33.3036066Z",
+        "backupRetentionDays": 1,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.44"
+    },
+    "tags": {
+      "environment": "prod",
+      "elvh-app-servicenow-group": "Rubrik Cloud Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "Rubrik - Exo - ElevanceHeath AZURE - GBD",
+      "costcenter": "6590221900",
+      "elvh-app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "elvh-costcenter": "6590221900",
+      "elvh-infra-env": "prod",
+      "elvh-workspace": "cyber resiliancy automation",
+      "elvh-ci-owner": "AG23865",
+      "elvh-app-env": "prod",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "APM1081511",
+      "app-servicenow-group": "Rubrik Cloud Support",
+      "application-name": "Rubrik - Exo - ElevanceHeath AZURE",
+      "business-division": "GBD",
+      "PatchWindow": "Default",
+      "app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "created-by": "cyber resiliancy automation",
+      "PatchGroup": "Default",
+      "workspace": "cyber resiliancy automation",
+      "infra-env": "plat",
+      "ci-owner": "AG23865",
+      "company": "Anthem",
+      "app-env": "prod",
+      "apm-id": "apm1081511",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "bcp-tier": "Tier-84",
+      "date_created": "2026-03-23",
+      "source_server_id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity": {
+          "principalId": "8745e889-c8e1-4a73-b4fd-27cdc8ba8c6f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-23"
+  },
+  {
+    "id": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-24",
+    "name": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-24",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082484-plat-6yhgg-01-rg",
+    "subscriptionId": "0c19acff-2e84-4d15-8e3d-69429f05d4ad",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 900,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Enabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00per01-rubrik-clone-2026-03-24.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Disabled",
+        "dayOfWeek": 0,
+        "startMinute": 0,
+        "startHour": 0,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity",
+        "primaryKeyURI": "https://apm1082484-6yhgg-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-4022-V1/4b1797a65327405da07a4c3251ab3a72"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/rg-dig-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-24T00:04:22.0992275Z",
+        "backupRetentionDays": 1,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.44"
+    },
+    "tags": {
+      "environment": "prod",
+      "elvh-app-servicenow-group": "Rubrik Cloud Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "Rubrik - Exo - ElevanceHeath AZURE - GBD",
+      "costcenter": "6590221900",
+      "elvh-app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "elvh-costcenter": "6590221900",
+      "elvh-infra-env": "prod",
+      "elvh-workspace": "cyber resiliancy automation",
+      "elvh-ci-owner": "AG23865",
+      "elvh-app-env": "prod",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "APM1081511",
+      "app-servicenow-group": "Rubrik Cloud Support",
+      "application-name": "Rubrik - Exo - ElevanceHeath AZURE",
+      "business-division": "GBD",
+      "PatchWindow": "Default",
+      "app-support-dl": "DL-RubrikCloudSupport@elevancehealth.com",
+      "created-by": "cyber resiliancy automation",
+      "PatchGroup": "Default",
+      "workspace": "cyber resiliancy automation",
+      "infra-env": "plat",
+      "ci-owner": "AG23865",
+      "company": "Anthem",
+      "app-env": "prod",
+      "apm-id": "apm1081511",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "bcp-tier": "Tier-84",
+      "date_created": "2026-03-24",
+      "source_server_id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourcegroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082484-plat-dig-custom-cyber-resiliancy-identity": {
+          "principalId": "8745e889-c8e1-4a73-b4fd-27cdc8ba8c6f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-24"
+  },
+  {
+    "id": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-90prd01",
+    "name": "zmysql-apm1080854-90prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1080854-plat-lrvk9-01-dr-rg",
+    "subscriptionId": "1331ca66-af3b-4f11-a819-9efb0be5df35",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E2ds_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080854-90prd01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 6,
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "Replica",
+      "replicaCapacity": 0,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity-dr",
+        "primaryKeyURI": "https://apm1080854-lrvk9-01-dr.vault.azure.net/keys/AZR-ELV-IRX-MYSQL-PRODUCTION-6633-V1/77ba8c53a3fb44de8fbf237a75abfca0",
+        "geoBackupUserAssignedIdentityId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity",
+        "geoBackupKeyURI": "https://apm1080854-lrvk9-01-kv.vault.azure.net/keys/AZR-ELV-IRX-MYSQL-PRODUCTION-2466-V1/9c6d0a3630aa40a590e141488dc84aaf"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/rg-irx-network-plat-centralus/providers/Microsoft.Network/virtualNetworks/vnet-irx-plat-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T19:42:57.1925976Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Enabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42",
+      "sourceServerResourceId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01"
+    },
+    "tags": {
+      "environment": "production",
+      "costcenter": "6590211000",
+      "elvh-app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "elvh-business-division": "irx",
+      "elvh-application-name": "CarelonRx Developer Portal AZURE",
+      "elvh-app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "created-by": "AN295663AD",
+      "elvh-costcenter": "6590211000",
+      "elvh-infra-env": "production",
+      "elvh-workspace": "azrapm1080854-db-prod",
+      "application-name": "CarelonRx Developer Portal AZURE",
+      "elvh-ci-owner": "AG74055",
+      "elvh-app-env": "prod",
+      "elvh-company": "CarelonRx (IngenioRx)",
+      "elvh-apm-id": "apm1080854",
+      "app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "business-division": "irx",
+      "PatchGroup": "default",
+      "app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "PatchWindow": "default",
+      "workspace": "azrapm1080854-db-prod",
+      "infra-env": "production",
+      "ci-owner": "AG74055",
+      "company": "CarelonRx (IngenioRx)",
+      "app-env": "prod",
+      "apm-id": "apm1080854",
+      "project_vulcan": "true",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080854-90prd01",
+      "db-patch-time-window": "Sunday 0500",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag1": "DR",
+      "application_tag5": "app-tag5",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "database-state": "Active",
+      "bcp-tier": "Tier-83"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity": {
+          "principalId": "97d7fc06-4f41-4c49-ad70-6e545b5d33c6",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity-dr": {
+          "principalId": "24b79f79-93db-4b47-a0e9-686967f4be18",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-90prd01"
+  },
+  {
+    "id": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01",
+    "name": "zmysql-apm1080854-00prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1080854-plat-lrvk9-01-rg",
+    "subscriptionId": "1331ca66-af3b-4f11-a819-9efb0be5df35",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E2ds_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080854-00prd01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "Healthy",
+        "mode": "SameZone",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": "3"
+      },
+      "replicationRole": "Source",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity",
+        "primaryKeyURI": "https://apm1080854-lrvk9-01-kv.vault.azure.net/keys/AZR-ELV-IRX-MYSQL-PRODUCTION-2466-V1/9c6d0a3630aa40a590e141488dc84aaf"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/rg-irx-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-irx-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T19:42:57.7556706Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "production",
+      "costcenter": "6590211000",
+      "elvh-app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "elvh-business-division": "irx",
+      "elvh-application-name": "CarelonRx Developer Portal AZURE",
+      "elvh-app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "created-by": "Mukund.Bajaj@elevancehealth.com",
+      "elvh-costcenter": "6590211000",
+      "elvh-infra-env": "production",
+      "elvh-workspace": "azrapm1080854-db-prod",
+      "application-name": "CarelonRx Developer Portal AZURE",
+      "elvh-ci-owner": "AG74055",
+      "elvh-app-env": "prod",
+      "elvh-company": "CarelonRx (IngenioRx)",
+      "elvh-apm-id": "apm1080854",
+      "app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "business-division": "irx",
+      "PatchGroup": "default",
+      "app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "PatchWindow": "default",
+      "workspace": "azrapm1080854-db-prod",
+      "infra-env": "production",
+      "ci-owner": "AG74055",
+      "company": "CarelonRx (IngenioRx)",
+      "app-env": "prod",
+      "apm-id": "apm1080854",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080854-00prd01",
+      "db-patch-time-window": "Sunday 0300",
+      "db-patch-schedule": "M01W2",
+      "database-platform": "mysqlServer",
+      "application_tag1": "PROD",
+      "application_tag5": "app-tag5",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "database-state": "Active",
+      "bcp-tier": "Tier-83"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourcegroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-plat-lrvk9-01-identity": {
+          "principalId": "97d7fc06-4f41-4c49-ad70-6e545b5d33c6",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01"
+  },
+  {
+    "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00per01",
+    "name": "zmysql-apm1080852-00per01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1080852-gld-x7g9b-01-rg",
+    "subscriptionId": "20659eb6-9c76-49ae-9f30-7c478bb5244d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E4ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080852-00per01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-gld-x7g9b-01-identity",
+        "primaryKeyURI": "https://apm1080852-x7g9b-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-9390-V1/234d2be2cc614f269398f54f8de8d30b"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T14:59:02.1295023Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/rg-dig-network-gld-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-gld-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "performance",
+      "elvh-app-servicenow-group": "IAS SUPPORT",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "PS-ES-EEE Domain Azure",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "costcenter": "5212032600",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1080852-db-np02",
+      "elvh-infra-env": "test",
+      "application-name": "PS-ES-EEE Domain Azure",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "test",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1080852",
+      "app-servicenow-group": "IAS SUPPORT",
+      "business-division": "dig",
+      "company": "Anthem",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1080852-db-np02",
+      "infra-env": "test",
+      "created-by": "AN571972AD@us.ad.wellpoint.com",
+      "ci-owner": "AF85271",
+      "app-env": "test",
+      "project_vulcan": "true",
+      "apm-id": "apm1080852",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080852-00per01",
+      "db-patch-time-window": "Sunday 0100",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag2": "DIG",
+      "application_tag3": "performance",
+      "application_tag1": "EEE",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-gld-x7g9b-01-identity": {
+          "principalId": "a99e4580-2858-498a-a8c7-bdd4e995b722",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00per01"
+  },
+  {
+    "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00uat01",
+    "name": "zmysql-apm1080852-00uat01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1080852-gld-x7g9b-01-rg",
+    "subscriptionId": "20659eb6-9c76-49ae-9f30-7c478bb5244d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E4ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080852-00uat01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T14:38:59.7748407Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-gld-x7g9b-01-identity",
+        "primaryKeyURI": "https://apm1080852-x7g9b-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-9390-V1/234d2be2cc614f269398f54f8de8d30b"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/rg-dig-network-gld-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-gld-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "user_acceptance",
+      "costcenter": "5212032600",
+      "elvh-app-servicenow-group": "IAS SUPPORT",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "PS-ES-EEE Domain Azure",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1080852-db-np02",
+      "elvh-infra-env": "test",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "test",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1080852",
+      "application-name": "PS-ES-EEE Domain Azure",
+      "app-servicenow-group": "IAS SUPPORT",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "created-by": "AN161059AD@us.ad.wellpoint.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1080852-db-np02",
+      "infra-env": "test",
+      "company": "Anthem",
+      "ci-owner": "AF85271",
+      "app-env": "test",
+      "apm-id": "apm1080852",
+      "project_vulcan": "true",
+      "application_tag2": "DIG",
+      "application_tag4": "app-tag4",
+      "application_tag3": "user_acceptance",
+      "application_tag5": "app-tag5",
+      "application_tag1": "EEE",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1080852-00uat01",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-gld-x7g9b-01-identity": {
+          "principalId": "a99e4580-2858-498a-a8c7-bdd4e995b722",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00uat01"
+  },
+  {
+    "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01",
+    "name": "zmysql-apm1081073-00per01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1081073-gld-q2b1c-01-rg",
+    "subscriptionId": "20659eb6-9c76-49ae-9f30-7c478bb5244d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D8ads_v5",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "state": "Ready",
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 900,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Enabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00per01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T15:18:59.4600089Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-gld-q2b1c-01-identity",
+        "primaryKeyURI": "https://apm1081073-q2b1c-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-6318-V1/86a74e63683b46ccbd262c0ab7fd2cea"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/rg-dig-network-gld-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-dig-gld-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "performance",
+      "costcenter": "6590189800",
+      "elvh-app-servicenow-group": "Sydney Enterprise DevOps Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Student Advantage Enroll - AZURE",
+      "elvh-app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "elvh-costcenter": "6590189800",
+      "application-name": "Student Advantage Enroll - AZURE",
+      "elvh-infra-env": "test",
+      "elvh-workspace": "azrapm1081073-db-np02",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "test",
+      "elvh-apm-id": "APM1081073",
+      "app-servicenow-group": "Student Advantage Enroll DevOps Support",
+      "business-division": "dig",
+      "created-by": "AN619474AD",
+      "app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "PatchGroup": "default",
+      "PatchWindow": "default",
+      "workspace": "azrapm1081073-db-np02",
+      "infra-env": "test",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "test",
+      "apm-id": "apm1081073",
+      "project_vulcan": "true",
+      "database-platform-name": "zmysql-apm1081073-00per01",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "application_tag5": "app-tag5",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag1": "app-tag1",
+      "application_tag4": "app-tag4",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-gld-q2b1c-01-identity": {
+          "principalId": "0a597eee-3614-4f99-ba69-8afda470a594",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01"
+  },
+  {
+    "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01",
+    "name": "zmysql-apm1081266-00per01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1081266-gld-t91t9-01-rg",
+    "subscriptionId": "20659eb6-9c76-49ae-9f30-7c478bb5244d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E64ads_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/1b2ab415-e244-4b00-b159-efbbd208eac4/resourceGroups/vnet-1b2ab415-EastUS2-94-rg/providers/Microsoft.Network/privateEndpoints/azsynapse-1081266-perfeu01.AzureMySql235"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01/privateEndpointConnections/azsynapse-1081266-perfeu01.AzureMySql235-1f766f80-f7ed-4e0b-aa34-8c1cf02c7a93"
+        },
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "Auto-approved",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Network/privateEndpoints/zmysql-apm1081266-00per01-pep1"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01/privateEndpointConnections/zmysql-apm1081266-00per01-pep1-defb995e-c87c-4b6f-9ff9-051777b41310"
+        }
+      ],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 28000,
+        "storageSizeGB": 5000,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081266-00per01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-gld-t91t9-01-identity",
+        "primaryKeyURI": "https://apm1081266-t91t9-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-5300-V1/085cfb5f2f1b4c0992e4d767027c7031"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T14:59:01.9509871Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "performance",
+      "elvh-app-servicenow-group": "Digital 10x Engineering Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Benefits Modernization - BenefitX - AZURE",
+      "elvh-app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "costcenter": "6590222500",
+      "elvh-costcenter": "6590222500",
+      "elvh-workspace": "azrapm1081266-db-np02",
+      "elvh-infra-env": "test",
+      "application-name": "Benefits Modernization - BenefitX - AZURE",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "test",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1081266",
+      "app-servicenow-group": "Digital 10x Engineering Support",
+      "business-division": "dig",
+      "company": "Anthem",
+      "app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1081266-db-np02",
+      "infra-env": "test",
+      "created-by": "AN619474AD",
+      "ci-owner": "AF85271",
+      "app-env": "test",
+      "project_vulcan": "true",
+      "apm-id": "apm1081266",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1081266-00per01",
+      "db-patch-time-window": "Sunday 0100",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag1": "app-tag1",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-gld-t91t9-01-identity": {
+          "principalId": "b7a1bf19-606c-458a-8709-8f654b87db0a",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01"
+  },
+  {
+    "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01",
+    "name": "zmysql-apm1081266-00uat01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1081266-gld-t91t9-01-rg",
+    "subscriptionId": "20659eb6-9c76-49ae-9f30-7c478bb5244d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E48ads_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "state": "Ready",
+      "privateEndpointConnections": [
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/20e85af2-8a6a-43ab-a87c-ae9a15e07bd2/resourceGroups/vnet-20e85af2-eastus2-70-rg/providers/Microsoft.Network/privateEndpoints/azsynapse-1081266-uateu01.AzureMySql234"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01/privateEndpointConnections/azsynapse-1081266-uateu01.AzureMySql234-c3f3a045-99cb-4a20-976d-8ce10214fe4e"
+        },
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "Auto-approved",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.Network/privateEndpoints/zmysql-apm1081266-00uat01-pep1"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01/privateEndpointConnections/zmysql-apm1081266-00uat01-pep1-ede04283-925a-4f9d-80d6-49511c60fd04"
+        }
+      ],
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 36300,
+        "storageSizeGB": 12000,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081266-00uat01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T15:18:59.1880264Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-gld-t91t9-01-identity",
+        "primaryKeyURI": "https://apm1081266-t91t9-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-PRODUCTION-9655-V1/ad3ffad4b3974505ba00fa64f699028d"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "user_acceptance",
+      "costcenter": "6590222500",
+      "elvh-app-servicenow-group": "Digital 10x Engineering Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Benefits Modernization - BenefitX - AZURE",
+      "elvh-app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "elvh-costcenter": "6590222500",
+      "application-name": "Benefits Modernization - BenefitX - AZURE",
+      "elvh-infra-env": "test",
+      "elvh-workspace": "azrapm1081266-db-np02",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "test",
+      "elvh-apm-id": "apm1081266",
+      "app-servicenow-group": "Digital 10x Engineering Support",
+      "business-division": "dig",
+      "created-by": "AN619474AD",
+      "app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "PatchGroup": "default",
+      "PatchWindow": "default",
+      "workspace": "azrapm1081266-db-np02",
+      "infra-env": "test",
+      "ci-owner": "AF85271",
+      "company": "Anthem",
+      "app-env": "test",
+      "apm-id": "apm1081266",
+      "project_vulcan": "true",
+      "database-platform-name": "zmysql-apm1081266-00uat01",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "application_tag5": "app-tag5",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag1": "app-tag1",
+      "application_tag4": "app-tag4",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourcegroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-gld-t91t9-01-identity": {
+          "principalId": "b7a1bf19-606c-458a-8709-8f654b87db0a",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01"
+  },
+  {
+    "id": "/subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1011819-00dev01",
+    "name": "zmysql-apm1011819-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1011819-slvr-rg",
+    "subscriptionId": "25b174eb-e281-4183-8906-89037a996460",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "state": "Ready",
+      "fullyQualifiedDomainName": "zmysql-apm1011819-00dev01.mysql.database.azure.com",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/rg-corp-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-corp-slvr-centralus/subnets/snet-mySQL-flexible-server-01",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/25b174eb-e281-4183-8906-89037a996460/resourcegroups/apm1011819-slvr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/DPMSManagedIdentity",
+        "primaryKeyURI": "https://apm1011819-slvr-kv.vault.azure.net/keys/AZR-ELV-CORP-MYSQL-PRODUCTION-6792-V1/19388f235a0b47a49b7a06f7dea7e20d"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T05:56:16.6636059Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "elvh-app-servicenow-group": "data monitoring protection",
+      "elvh-business-division": "corp",
+      "elvh-application-name": "sonar",
+      "elvh-app-support-dl": "dl-dam_ops@anthem.com",
+      "elvh-costcenter": "6590330000",
+      "elvh-infra-env": "slvr",
+      "elvh-workspace": "azrapm1011819-dam-np01",
+      "elvh-ci-owner": "AD97263",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "development",
+      "elvh-apm-id": "apm1011819",
+      "costcenter": "6590330000",
+      "app-servicenow-group": "data monitoring protection",
+      "application-name": "sonar",
+      "business-division": "corp",
+      "app-support-dl": "dl-dam_ops@anthem.com\n",
+      "PatchWindow": "Default",
+      "PatchGroup": "Default",
+      "company": "ElevanceHealth",
+      "workspace": "azrapm1011819-dam-np01",
+      "infra-env": "slvr",
+      "created-by": "Pavani",
+      "ci-owner": "AD97263",
+      "app-env": "development",
+      "apm-id": "apm1011819",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform-name": "zmysql-apm1011819-00dev01",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag1": "app-tag1",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/25b174eb-e281-4183-8906-89037a996460/resourcegroups/apm1011819-slvr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/DPMSManagedIdentity": {
+          "principalId": "0f4203e0-7a72-4f8a-bdd0-ebdc861601a0",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1011819-00dev01"
+  },
+  {
+    "id": "/subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00uat01",
+    "name": "zmysql-apm1082070-00uat01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082070-gld-2b73t-01-rg",
+    "subscriptionId": "298677aa-389d-4c54-9c71-9d8d7178acce",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "availabilityZone": "3",
+      "version": "8.0.21",
+      "state": "Ready",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1082070-00uat01.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "dayOfWeek": 6,
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T15:34:48.3987531Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourcegroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-gld-2b73t-01-identity",
+        "primaryKeyURI": "https://apm1082070-2b73t-01-kv.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-PRODUCTION-9244-V1/c071b0e78b4c454f88848dd039c5ae72"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/rg-gbd-network-gld-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-gbd-gld-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "user_acceptance",
+      "elvh-app-servicenow-group": "SBI IT Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "costcenter": "6590335500",
+      "application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-costcenter": "6590335500",
+      "elvh-infra-env": "test",
+      "elvh-workspace": "azrapm1082070-db-np02",
+      "app-servicenow-group": "SBI IT Support",
+      "elvh-ci-owner": "KICHLJS",
+      "elvh-app-env": "test",
+      "elvh-company": "Anthem",
+      "business-division": "gbd",
+      "elvh-apm-id": "apm1082070",
+      "app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "PatchGroup": "default",
+      "PatchWindow": "default",
+      "workspace": "azrapm1082070-db-np02",
+      "infra-env": "gld",
+      "ci-owner": "KICHLJS",
+      "company": "Anthem",
+      "app-env": "user_acceptance",
+      "apm-id": "apm1082070",
+      "created-by": "AN627805AD",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform-name": "zmysql-apm1082070-00uat01",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag5": "UAT",
+      "application_tag3": "DL-SBIHPMS-Developers@elevancehealth.com",
+      "application_tag4": "apm1082070",
+      "application_tag2": "Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com",
+      "application_tag1": "SmartOps Dedicated AKS Cluster",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourcegroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-gld-2b73t-01-identity": {
+          "principalId": "2b8e1db3-ae41-458f-8346-65e2dfb6f414",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00uat01"
+  },
+  {
+    "id": "/subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00sit01",
+    "name": "zmysql-apm1080854-00sit01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1080854-slvr-mk74c-01-rg",
+    "subscriptionId": "4a4ca28a-039f-4b71-be03-0eac742a48a2",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E2ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 3200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080854-00sit01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourcegroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-slvr-mk74c-01-identity",
+        "primaryKeyURI": "https://apm1080854-mk74c-01-kv.vault.azure.net/keys/AZR-ELV-IRX-MYSQL-DEVELOPMENT-5720-V1/e2e6ad7b67a842079d9e2d56f93a9844"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T14:03:10.8461875Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/rg-irx-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-irx-slvr-centralus/subnets/snet-mySQL-flexible-server-01",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "elvh-app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "elvh-business-division": "irx",
+      "elvh-application-name": "CarelonRx Developer Portal AZURE",
+      "elvh-app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "costcenter": "6590211000",
+      "elvh-costcenter": "6590211000",
+      "elvh-workspace": "azrapm1080854-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AG74055",
+      "elvh-app-env": "dev",
+      "elvh-company": "CarelonRx (IngenioRx)",
+      "elvh-apm-id": "apm1080854",
+      "PatchGroup": "default",
+      "company": "CarelonRx (IngenioRx)",
+      "application-name": "CarelonRx Developer Portal AZURE",
+      "created-by": "s.udayakumar@elevancehealth.com",
+      "workspace": "azrapm1080854-db-np01",
+      "PatchWindow": "default",
+      "app-servicenow-group": "Ingenio Rx Digital SOA API Support",
+      "business-division": "irx",
+      "app-support-dl": "dl-IRxAPIGeeks@ingenio-rx.com",
+      "infra-env": "slvr",
+      "project_vulcan": "true",
+      "ci-owner": "AG74055",
+      "app-env": "integration",
+      "apm-id": "apm1080854",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-85",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1080854-00sit01",
+      "database-state": "Active",
+      "db-patch-schedule": "M01W2",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourcegroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080854-slvr-mk74c-01-identity": {
+          "principalId": "ca16f3e0-8ba1-447f-97b1-2263bedc670f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00sit01"
+  },
+  {
+    "id": "/subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082127-00per01",
+    "name": "zmysql-apm1082127-00per01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082127-gld-k7ww5-01-rg",
+    "subscriptionId": "72a586e4-671d-48ac-aa5a-c85c81f38f81",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "availabilityZone": "1",
+      "state": "Ready",
+      "storage": {
+        "iops": 1000,
+        "storageSizeGB": 32,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1082127-00per01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 6,
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T19:57:05.3489208Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/rg-csbd-network-gld-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-csbd-gld-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourcegroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082127-gld-k7ww5-01-identity",
+        "primaryKeyURI": "https://apm1082127-k7ww5-01-kv.vault.azure.net/keys/AZR-ELV-CSBD-MYSQL-PRODUCTION-3716-V1/664d8d74eca6484e910e73f679337fd5"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "performance",
+      "costcenter": "6590197400",
+      "company": "Anthem",
+      "created-by": "AN182553AD",
+      "elvh-app-servicenow-group": "ENTERPRISE PRODUCT SUPPORT",
+      "application-name": "Smartops CSBD - Azure",
+      "elvh-business-division": "csbd",
+      "elvh-application-name": "Smartops CSBD - Azure",
+      "elvh-app-support-dl": "dl-jaa-smartops-support@anthem.com",
+      "elvh-costcenter": "6590197400",
+      "PatchWindow": "default",
+      "elvh-infra-env": "test",
+      "elvh-workspace": "azrapm1082127-db-np02",
+      "elvh-ci-owner": "AC03806",
+      "app-servicenow-group": "ENTERPRISE PRODUCT SUPPORT",
+      "PatchGroup": "default",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.8",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "test",
+      "elvh-apm-id": "apm1082127",
+      "business-division": "csbd",
+      "workspace": "azrapm1082127-db-np02",
+      "app-support-dl": "dl-jaa-smartops-support@anthem.com",
+      "infra-env": "test",
+      "ci-owner": "AC03806",
+      "app-env": "testing",
+      "apm-id": "apm1082127",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform-name": "zmysql-apm1082127-00per01",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag4": "apm1082127",
+      "application_tag3": "Naushad.Lal@elevancehealth.com",
+      "application_tag1": "SmartOps",
+      "application_tag2": "Naushad Lal S (AM61441)",
+      "application_tag5": "Kennedy, Adam",
+      "database-state": "Active",
+      "bcp-tier": "Tier-81"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourcegroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082127-gld-k7ww5-01-identity": {
+          "principalId": "5a7926cb-19d1-49d6-82f6-62fb1b98b251",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082127-00per01"
+  },
+  {
+    "id": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-90prd01",
+    "name": "zmysql-apm1082070-90prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1082070-plat-betc0-01-dr-rg",
+    "subscriptionId": "a6f4e8a6-64c4-43e8-b209-9072cd4c80c3",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1082070-90prd01.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "dayOfWeek": 6,
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "Replica",
+      "replicaCapacity": 0,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity-dr",
+        "primaryKeyURI": "https://apm1082070-betc0-01-dr.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-PRODUCTION-9420-V1/918a0b26df0349479b1c41f6ce533771",
+        "geoBackupUserAssignedIdentityId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity",
+        "geoBackupKeyURI": "https://apm1082070-betc0-01-kv.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-PRODUCTION-0526-V1/e67af738d02b4454b2522b2484b25a92"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/rg-gbd-network-plat-centralus/providers/Microsoft.Network/virtualNetworks/vnet-gbd-plat-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T05:59:23.2853424Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Enabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42",
+      "sourceServerResourceId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "SBI IT Support",
+      "elvh-business-division": "gbd",
+      "costcenter": "6590335500",
+      "elvh-application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "elvh-costcenter": "6590335500",
+      "elvh-workspace": "azrapm1082070-db-prod",
+      "elvh-infra-env": "production",
+      "app-servicenow-group": "SBI IT Support",
+      "elvh-ci-owner": "KICHLJS",
+      "elvh-app-env": "prod",
+      "elvh-company": "Anthem",
+      "business-division": "gbd",
+      "application-name": "apm1082070",
+      "elvh-apm-id": "apm1082070",
+      "app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1082070-db-prod",
+      "company": "Anthem",
+      "infra-env": "plat",
+      "ci-owner": "KICHLJS",
+      "app-env": "production",
+      "apm-id": "apm1082070",
+      "created-by": "automated",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "database-platform-name": "zmysql-apm1082070-90prd01",
+      "database-platform": "mysqlServer",
+      "application_tag1": "SmartOps Dedicated AKS Cluster",
+      "application_tag2": "Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com",
+      "application_tag5": "app-tag5",
+      "application_tag4": "apm1082070",
+      "application_tag3": "DL-SBIHPMS-Developers@elevancehealth.com",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity-dr": {
+          "principalId": "0a7fa588-8fa8-4de6-aa9a-8f63900e216f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity": {
+          "principalId": "96044da0-6d31-4a07-9ca7-688db8d9607d",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-90prd01"
+  },
+  {
+    "id": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01",
+    "name": "zmysql-apm1082070-00prd01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1082070-plat-betc0-01-rg",
+    "subscriptionId": "a6f4e8a6-64c4-43e8-b209-9072cd4c80c3",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1082070-00prd01.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "dayOfWeek": 6,
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "Healthy",
+        "mode": "ZoneRedundant",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": "2"
+      },
+      "replicationRole": "Source",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity",
+        "primaryKeyURI": "https://apm1082070-betc0-01-kv.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-PRODUCTION-0526-V1/e67af738d02b4454b2522b2484b25a92",
+        "geoBackupUserAssignedIdentityId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity-dr",
+        "geoBackupKeyURI": "https://apm1082070-betc0-01-dr.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-PRODUCTION-9420-V1/918a0b26df0349479b1c41f6ce533771"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/rg-gbd-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-gbd-plat-eastus2/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T05:59:32.7812948Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Enabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "production",
+      "elvh-app-servicenow-group": "SBI IT Support",
+      "elvh-business-division": "gbd",
+      "costcenter": "6590335500",
+      "elvh-application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "elvh-costcenter": "6590335500",
+      "elvh-workspace": "azrapm1082070-db-prod",
+      "elvh-infra-env": "production",
+      "app-servicenow-group": "SBI IT Support",
+      "elvh-ci-owner": "KICHLJS",
+      "elvh-app-env": "prod",
+      "elvh-company": "Anthem",
+      "business-division": "gbd",
+      "application-name": "apm1082070",
+      "elvh-apm-id": "apm1082070",
+      "app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1082070-db-prod",
+      "company": "Anthem",
+      "infra-env": "plat",
+      "ci-owner": "KICHLJS",
+      "app-env": "production",
+      "apm-id": "apm1082070",
+      "created-by": "automated",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "database-platform-name": "zmysql-apm1082070-00prd01",
+      "database-platform": "mysqlServer",
+      "application_tag1": "SmartOps Dedicated AKS Cluster",
+      "application_tag2": "Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com",
+      "application_tag5": "app-tag5",
+      "application_tag4": "apm1082070",
+      "application_tag3": "DL-SBIHPMS-Developers@elevancehealth.com",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity-dr": {
+          "principalId": "0a7fa588-8fa8-4de6-aa9a-8f63900e216f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourcegroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-plat-betc0-01-identity": {
+          "principalId": "96044da0-6d31-4a07-9ca7-688db8d9607d",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00dev01",
+    "name": "zmysql-apm1080852-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1080852-slvr-wvzuc-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E4ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageSku": "Premium_LRS",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1080852-00dev01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-slvr-wvzuc-01-identity",
+        "primaryKeyURI": "https://apm1080852-wvzuc-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-1047-V1/f9557a051c3246099fda3020ce8675b1"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T05:08:28.9799856Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "costcenter": "5212032600",
+      "elvh-app-servicenow-group": "IAS SUPPORT",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "PS-ES-EEE Domain Azure",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1080852-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "created-by": "AN571972AD@us.ad.wellpoint.com",
+      "elvh-apm-id": "apm1080852",
+      "workspace": "azrapm1080852-db-np01",
+      "application-name": "PS-ES-EEE Domain Azure",
+      "company": "Anthem",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "app-servicenow-group": "IAS SUPPORT",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "dev",
+      "apm-id": "apm1080852",
+      "project_vulcan": "true",
+      "application_tag1": "EEE",
+      "application_tag2": "DIG",
+      "application_tag3": "development",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-84",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1080852-00dev01",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1080852-slvr-wvzuc-01-identity": {
+          "principalId": "149e4c4e-d6b8-4f4b-80d8-f98b50fa570f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00dev01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00dev01",
+    "name": "zmysql-apm1081073-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081073-slvr-zk46d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 3200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00dev01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-slvr-zk46d-01-identity",
+        "primaryKeyURI": "https://apm1081073-zk46d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-6284-V1/1438dae288df4d7293895202d0787110"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T14:28:30.032068Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "costcenter": "6590189800",
+      "elvh-app-servicenow-group": "Sydney Enterprise DevOps Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Student Advantage Enroll - AZURE",
+      "elvh-app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "elvh-costcenter": "6590189800",
+      "elvh-infra-env": "development",
+      "elvh-workspace": "azrapm1081073-db-np01",
+      "created-by": "AN619474AD",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "elvh-apm-id": "APM1081073",
+      "workspace": "azrapm1081073-db-np01",
+      "application-name": "Student Advantage Enroll (Edept) - AZURE",
+      "PatchWindow": "default",
+      "company": "Anthem",
+      "PatchGroup": "default",
+      "app-servicenow-group": "Student Advantage Enroll DevOps Support",
+      "business-division": "dig",
+      "app-support-dl": "baiju.nair@elevancehealth.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "dev",
+      "apm-id": "apm1081073",
+      "project_vulcan": "true",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-84",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081073-00dev01",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-slvr-zk46d-01-identity": {
+          "principalId": "fa94843a-4246-4938-9e21-55fc10cd75ab",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00dev01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00sit01",
+    "name": "zmysql-apm1081073-00sit01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081073-slvr-zk46d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "iops": 3200,
+        "storageRedundancy": "LocalRedundancy",
+        "storageSku": "Premium_LRS",
+        "autoIoScaling": "Disabled",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081073-00sit01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-slvr-zk46d-01-identity",
+        "primaryKeyURI": "https://apm1081073-zk46d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-2015-V1/3bdbfa85f6ad41639797dc12bc52db3a"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T21:38:27.7777121Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "costcenter": "6590189800",
+      "created-by": "AN619474AD",
+      "elvh-app-servicenow-group": "Sydney Enterprise DevOps Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Student Advantage Enroll - AZURE",
+      "elvh-app-support-dl": "dl-SydEnt-Optimizers@elevancehealth.com",
+      "elvh-costcenter": "6590189800",
+      "elvh-infra-env": "development",
+      "elvh-workspace": "azrapm1081073-db-np01",
+      "elvh-ci-owner": "AF85271",
+      "application-name": "Student Advantage Enroll (Edept) - AZURE",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "APM1081073",
+      "company": "Anthem",
+      "workspace": "azrapm1081073-db-np01",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "app-servicenow-group": "Student Advantage Enroll DevOps Support",
+      "business-division": "dig",
+      "app-support-dl": "baiju.nair@elevancehealth.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "dev",
+      "apm-id": "apm1081073",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1081073-00sit01",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081073-slvr-zk46d-01-identity": {
+          "principalId": "fa94843a-4246-4938-9e21-55fc10cd75ab",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00sit01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081111-00dev01",
+    "name": "zmysql-apm1081111-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081111-slvr-ktm08-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E16ads_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081111-00dev01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "dayOfWeek": 5,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081111-slvr-ktm08-01-identity",
+        "primaryKeyURI": "https://apm1081111-ktm08-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-4944-V1/15f5973b270744cc8727b4bf36a6a969"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T02:58:28.7207612Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "elvh-app-servicenow-group": "Digital 10x Engineering Support",
+      "costcenter": "6590222500",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Governing Unified Repository Utility AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "6590222500",
+      "elvh-workspace": "azrapm1081111-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AC04130",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1081111",
+      "created-by": "AM51100",
+      "application-name": "Governing Unified Repository Utility AZURE",
+      "workspace": "azrapm1081111-db-np01",
+      "PatchWindow": "default",
+      "company": "Anthem",
+      "PatchGroup": "default",
+      "app-servicenow-group": "Digital 10x Engineering Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AC04130",
+      "app-env": "dev",
+      "apm-id": "apm1081111",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-84",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081111-00dev01",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081111-slvr-ktm08-01-identity": {
+          "principalId": "fc616792-bc42-4095-bb81-7c49f4f3528f",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081111-00dev01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02",
+    "name": "zmysql-apm1081266-00sit02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081266-slvr-miqyj-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_E16ads_v5",
+      "tier": "MemoryOptimized"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/6cc53e91-38ef-4680-9b94-08c74045312a/resourceGroups/vnet-6cc53e91-centralus-67-rg/providers/Microsoft.Network/privateEndpoints/azsynapse-1081266-sitcu01.AzureMySql807"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02/privateEndpointConnections/azsynapse-1081266-sitcu01.AzureMySql807-8130c716-a2d5-47ab-836e-74d3c41662f1"
+        },
+        {
+          "properties": {
+            "provisioningState": "Ready",
+            "privateLinkServiceConnectionState": {
+              "description": "Auto-approved",
+              "status": "Approved",
+              "actionsRequired": "None"
+            },
+            "privateEndpoint": {
+              "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.Network/privateEndpoints/zmysql-apm1081266-00sit02-pep1"
+            },
+            "groupIds": [
+              "mysqlServer"
+            ]
+          },
+          "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02/privateEndpointConnections/zmysql-apm1081266-00sit02-pep1-3bf326bb-2c82-43aa-933f-59050cd079bd"
+        }
+      ],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 4800,
+        "storageSizeGB": 1500,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "logOnDisk": "Disabled",
+        "storageSku": "Premium_LRS"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081266-00sit02.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-slvr-miqyj-01-identity",
+        "primaryKeyURI": "https://apm1081266-miqyj-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-6444-V1/bc564010f8f9436484d9cbb4485fa47f"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T13:58:29.7765788Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "costcenter": "6590222500",
+      "elvh-app-servicenow-group": "Digital 10x Engineering Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Benefits Modernization - BenefitX - AZURE",
+      "elvh-app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "elvh-costcenter": "6590222500",
+      "created-by": "AN619474AD",
+      "elvh-workspace": "azrapm1081266-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AF85271",
+      "application-name": "Benefits Modernization - Experience Data Platform - AZURE",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "elvh-apm-id": "apm1081266",
+      "company": "Anthem",
+      "workspace": "azrapm1081266-db-np01",
+      "PatchWindow": "default",
+      "app-servicenow-group": "Digital 10x Engineering Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-10xe-benefits-lo@elevancehealth.com",
+      "PatchGroup": "default",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "dev",
+      "apm-id": "apm1081266",
+      "project_vulcan": "true",
+      "database-platform-name": "zmysql-apm1081266-00sit02",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "database-platform": "mysqlServer",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081266-slvr-miqyj-01-identity": {
+          "principalId": "18e6bb75-e848-469a-99dd-89413d8e32cb",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev01",
+    "name": "zmysql-apm1081762-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081762-slvr-q4m4d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D64ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "fullyQualifiedDomainName": "zmysql-apm1081762-00dev01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity",
+        "primaryKeyURI": "https://apm1081762-q4m4d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-0809-V1/793f0ca7248f4a3db194cf38c192a761"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T08:13:29.0207209Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "costcenter": "5212032600",
+      "elvh-app-servicenow-group": "API and Microservices Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Experience Data Platform - AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-infra-env": "development",
+      "elvh-workspace": "azrapm1081762-db-np01",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1081762",
+      "created-by": "AN535796AD",
+      "application-name": "Experience Data Platform - AZURE",
+      "workspace": "azrapm1081762-db-np01",
+      "PatchWindow": "default",
+      "company": "Anthem",
+      "PatchGroup": "default",
+      "app-servicenow-group": "API and Microservices Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "development",
+      "apm-id": "apm1081762",
+      "project_vulcan": "true",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "bcp-tier": "Tier-82",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081762-00dev01",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N",
+      "application_tag5": "app-tag5"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity": {
+          "principalId": "0fefc787-394e-41a2-83f6-a8382fc40691",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev02",
+    "name": "zmysql-apm1081762-00dev02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081762-slvr-q4m4d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageSku": "Premium_LRS",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081762-00dev02.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "dayOfWeek": 5,
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity",
+        "primaryKeyURI": "https://apm1081762-q4m4d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-9000-V1/542ea3ece1384c8483ecc1de37506a72"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-16T23:08:27.9590772Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "application-name": "Experience Data Platform - AZURE",
+      "costcenter": "5212032600",
+      "elvh-app-servicenow-group": "API and Microservices Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Experience Data Platform - AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-infra-env": "development",
+      "elvh-workspace": "azrapm1081762-db-np01",
+      "elvh-ci-owner": "AF85271",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "created-by": "AN535796AD",
+      "company": "Anthem",
+      "elvh-apm-id": "apm1081762",
+      "workspace": "azrapm1081762-db-np01",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "app-servicenow-group": "API and Microservices Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "development",
+      "apm-id": "apm1081762",
+      "project_vulcan": "true",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-82",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081762-00dev02",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity": {
+          "principalId": "0fefc787-394e-41a2-83f6-a8382fc40691",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev02"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit01",
+    "name": "zmysql-apm1081762-00sit01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081762-slvr-q4m4d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "dayOfWeek": 5,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081762-00sit01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity",
+        "primaryKeyURI": "https://apm1081762-q4m4d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-0809-V1/793f0ca7248f4a3db194cf38c192a761"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T01:08:27.8727008Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "elvh-app-servicenow-group": "API and Microservices Support",
+      "application-name": "Experience Data Platform - AZURE",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Experience Data Platform - AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1081762-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "company": "Anthem",
+      "elvh-apm-id": "apm1081762",
+      "created-by": "AN535796AD",
+      "costcenter": "5212032600",
+      "workspace": "azrapm1081762-db-np01",
+      "PatchGroup": "default",
+      "PatchWindow": "default",
+      "app-servicenow-group": "API and Microservices Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "development",
+      "apm-id": "apm1081762",
+      "project_vulcan": "true",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-82",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081762-00sit01",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "prepatch-snapshot-flag": "N"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity": {
+          "principalId": "0fefc787-394e-41a2-83f6-a8382fc40691",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit01"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit02",
+    "name": "zmysql-apm1081762-00sit02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081762-slvr-q4m4d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "iops": 3200,
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081762-00sit02.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "dayOfWeek": 5,
+        "startMinute": 10,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity",
+        "primaryKeyURI": "https://apm1081762-q4m4d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-2219-V1/62f3b97c298c477f9f49c3e0f3afb286"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T00:23:28.211077Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "created-by": "AN535796AD",
+      "costcenter": "5212032600",
+      "elvh-app-servicenow-group": "API and Microservices Support",
+      "elvh-business-division": "dig",
+      "elvh-application-name": "Experience Data Platform - AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-workspace": "azrapm1081762-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "AF85271",
+      "company": "Anthem",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "elvh-apm-id": "apm1081762",
+      "application-name": "Experience Data Platform - AZURE",
+      "workspace": "azrapm1081762-db-np01",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "app-servicenow-group": "API and Microservices Support",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "development",
+      "apm-id": "apm1081762",
+      "project_vulcan": "true",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "db-patch-schedule": "M00W0",
+      "bcp-tier": "Tier-82",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1081762-00sit02",
+      "database-state": "Active"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity": {
+          "principalId": "0fefc787-394e-41a2-83f6-a8382fc40691",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit02"
+  },
+  {
+    "id": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit03",
+    "name": "zmysql-apm1081762-00sit03",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1081762-slvr-q4m4d-01-rg",
+    "subscriptionId": "aa8115ec-6502-4dc6-b67e-742b0a24846f",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.0.21",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "iops": 3200,
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1081762-00sit03.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 10,
+        "dayOfWeek": 5,
+        "startHour": 9,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "standbyAvailabilityZone": "",
+        "replicationMode": "BinaryLog"
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity",
+        "primaryKeyURI": "https://apm1081762-q4m4d-01-kv.vault.azure.net/keys/AZR-ELV-DIG-MYSQL-DEVELOPMENT-1923-V1/04817c3b47ea4536929b194f56cecbfb"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/rg-dig-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-dig-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T08:58:29.1947787Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "integration",
+      "costcenter": "5212032600",
+      "created-by": "AN535796AD",
+      "elvh-app-servicenow-group": "API and Microservices Support",
+      "elvh-business-division": "dig",
+      "application-name": "Experience Data Platform - AZURE",
+      "elvh-application-name": "Experience Data Platform - AZURE",
+      "elvh-app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "elvh-costcenter": "5212032600",
+      "elvh-infra-env": "development",
+      "elvh-workspace": "azrapm1081762-db-np01",
+      "elvh-ci-owner": "AF85271",
+      "elvh-app-env": "dev",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1081762",
+      "PatchWindow": "default",
+      "workspace": "azrapm1081762-db-np01",
+      "company": "Anthem",
+      "app-servicenow-group": "API and Microservices Support",
+      "PatchGroup": "default",
+      "business-division": "dig",
+      "app-support-dl": "dl-advancedsoamonitoring@anthem.com",
+      "infra-env": "development",
+      "ci-owner": "AF85271",
+      "app-env": "development",
+      "apm-id": "apm1081762",
+      "project_vulcan": "true",
+      "database-platform-name": "zmysql-apm1081762-00sit03",
+      "prepatch-snapshot-flag": "N",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag5": "app-tag5",
+      "application_tag4": "app-tag4",
+      "application_tag3": "app-tag3",
+      "application_tag2": "app-tag2",
+      "application_tag1": "app-tag1",
+      "database-state": "Active",
+      "bcp-tier": "Tier-82"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourcegroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1081762-slvr-q4m4d-01-identity": {
+          "principalId": "0fefc787-394e-41a2-83f6-a8382fc40691",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit03"
+  },
+  {
+    "id": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-90prd02",
+    "name": "zmysql-apm1009165-90prd02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1009165-plat-pyw8i-01-dr-rg",
+    "subscriptionId": "ada453e0-81b7-4edd-89d9-b650585a7b0d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.4",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "autoGrow": "Enabled",
+        "iops": 3200,
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1009165-90prd02.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "dayOfWeek": 6,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "Replica",
+      "replicaCapacity": 0,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity-dr",
+        "primaryKeyURI": "https://apm1009165-pyw8i-01-dr.vault.azure.net/keys/AZR-ELV-CORP-MYSQL-PRODUCTION-6058-V1/f79a2386a05d49c2a9a5d3c6765fbf3e",
+        "geoBackupKeyURI": "https://apm1009165-pyw8i-01-kv.vault.azure.net/keys/AZR-ELV-CORP-MYSQL-PRODUCTION-5620-V1/c56f6e33ff394054a70955922c44d1d0",
+        "geoBackupUserAssignedIdentityId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/rg-corp-network-plat-centralus/providers/Microsoft.Network/virtualNetworks/vnet-corp-plat-centralus/subnets/snet-mySQL-flexible-server-01",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-20T15:25:23.041Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Enabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.4.5",
+      "sourceServerResourceId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd02"
+    },
+    "tags": {
+      "environment": "production",
+      "costcenter": "6590215400",
+      "created-by": "an304412ad",
+      "application-name": "CloudDBA",
+      "workspace": "azrapm1009165-db-prod",
+      "PatchGroup": "default",
+      "elvh-app-servicenow-group": "AWS Cloud DB Fulfillment",
+      "elvh-business-division": "corp",
+      "elvh-application-name": "CloudDBA",
+      "elvh-app-support-dl": "dl-cloud-db-fulfillment@anthem.com",
+      "elvh-costcenter": "6590215400",
+      "company": "Anthem",
+      "PatchWindow": "default",
+      "elvh-workspace": "azrapm1009165-db-prod",
+      "elvh-infra-env": "production",
+      "elvh-ci-owner": "AG29970",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.9",
+      "elvh-app-env": "prod",
+      "elvh-company": "Anthem",
+      "elvh-apm-id": "apm1009165",
+      "app-env": "production",
+      "database-platform-name": "zmysql-apm1009165-90prd02",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "infra-env": "plat",
+      "prepatch-snapshot-flag": "N",
+      "apm-id": "apm1009165",
+      "app-servicenow-group": "AWS Cloud DB Fulfillment",
+      "app-support-dl": "dl-cloud-db-fulfillment@anthem.com",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-84",
+      "business-division": "corp",
+      "ci-owner": "AG29970",
+      "database-platform": "mysqlServer"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity": {
+          "principalId": "ac898c3e-987f-4ef1-9545-18f7cb216bec",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity-dr": {
+          "principalId": "d42f5240-dee7-4efb-87f5-ef486b4495b1",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-90prd02"
+  },
+  {
+    "id": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd02",
+    "name": "zmysql-apm1009165-00prd02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "eastus2",
+    "resourceGroup": "apm1009165-plat-pyw8i-01-rg",
+    "subscriptionId": "ada453e0-81b7-4edd-89d9-b650585a7b0d",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.4",
+      "state": "Ready",
+      "availabilityZone": "3",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 3200,
+        "autoGrow": "Enabled",
+        "storageRedundancy": "ZoneRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_ZRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1009165-00prd02.mysql.database.azure.com",
+      "administratorLogin": "elvhadmin",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "dayOfWeek": 6,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "Healthy",
+        "mode": "ZoneRedundant",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": "2"
+      },
+      "replicationRole": "Source",
+      "replicaCapacity": 10,
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "rotationToLatestKeyVersionEnabled": false,
+        "primaryUserAssignedIdentityId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity",
+        "primaryKeyURI": "https://apm1009165-pyw8i-01-kv.vault.azure.net/keys/AZR-ELV-CORP-MYSQL-PRODUCTION-5620-V1/c56f6e33ff394054a70955922c44d1d0",
+        "geoBackupUserAssignedIdentityId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity-dr",
+        "geoBackupKeyURI": "https://apm1009165-pyw8i-01-dr.vault.azure.net/keys/AZR-ELV-CORP-MYSQL-PRODUCTION-6058-V1/f79a2386a05d49c2a9a5d3c6765fbf3e"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-20T15:19:11.113Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Enabled",
+        "backupIntervalHours": 24
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/rg-corp-network-plat-eastus2/providers/Microsoft.Network/virtualNetworks/vnet-corp-plat-eastus2/subnets/snet-mySQL-flexible-server-01",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.4.7"
+    },
+    "tags": {
+      "environment": "production",
+      "costcenter": "6590215400",
+      "created-by": "an304412ad",
+      "workspace": "azrapm1009165-db-prod",
+      "PatchGroup": "default",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.10",
+      "application-name": "CloudDBA",
+      "company": "Anthem",
+      "PatchWindow": "default",
+      "app-env": "production",
+      "prepatch-snapshot-flag": "N",
+      "infra-env": "plat",
+      "elvh-workspace": "azrapm1009165-db-prod",
+      "elvh-infra-env": "production",
+      "apm-id": "apm1009165",
+      "app-servicenow-group": "AWS Cloud DB Fulfillment",
+      "app-support-dl": "dl-cloud-db-fulfillment@anthem.com",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "bcp-tier": "Tier-84",
+      "business-division": "corp",
+      "ci-owner": "AG29970",
+      "database-platform": "mysqlServer",
+      "database-platform-name": "zmysql-apm1009165-00prd02",
+      "elvh-costcenter": "6590215400",
+      "database-state": "Active",
+      "db-patch-schedule": "M00W0",
+      "db-patch-time-window": "Sunday 0100",
+      "elvh-company": "Anthem",
+      "elvh-ci-owner": "AG29970",
+      "elvh-business-division": "corp",
+      "elvh-application-name": "CloudDBA",
+      "elvh-app-support-dl": "dl-cloud-db-fulfillment@anthem.com",
+      "elvh-app-servicenow-group": "AWS Cloud DB Fulfillment",
+      "elvh-app-env": "prod",
+      "elvh-apm-id": "apm1009165"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity": {
+          "principalId": "ac898c3e-987f-4ef1-9545-18f7cb216bec",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        },
+        "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourcegroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1009165-plat-pyw8i-01-identity-dr": {
+          "principalId": "d42f5240-dee7-4efb-87f5-ef486b4495b1",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd02"
+  },
+  {
+    "id": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev01",
+    "name": "zmysql-apm1082070-00dev01",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1082070-slvr-wmdvt-01-rg",
+    "subscriptionId": "f3d26a3b-0b31-4223-94ea-9683f2fd5af7",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "version": "8.0.21",
+      "state": "Ready",
+      "availabilityZone": "1",
+      "storage": {
+        "storageSizeGB": 200,
+        "iops": 3200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "fullyQualifiedDomainName": "zmysql-apm1082070-00dev01.mysql.database.azure.com",
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "dayOfWeek": 6,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicaCapacity": 10,
+      "replicationRole": "None",
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourcegroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-slvr-wmdvt-01-identity",
+        "primaryKeyURI": "https://apm1082070-wmdvt-01-kv.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-DEVELOPMENT-4723-V1/4f0ff9e78d414a978247bcbf907c5d0c"
+      },
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/rg-gbd-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-gbd-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T15:35:30.0022895Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.0.42"
+    },
+    "tags": {
+      "environment": "development",
+      "costcenter": "6590335500",
+      "elvh-app-servicenow-group": "SBI IT Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "created-by": "automated",
+      "elvh-costcenter": "6590335500",
+      "elvh-workspace": "azrapm1082070-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "KICHLJS",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "elvh-apm-id": "apm1082070",
+      "company": "Anthem",
+      "application-name": "SmartOps Dedicated AKS Cluster",
+      "PatchWindow": "default",
+      "PatchGroup": "default",
+      "workspace": "azrapm1082070-db-np01",
+      "app-servicenow-group": "SBI IT Support",
+      "business-division": "gbd",
+      "app-support-dl": "dl-SBI-Scrummy-Bears@anthem.com",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.8",
+      "infra-env": "development",
+      "ci-owner": "KICHLJS",
+      "app-env": "development",
+      "apm-id": "apm1082070",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1082070-00dev01",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourcegroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-slvr-wmdvt-01-identity": {
+          "principalId": "5ccdc31f-aa40-4060-8e13-cb4f80d3177a",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev01"
+  },
+  {
+    "id": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev02",
+    "name": "zmysql-apm1082070-00dev02",
+    "type": "microsoft.dbformysql/flexibleservers",
+    "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7",
+    "kind": "",
+    "location": "centralus",
+    "resourceGroup": "apm1082070-slvr-wmdvt-01-rg",
+    "subscriptionId": "f3d26a3b-0b31-4223-94ea-9683f2fd5af7",
+    "managedBy": "",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "plan": null,
+    "properties": {
+      "privateEndpointConnections": [],
+      "state": "Ready",
+      "version": "8.4",
+      "availabilityZone": "1",
+      "fullyQualifiedDomainName": "zmysql-apm1082070-00dev02.mysql.database.azure.com",
+      "storage": {
+        "storageSizeGB": 20,
+        "iops": 3200,
+        "autoGrow": "Disabled",
+        "storageRedundancy": "LocalRedundancy",
+        "autoIoScaling": "Disabled",
+        "storageSku": "Premium_LRS",
+        "logOnDisk": "Disabled"
+      },
+      "administratorLogin": "elvsysdba",
+      "maintenanceWindow": {
+        "customWindow": "Enabled",
+        "startMinute": 0,
+        "dayOfWeek": 6,
+        "startHour": 3,
+        "batchOfMaintenance": "Default"
+      },
+      "highAvailability": {
+        "state": "NotEnabled",
+        "mode": "Disabled",
+        "replicationMode": "BinaryLog",
+        "standbyAvailabilityZone": ""
+      },
+      "replicationRole": "None",
+      "replicaCapacity": 10,
+      "network": {
+        "publicNetworkAccess": "Disabled",
+        "delegatedSubnetResourceId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/rg-gbd-network-slvr-centralus/providers/Microsoft.Network/virtualNetworks/vnet-gbd-slvr-centralus/subnets/snet-mysql-flexible-server-1",
+        "privateDnsZoneResourceId": "/subscriptions/c3422df3-52b6-474c-9d53-c66924f53505/resourceGroups/rg-ss-network-eastus2/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"
+      },
+      "dataEncryption": {
+        "type": "AzureKeyVault",
+        "primaryUserAssignedIdentityId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourcegroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-slvr-wmdvt-01-identity",
+        "primaryKeyURI": "https://apm1082070-wmdvt-01-kv.vault.azure.net/keys/AZR-ELV-GBD-MYSQL-DEVELOPMENT-7881-V1/12d71cb343f24e5a96906bd26b61a3a4"
+      },
+      "maintenancePolicy": {
+        "patchStrategy": "Regular"
+      },
+      "backup": {
+        "earliestRestoreDate": "2026-03-17T16:30:30.0400559Z",
+        "backupRetentionDays": 7,
+        "geoRedundantBackup": "Disabled",
+        "backupIntervalHours": 24
+      },
+      "databasePort": 3306,
+      "fullVersion": "8.4.5"
+    },
+    "tags": {
+      "environment": "development",
+      "elvh-app-servicenow-group": "SBI IT Support",
+      "elvh-business-division": "gbd",
+      "elvh-application-name": "SmartOps Dedicated AKS Cluster",
+      "elvh-app-support-dl": "DL-SBI-Scrummy-Bears-Developers@elevancehealth.com",
+      "created-by": "automated",
+      "elvh-costcenter": "6590335500",
+      "elvh-workspace": "azrapm1082070-db-np01",
+      "elvh-infra-env": "development",
+      "elvh-ci-owner": "KICHLJS",
+      "costcenter": "6590335500",
+      "elvh-company": "Anthem",
+      "elvh-app-env": "dev",
+      "elvh-apm-id": "apm1082070",
+      "application-name": "SmartOps Dedicated AKS Cluster",
+      "PatchGroup": "default",
+      "company": "Anthem",
+      "PatchWindow": "default",
+      "app-servicenow-group": "SBI IT Support",
+      "business-division": "gbd",
+      "app-support-dl": "dl-SBI-Scrummy-Bears@anthem.com",
+      "workspace": "azrapm1082070-db-np01",
+      "infra-env": "development",
+      "provisioned_by": "terraform-azurerm-mysql-flexible-server:1.0.8",
+      "ci-owner": "KICHLJS",
+      "app-env": "development",
+      "apm-id": "apm1082070",
+      "prepatch-snapshot-flag": "N",
+      "database-platform-name": "zmysql-apm1082070-00dev02",
+      "db-patch-time-window": "Sunday 0100",
+      "database-platform": "mysqlServer",
+      "db-patch-schedule": "M00W0",
+      "application_tag1": "app-tag1",
+      "application_tag2": "app-tag2",
+      "application_tag3": "app-tag3",
+      "application_tag4": "app-tag4",
+      "application_tag5": "app-tag5",
+      "database-state": "Active",
+      "bcp-tier": "Tier-84"
+    },
+    "identity": {
+      "principalId": "00000000-0000-0000-0000-000000000000",
+      "userAssignedIdentities": {
+        "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourcegroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/apm1082070-slvr-wmdvt-01-identity": {
+          "principalId": "5ccdc31f-aa40-4060-8e13-cb4f80d3177a",
+          "tenantId": "be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7"
+        }
+      },
+      "tenantId": "00000000-0000-0000-0000-000000000000",
+      "type": "UserAssigned"
+    },
+    "zones": null,
+    "extendedLocation": null,
+    "ResourceId": "/subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev02"
+  }
+]

@@ -1,0 +1,1801 @@
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-PP-EU2-00
+name             : vm-uma-api-pp-eu2-00
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/7/2025 11:09:44 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; licenseType=Windows_Server; vmId=35e6e1c7-041f-4813-8ee8-caaee0688b18; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; company=Anthem; application-name=GBD Facets Utilization Management Authorizations (UMAU); workspace=azrapm1001745-prod; PatchWindow=default; PatchGroup=default; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-prod; elvh-infra-env=production; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1001745; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; app-servicenow-group=GBD-CM-ClinicalSystems-UM; business-division=dig; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; infra-env=plat; ci-owner=AC88324; app-env=prod; vm-role=api; apm-id=apm1001745; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-PP-EU2-00
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-PP-EU2-01
+name             : vm-uma-api-pp-eu2-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/7/2025 11:09:44 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; licenseType=Windows_Server; vmId=e6f28f16-c056-460c-b95e-09b0f6b7f983; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; company=Anthem; application-name=GBD Facets Utilization Management Authorizations (UMAU); workspace=azrapm1001745-prod; PatchWindow=default; PatchGroup=default; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-prod; elvh-infra-env=production; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1001745; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; app-servicenow-group=GBD-CM-ClinicalSystems-UM; business-division=dig; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; infra-env=plat; ci-owner=AC88324; app-env=prod; vm-role=api; apm-id=apm1001745; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-PP-EU2-01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-APP-PP-EU2-00
+name             : vm-uma-app-pp-eu2-00
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/7/2025 11:09:38 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=40175d07-6418-46ed-bb1b-1e96527b51ce; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; application-name=GBD Facets Utilization Management Authorizations (UMAU); PatchWindow=default; workspace=azrapm1001745-prod; PatchGroup=default; company=Anthem; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-infra-env=production; elvh-workspace=azrapm1001745-prod; elvh-ci-owner=AC88324; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1001745; app-servicenow-group=GBD-CM-ClinicalSystems-UM; business-division=dig; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; infra-env=plat; ci-owner=AC88324; app-env=prod; apm-id=apm1001745; vm-os=windows; vm-role=app}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-APP-PP-EU2-00
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-WEB-PP-EU2-00
+name             : vm-uma-web-pp-eu2-00
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/7/2025 11:09:29 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; extended=; vmId=e2ae2f7a-7629-4fac-bd9a-c1f6ec95d4c6; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; application-name=GBD Facets Utilization Management Authorizations (UMAU); workspace=azrapm1001745-prod; company=Anthem; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-prod; elvh-infra-env=production; infra-env=plat; elvh-ci-owner=AC88324; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1001745; apm-id=apm1001745; app-env=prod; app-servicenow-group=GBD-CM-ClinicalSystems-UM; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; business-division=dig; ci-owner=AC88324; vm-os=windows; vm-role=web}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1001745-PLAT-8U7LP-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-WEB-PP-EU2-00
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1020862-PLAT-HW8Z9-01-RG/providers/Microsoft.Compute/virtualMachines/Z1020862PL3LGV6
+name             : z1020862pl3lgv6
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1020862-plat-hw8z9-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/26/2026 4:13:12 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=76124523-5abb-46b6-b9b6-8820b95ff6db; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590215400; application-name=Cloud Developer Services - Azure ; company=Anthem; PatchGroup=default; PatchWindow=default; workspace=azrapm1020862-prod; elvh-app-servicenow-group=PPM RES Akula, Raj; elvh-business-division=dig; elvh-application-name=Cloud Developer Services - Azure ; elvh-app-support-dl=dl-cloud-developer-services@elevancehealth.com; elvh-costcenter=6590215400; elvh-infra-env=production; elvh-workspace=azrapm1020862-prod; elvh-ci-owner=AKULANL; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1020862; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-6; app-servicenow-group=PPM RES Akula, Raj; business-division=dig; app-support-dl=dl-cloud-developer-services@elevancehealth.com; infra-env=production; ci-owner=AKULANL; app-env=prod; apm-id=apm1020862; elvh_ad_domain_join=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1020862-PLAT-HW8Z9-01-RG/providers/Microsoft.Compute/virtualMachines/Z1020862PL3LGV6
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1020864-PLAT-34XS3-01-RG/providers/Microsoft.Compute/virtualMachines/TEST-NW
+name             : test-nw
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1020864-plat-34xs3-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; timeCreated=6/16/2025 2:22:45 AM; securityProfile=; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=d7900374-f659-499d-a627-949bc422b924; extended=; additionalCapabilities=}
+tags             : @{elvh-app-servicenow-group=elvh-app-servicenow-group; elvh-app-support-dl=dl-CloudFileExchange@anthem.com; elvh-costcenter=6590215400; elvh-ci-owner=AD38038; elvh-apm-id=apm1020864}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1020864-PLAT-34XS3-01-RG/providers/Microsoft.Compute/virtualMachines/TEST-NW
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079123-plat-6n8l9-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v01dr1079123cu
+name             : v01dr1079123cu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1079123-plat-6n8l9-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=9/12/2025 6:08:37 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=e196c91d-4df8-4bbf-95d3-969b2c65bcf4; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=Carelon PFS Support; elvh-business-division=cdig; elvh-application-name=Carelon Provider Finder (CM) AZURE; elvh-app-support-dl=DL-CARELON-PFS@carelon.com; elvh-costcenter=6216501000; elvh-workspace=azrapm1079123-dr; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=6030747300; elvh-company=Carelon Digital Platforms, Inc.; elvh-app-env=prod; elvh-apm-id=APM1079123; app-servicenow-group=Carelon PFS Support; application-name=Carelon Provider Finder (CM) AZURE; business-division=cdig; app-support-dl=DL-CARELON-PFS@carelon.com; PatchWindow=ManualPatch; PatchGroup=manual; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1079123-dr; infra-env=plat; ci-owner=AF85271; company=Carelon Digital Platforms, Inc.; app-env=prod; apm-id=apm1079123; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079123-plat-6n8l9-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v01dr1079123cu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079123-plat-6n8l9-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v02dr1079123cu
+name             : v02dr1079123cu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1079123-plat-6n8l9-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=9/12/2025 6:08:38 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=66729f4d-ec37-4752-8500-cb973b4303e3; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6030747300; elvh-app-servicenow-group=Carelon PFS Support; elvh-business-division=cdig; elvh-application-name=Carelon Provider Finder (CM) AZURE; elvh-app-support-dl=DL-CARELON-PFS@carelon.com; elvh-costcenter=6216501000; elvh-infra-env=production; elvh-workspace=azrapm1079123-dr; elvh-ci-owner=AF85271; elvh-company=Carelon Digital Platforms, Inc.; elvh-app-env=prod; application-name=Carelon Provider Finder (CM) AZURE; elvh-apm-id=APM1079123; app-servicenow-group=Carelon PFS Support; business-division=cdig; PatchWindow=ManualPatch; app-support-dl=DL-CARELON-PFS@carelon.com; PatchGroup=manual; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1079123-dr; infra-env=plat; company=Carelon Digital Platforms, Inc.; ci-owner=AF85271; app-env=prod; apm-id=apm1079123; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079123-plat-6n8l9-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v02dr1079123cu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1079123-PLAT-6N8L9-01-RG/providers/Microsoft.Compute/virtualMachines/V01PRD1079123EU
+name             : v01prd1079123eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1079123-plat-6n8l9-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/15/2025 8:56:18 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=e83e7928-42e9-4a71-8932-9e94177412dd; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6030747300; application-name=Carelon Provider Finder (CM) AZURE; PatchWindow=ManualPatch; workspace=azrapm1079123-prod; PatchGroup=manual; company=Carelon Digital Platforms, Inc.; elvh-app-servicenow-group=Carelon PFS Support; elvh-business-division=cdig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; elvh-application-name=Carelon Provider Finder (CM) AZURE; elvh-app-support-dl=DL-CARELON-PFS@carelon.com; elvh-costcenter=6216501000; elvh-infra-env=production; elvh-workspace=azrapm1079123-prod; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Carelon Digital Platforms, Inc.; elvh-apm-id=APM1079123; app-servicenow-group=Carelon PFS Support; business-division=cdig; app-support-dl=DL-CARELON-PFS@carelon.com; infra-env=production; ci-owner=AF85271; app-env=prod; VM_PatchWindow=ManualPatch; apm-id=apm1079123}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1079123-PLAT-6N8L9-01-RG/providers/Microsoft.Compute/virtualMachines/V01PRD1079123EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1079123-PLAT-6N8L9-01-RG/providers/Microsoft.Compute/virtualMachines/V02PRD1079123EU
+name             : v02prd1079123eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1079123-plat-6n8l9-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/15/2025 8:56:18 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=cf07693b-6a12-4ad5-8521-f3b4e1c61486; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6030747300; application-name=Carelon Provider Finder (CM) AZURE; PatchWindow=ManualPatch; workspace=azrapm1079123-prod; PatchGroup=manual; company=Carelon Digital Platforms, Inc.; elvh-app-servicenow-group=Carelon PFS Support; elvh-business-division=cdig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; elvh-application-name=Carelon Provider Finder (CM) AZURE; elvh-app-support-dl=DL-CARELON-PFS@carelon.com; elvh-costcenter=6216501000; elvh-infra-env=production; elvh-workspace=azrapm1079123-prod; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Carelon Digital Platforms, Inc.; elvh-apm-id=APM1079123; app-servicenow-group=Carelon PFS Support; business-division=cdig; app-support-dl=DL-CARELON-PFS@carelon.com; infra-env=production; ci-owner=AF85271; app-env=prod; VM_PatchWindow=ManualPatch; apm-id=apm1079123}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1079123-PLAT-6N8L9-01-RG/providers/Microsoft.Compute/virtualMachines/V02PRD1079123EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080718-PLAT-ZE8MN-01-RG/providers/Microsoft.Compute/virtualMachines/V01P1080718EU
+name             : v01P1080718eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080718-plat-ze8mn-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=7/16/2025 9:32:29 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=727b68a9-9fc4-47b1-b8a7-118afdb7f902; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; workspace=azrapm1080718-prod; application-name=Automated Benefit Integration-ABI-AZURE; company=Anthem; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-0; PatchWindow=default; PatchGroup=default; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1080718-prod; elvh-infra-env=production; elvh-ci-owner=AC04130; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1080718; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AC04130; app-env=prod; apm-id=apm1080718}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080718-PLAT-ZE8MN-01-RG/providers/Microsoft.Compute/virtualMachines/V01P1080718EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080799-plat-zip3w-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v01dr1080799cu
+name             : v01dr1080799cu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080799-plat-zip3w-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/10/2025 6:42:21 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=b7b2ca45-ef97-4dd8-8858-e7998840149e; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080799ehds-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); elvh-apm-id=APM1080799; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; workspace=azrapm1080799ehds-dr; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1080799}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080799-plat-zip3w-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v01dr1080799cu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080799-plat-zip3w-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v02dr1080799cu
+name             : v02dr1080799cu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080799-plat-zip3w-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/10/2025 6:42:21 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=10f232f0-2624-480b-9325-990b5108d59a; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1080799ehds-dr; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080799; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; workspace=azrapm1080799ehds-dr; infra-env=plat; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1080799}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080799-plat-zip3w-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v02dr1080799cu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080799-PLAT-ZIP3W-01-RG/providers/Microsoft.Compute/virtualMachines/V01PRDAPM1080799EU
+name             : v01prdapm1080799eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080799-plat-zip3w-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/3/2025 7:48:22 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=822d0ae5-faf3-4e99-8938-bbead1901b47; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080799ehds-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080799; application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); company=Anthem; PatchWindow=default; workspace=azrapm1080799ehds-prod; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1080799}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080799-PLAT-ZIP3W-01-RG/providers/Microsoft.Compute/virtualMachines/V01PRDAPM1080799EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080799-PLAT-ZIP3W-01-RG/providers/Microsoft.Compute/virtualMachines/V02PRDAPM1080799EU
+name             : v02prdapm1080799eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080799-plat-zip3w-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/3/2025 7:48:22 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=37fa0b7b-66f1-4e94-98f1-4d9c6b5cf934; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080799ehds-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080799; application-name=PS-DigitalProducts-IDCMS-Cloud (AZURE); company=Anthem; PatchWindow=default; workspace=azrapm1080799ehds-prod; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1080799}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1080799-PLAT-ZIP3W-01-RG/providers/Microsoft.Compute/virtualMachines/V02PRDAPM1080799EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm-apm1080940-cu-plat-dr01
+name             : vm-apm1080940-cu-plat-dr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080940-plat-s0e5o-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/24/2026 6:06:19 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=9ea78213-f2ab-4aff-8cc4-d06f40b16ce2; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080940ehds-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=PS-DigitalProducts-EHDA-AZURE; elvh-apm-id=APM1080940; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; workspace=azrapm1080940ehds-dr; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm-apm1080940-cu-plat-dr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1080940-cus-dr
+name             : vm01-apm1080940-cus-dr
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080940-plat-s0e5o-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/25/2026 7:38:12 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=95a4ab1d-8b91-4cdf-a64e-b40247a72153; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1080940-dr; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080940; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHDA-AZURE; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1080940-dr; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1080940-cus-dr
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1080940-cus-dr
+name             : vm02-apm1080940-cus-dr
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080940-plat-s0e5o-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/15/2026 5:45:44 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=12141ba7-f4b3-46bb-93e0-1d99810d7b49; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080940-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=PS-DigitalProducts-EHDA-AZURE; elvh-apm-id=APM1080940; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1080940-dr; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1080940-cus-dr
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm-apm1080940-eu-plat01
+name             : vm-apm1080940-eu-plat01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080940-plat-s0e5o-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/27/2026 8:20:53 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=08c2991d-5c9f-416a-9c80-e813ef0be3a4; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080940ehds-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080940; application-name=PS-DigitalProducts-EHDA-AZURE; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; workspace=azrapm1080940ehds-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm-apm1080940-eu-plat01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1080940-eus-prd
+name             : vm01-apm1080940-eus-prd
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080940-plat-s0e5o-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/18/2026 11:50:59 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=223a3141-0c3a-42ce-b833-21c3409f35b4; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080940-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080940; application-name=PS-DigitalProducts-EHDA-AZURE; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1080940-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1080940-eus-prd
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1080940-eus-prd
+name             : vm02-apm1080940-eus-prd
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080940-plat-s0e5o-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/18/2026 11:50:56 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=6bf90f90-734a-4fa8-8ba6-84fd2e74e173; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHDA-AZURE; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1080940-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1080940; application-name=PS-DigitalProducts-EHDA-AZURE; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1080940-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1080940}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080940-plat-s0e5o-01-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1080940-eus-prd
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.Compute/virtualMachines/apm1081073-plat-appvm-01
+name             : apm1081073-plat-appvm-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081073-plat-2z3e0-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/11/2026 12:23:20 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; licenseType=Windows_Server; vmId=3000954b-901c-4a30-829d-c9386f8ea023; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590189800; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-infra-env=production; elvh-workspace=azrapm1081073-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=Student Advantage Enroll - AZURE; elvh-apm-id=APM1081073; app-servicenow-group=Student Advantage Enroll DevOps Support; business-division=dig; PatchWindow=default; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; PatchGroup=default; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-4; workspace=azrapm1081073-prod; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081073; project_vulcan=true; VM_PatchWindow=firstthu00}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.Compute/virtualMachines/apm1081073-plat-appvm-01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081073-PLAT-2Z3E0-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081073-PLAT-APPVM-02
+name             : apm1081073-plat-appvm-02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081073-plat-2z3e0-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/11/2026 1:31:47 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=f62bcca4-0db2-4a95-9be3-56d7bbf87bff; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590189800; application-name=Student Advantage Enroll - AZURE; company=Anthem; workspace=azrapm1081073-prod; PatchWindow=default; PatchGroup=default; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; app-servicenow-group=Student Advantage Enroll DevOps Support; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-4; business-division=dig; elvh-costcenter=6590189800; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-workspace=azrapm1081073-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; infra-env=production; elvh-app-env=prod; elvh-apm-id=APM1081073; project_vulcan=true; ci-owner=AF85271; app-env=prod; apm-id=apm1081073; VM_PatchWindow=firstthu00}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081073-PLAT-2Z3E0-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081073-PLAT-APPVM-02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.Compute/virtualMachines/v01plat1081073eu
+name             : v01plat1081073eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081073-plat-2z3e0-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/24/2026 3:22:29 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=5fc61c4a-aed0-417c-ae52-3704b7172a34; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; costcenter=6590189800; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-infra-env=production; elvh-workspace=azrapm1081073-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081073; application-name=Student Advantage Enroll - AZURE; app-servicenow-group=Student Advantage Enroll DevOps Support; business-division=dig; PatchWindow=default; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081073-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081073; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.Compute/virtualMachines/v01plat1081073eu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v1dr1081074eu
+name             : v1dr1081074eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081074-plat-60vln-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/28/2026 4:26:29 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; licenseType=Windows_Server; vmId=555a9e35-8c8a-4381-be50-8585a4a32a04; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081074-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=ECM ILOS AZURE; elvh-apm-id=APM1081074; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-0; workspace=azrapm1081074-dr; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081074; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-dr-rg/providers/Microsoft.Compute/virtualMachines/v1dr1081074eu
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081074-PLAT-60VLN-01-RG/providers/Microsoft.Compute/virtualMachines/V1PROD1081074EU
+name             : v1prod1081074eu
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081074-plat-60vln-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/27/2026 6:30:59 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; licenseType=Windows_Server; vmId=4ba457cb-35a8-4166-ab12-c3741ba9669b; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; application-name=ECM ILOS AZURE; company=Anthem; workspace=azrapm1081074-prod; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-0; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; app-servicenow-group=Digital 10x Engineering Support; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; business-division=dig; elvh-costcenter=6590222500; app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-workspace=azrapm1081074-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081074; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081074; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081074-PLAT-60VLN-01-RG/providers/Microsoft.Compute/virtualMachines/V1PROD1081074EU
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1081191-cus-dr
+name             : vm01-apm1081191-cus-dr
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081191-plat-vzm4t-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/17/2026 6:17:43 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=d2c9a322-618e-4ea8-a462-b755427bfb3c; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081191-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-apm-id=APM1081191; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-dr; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1081191-cus-dr
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1081191-cus-dr
+name             : vm02-apm1081191-cus-dr
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081191-plat-vzm4t-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/17/2026 6:17:43 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=bbc76182-d0d3-4009-b21c-10c9b7fe2345; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081191-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081191; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-dr; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1081191-cus-dr
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmapm1081191cusplatdr01
+name             : vmapm1081191cusplatdr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081191-plat-vzm4t-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/1/2026 11:15:07 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=94aff258-19be-4113-bcba-197d6d2d626c; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-dr; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-dr; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmapm1081191cusplatdr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1081191-eus-prd
+name             : vm01-apm1081191-eus-prd
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081191-plat-vzm4t-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/12/2026 6:58:59 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=f568701d-9420-42e6-a79a-94d73817b9ab; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081191-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081191; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vm01-apm1081191-eus-prd
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1081191-eus-prd
+name             : vm02-apm1081191-eus-prd
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081191-plat-vzm4t-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/12/2026 6:58:59 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=49fd6d0e-ef50-4def-92cd-63feeecdd332; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vm02-apm1081191-eus-prd
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vmapm1081191eusplat01
+name             : vmapm1081191eusplat01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081191-plat-vzm4t-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/2/2026 8:39:45 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=0cd781b9-6f1d-4ea1-8419-162c9b8bbde7; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-DigitalProducts-EHAPP- Azure CSBD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081191-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081191; app-servicenow-group=IAS SUPPORT; application-name=PS-DigitalProducts-EHAPP- Azure CSBD; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081191-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081191}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081191-plat-vzm4t-01-rg/providers/Microsoft.Compute/virtualMachines/vmapm1081191eusplat01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr01
+name             : digkfkbrkdr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:10 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=41bfdaf3-9962-4f60-8f36-03c993fce763; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr02
+name             : digkfkbrkdr02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:26 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=d2084e7b-e336-48b7-8949-23a53b5f609e; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; application-name=Digital Platform Kafka - Azure; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr03
+name             : digkfkbrkdr03
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:26 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=adbbcb36-2284-4c3f-98db-7b5df3f30927; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; application-name=Digital Platform Kafka - Azure; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr03
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr04
+name             : digkfkbrkdr04
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:00 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=e96b019c-a1e2-4155-bfc9-98c663ba6e1f; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr04
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr05
+name             : digkfkbrkdr05
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:21 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=8d153e84-9577-4674-9d7d-6421819e0447; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; application-name=Digital Platform Kafka - Azure; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr05
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr06
+name             : digkfkbrkdr06
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:42 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=54141708-8465-4588-8b99-ca848691ce85; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkdr06
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcnctdr01
+name             : digkfkcnctdr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:02 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=645cadfa-3dd0-4c5c-938d-9d4c69816331; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcnctdr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcnctdr02
+name             : digkfkcnctdr02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:38:18 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=538dd14d-300f-4f52-bc28-90796db59980; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcnctdr02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcondr01
+name             : digkfkcondr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:31 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=25cea86c-6e59-4405-98bc-5fbd1bbf0ad3; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; application-name=Digital Platform Kafka - Azure; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcondr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcondr02
+name             : digkfkcondr02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:26 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=fd43edb8-4a0e-4c16-b7f0-40c2aef8f199; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkcondr02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkscmdr01
+name             : digkfkscmdr01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:37:07 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=5b279ee0-e3d7-453a-8412-d870ffae65c4; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkscmdr01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkscmdr02
+name             : digkfkscmdr02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081221-plat-o5k53-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/19/2025 8:38:19 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=cc4a2b72-39a6-4cda-adc9-5037aafc8d49; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-dr-rg/providers/Microsoft.Compute/virtualMachines/digkfkscmdr02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKANSPRD01
+name             : digkfkansprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=9b9b1309-8366-4014-9c7c-aaa3cfc42044; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; workspace=azrapm1081221-prod; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKANSPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKANSPRD02
+name             : digkfkansprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/18/2026 2:26:45 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=7ff19ab9-9f87-4988-8022-ce0314d48ea8; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; workspace=azrapm1081221-prod; application-name=Digital Platform Kafka - Azure; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKANSPRD02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKBRKPRD01
+name             : digkfkbrkprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=677c59e4-4d0f-481f-bff6-271c8ebf75e5; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; application-name=Digital Platform Kafka - Azure; PatchWindow=default; workspace=azrapm1081221-prod; company=Anthem; PatchGroup=default; elvh-app-servicenow-group=IAS SUPPORT; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-costcenter=5212032600; elvh-ci-owner=AB97887; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-apm-id=APM1081221; elvh-company=Anthem; elvh-app-env=prod; app-servicenow-group=IAS SUPPORT; infra-env=production; business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; VM_PatchWindow=ManualPatch; app-support-dl=dl-advancedsoamonitoring@anthem.com; ci-owner=AF85271; app-env=prod; apm-id=apm1081221}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKBRKPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd02
+name             : digkfkbrkprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:06 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=d41e33cd-973b-45b2-aaee-5e7a6a01553d; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd03
+name             : digkfkbrkprd03
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:35 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=46423749-1ccd-4646-bddf-7298ab942faa; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd03
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKBRKPRD04
+name             : digkfkbrkprd04
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=30d0a56a-5b73-470b-8546-711469164ab4; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; workspace=azrapm1081221-prod; application-name=Digital Platform Kafka - Azure; PatchWindow=default; company=Anthem; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKBRKPRD04
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd05
+name             : digkfkbrkprd05
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:47:38 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=79c42357-cb1b-4e5e-a691-bd8cca9fc83d; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd05
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd06
+name             : digkfkbrkprd06
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:02 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=b737d021-d604-442e-90e3-029613cdbacb; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkbrkprd06
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCCPRD01
+name             : digkfkccprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=2bec835a-e6e6-49e6-ba7d-b9b80ad16bba; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; application-name=Digital Platform Kafka - Azure; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; PatchWindow=default; workspace=azrapm1081221-prod; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; app-env=prod; ci-owner=AF85271; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCCPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCNCTPRD01
+name             : digkfkcnctprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:05 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=0e729262-22d5-47b4-bb28-9dea95500624; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; application-name=Digital Platform Kafka - Azure; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; PatchWindow=default; workspace=azrapm1081221-prod; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCNCTPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCNCTPRD02
+name             : digkfkcnctprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/13/2025 1:00:05 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=7edf7783-4817-4afe-bbfb-2494fa5b6050; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; costcenter=5212032600; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; workspace=azrapm1081221-prod; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCNCTPRD02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCONPRD01
+name             : digkfkconprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=cfda8126-22a5-4974-ba7e-b739fad0344b; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; application-name=Digital Platform Kafka - Azure; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081221; PatchWindow=default; workspace=azrapm1081221-prod; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCONPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCONPRD02
+name             : digkfkconprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:35 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=f973e219-071d-4e8d-937f-ac5d65e583cd; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; workspace=azrapm1081221-prod; application-name=Digital Platform Kafka - Azure; PatchWindow=default; PatchGroup=default; company=Anthem; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKCONPRD02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkconprd03
+name             : digkfkconprd03
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=fa814f40-3866-4a1f-b1b5-b3b6529f3dec; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkconprd03
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKKSQLPRD01
+name             : digkfkksqlprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=a4483980-819a-48ef-a537-6f3acd32aa68; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; application-name=Digital Platform Kafka - Azure; workspace=azrapm1081221-prod; PatchWindow=default; PatchGroup=default; company=Anthem; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; elvh-app-servicenow-group=IAS SUPPORT; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; elvh-ci-owner=AB97887; business-division=dig; elvh-apm-id=APM1081221; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-company=Anthem; elvh-app-env=prod; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKKSQLPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKKSQLPRD02
+name             : digkfkksqlprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/13/2025 10:36:24 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=62a21e4c-f2bf-407a-bb4d-0f84ab91d4ba; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=production; elvh-workspace=azrapm1081221-prod; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKKSQLPRD02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkksqlprd03
+name             : digkfkksqlprd03
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/13/2025 10:36:24 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=2112d1fb-3f5b-45fe-bb9a-b82dd5f25103; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; costcenter=5212032600; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; app-servicenow-group=IAS SUPPORT; application-name=Digital Platform Kafka - Azure; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081221-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {3}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081221-plat-o5k53-01-rg/providers/Microsoft.Compute/virtualMachines/digkfkksqlprd03
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKSCMPRD01
+name             : digkfkscmprd01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:07:05 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=fbdfbcba-e7a3-4bc2-a6b6-fcfd264a9449; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{application-name=Digital Platform Kafka - Azure; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081221; PatchWindow=default; company=Anthem; workspace=azrapm1081221-prod; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081221; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKSCMPRD01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKSCMPRD02
+name             : digkfkscmprd02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081221-plat-o5k53-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=8/14/2025 3:06:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=ec686ba5-7c68-4dab-a0e7-789165b4b63a; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Digital Platform Kafka - Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1081221-prod; elvh-infra-env=production; elvh-ci-owner=AB97887; elvh-app-env=prod; elvh-company=Anthem; PatchWindow=default; workspace=azrapm1081221-prod; elvh-apm-id=APM1081221; application-name=Digital Platform Kafka - Azure; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; apm-id=apm1081221; app-env=prod; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081221-PLAT-O5K53-01-RG/providers/Microsoft.Compute/virtualMachines/DIGKFKSCMPRD02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081667-PLAT-ZN5Y8-01-RG/providers/Microsoft.Compute/virtualMachines/GH-RUNNER-PROD
+name             : gh-runner-prod
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081667-plat-zn5y8-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/10/2026 9:00:49 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=8331075c-c5a2-4401-9804-6e7cd2be5f84; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5100048000; application-name=Sydney Member Management Layer; PatchWindow=default; workspace=azrapm1081667-prod; PatchGroup=default; company=Anthem; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-2; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081667-prod; elvh-ci-owner=AM33142; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081667; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; infra-env=plat; ci-owner=AM33142; app-env=prod; apm-id=APM1081667}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081667-PLAT-ZN5Y8-01-RG/providers/Microsoft.Compute/virtualMachines/GH-RUNNER-PROD
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081881-plat-lrso2-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmdr1081881-1
+name             : vmdr1081881-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081881-plat-lrso2-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/10/2026 9:33:00 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=7f2ac07c-d7a8-4e3b-a44c-18aee3cab084; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Local Mail Print Dashboard AZURE; costcenter=6590222500; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081881-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081881; application-name=Local Mail Print Dashboard AZURE; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-0; workspace=azrapm1081881-dr; infra-env=plat; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081881; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081881-plat-lrso2-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmdr1081881-1
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081881-plat-lrso2-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmdr1081881-2
+name             : vmdr1081881-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081881-plat-lrso2-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/10/2026 9:33:03 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=29d7e8cf-2820-4db2-87cb-5aca74cad7f8; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Local Mail Print Dashboard AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081881-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=Local Mail Print Dashboard AZURE; elvh-apm-id=APM1081881; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; workspace=azrapm1081881-dr; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081881; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081881-plat-lrso2-01-dr-rg/providers/Microsoft.Compute/virtualMachines/vmdr1081881-2
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081881-PLAT-LRSO2-01-RG/providers/Microsoft.Compute/virtualMachines/VMPROD1081881-1
+name             : vmprod1081881-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081881-plat-lrso2-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/4/2026 7:36:20 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=b2714fae-cc06-420e-a9e0-4ed957e27c99; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Local Mail Print Dashboard AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081881-prod; application-name=Local Mail Print Dashboard AZURE; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1081881; PatchWindow=default; workspace=azrapm1081881-prod; company=Anthem; PatchGroup=default; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; provisioned-by=terraform-azurerm-windows-virtual-machine_1-0-0; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081881; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081881-PLAT-LRSO2-01-RG/providers/Microsoft.Compute/virtualMachines/VMPROD1081881-1
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081881-PLAT-LRSO2-01-RG/providers/Microsoft.Compute/virtualMachines/VMPROD1081881-2
+name             : vmprod1081881-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081881-plat-lrso2-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/4/2026 7:36:24 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=d64ad8c6-623f-4da8-99a4-96698bdb3a51; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; company=Anthem; application-name=Local Mail Print Dashboard AZURE; workspace=azrapm1081881-prod; PatchWindow=default; PatchGroup=default; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Local Mail Print Dashboard AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081881-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081881; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-0; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081881; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081881-PLAT-LRSO2-01-RG/providers/Microsoft.Compute/virtualMachines/VMPROD1081881-2
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-dr-rg/providers/Microsoft.Compute/virtualMachines/bnft-explain-vm-linux-dr
+name             : bnft-explain-vm-linux-dr
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081952-plat-99ap7-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/31/2026 9:15:42 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=40253ef2-9d03-45aa-a746-ba9d525ba8bd; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081952-dr; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; application-name=Benefit AI - Benefit Explainability; elvh-apm-id=APM1081952; app-servicenow-group=Benefit AI Application Support; business-division=dig; PatchWindow=default; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; PatchGroup=default; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; workspace=azrapm1081952-dr; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081952; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081952-plat-99ap7-01-dr-rg/providers/Microsoft.Compute/virtualMachines/bnft-explain-vm-linux-dr
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081952-PLAT-99AP7-01-RG/providers/Microsoft.Compute/virtualMachines/BNFT-EXPLAIN-VM-LINUX-PROD
+name             : bnft-explain-vm-linux-prod
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081952-plat-99ap7-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=1/31/2026 2:28:09 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=4ecb7b40-6989-4630-a090-d44004ebc763; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590222500; elvh-app-servicenow-group=Benefit AI Application Support; elvh-business-division=dig; elvh-application-name=Benefit AI - Benefit Explainability; elvh-app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081952-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081952; application-name=Benefit AI - Benefit Explainability; company=Anthem; PatchWindow=default; workspace=azrapm1081952-prod; PatchGroup=default; app-servicenow-group=Benefit AI Application Support; business-division=dig; app-support-dl=DL-10XE-Benefits-ProdSupport@elevancehealth.com; provisioned-by=terraform-azurerm-linux-virtual-machine_1-0-3; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1081952; VM_PatchWindow=ManualPatch}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/APM1081952-PLAT-99AP7-01-RG/providers/Microsoft.Compute/virtualMachines/BNFT-EXPLAIN-VM-LINUX-PROD
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080855-dr-1
+name             : apm1080855-dr-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080855-plat-0a2bg-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/28/2025 6:58:24 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; vmId=e4b2fb99-7b1e-46cb-a0e3-1629979b15cc; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=IngenioRx Jira (IRx) AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1080855-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1080855; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1080855-dr; infra-env=plat; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; ci-owner=AG45836; app-env=prod; apm-id=apm1080855; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080855-dr-1
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080855-dr-2
+name             : apm1080855-dr-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080855-plat-0a2bg-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/28/2025 6:58:23 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; vmId=493a7370-9b42-42e6-ad04-547ac8db4dd2; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=IngenioRx Jira (IRx) AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1080855-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1080855; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1080855-dr; infra-env=plat; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; ci-owner=AG45836; app-env=prod; apm-id=apm1080855; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080855-dr-2
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080855-PLAT-0A2BG-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080855-APP-PRD-1
+name             : apm1080855-app-prd-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080855-plat-0a2bg-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/13/2025 12:12:41 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=86c95849-93db-49ff-aaff-2c12be150eef; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; company=CarelonRx (IngenioRx); workspace=azrapm1080855-prod; application-name=IngenioRx Jira (IRx) AZURE; PatchGroup=default; elvh-app-servicenow-group=CRx Agile Tools Support; PatchWindow=default; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080855-prod; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; app-servicenow-group=CRx Agile Tools Support; elvh-ci-owner=AG45836; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); business-division=irx; elvh-apm-id=APM1080855; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; infra-env=production; ci-owner=AG45836; app-env=prod; apm-id=apm1080855; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080855-PLAT-0A2BG-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080855-APP-PRD-1
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080855-PLAT-0A2BG-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080855-PRD-APP-2
+name             : apm1080855-prd-app-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080855-plat-0a2bg-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/13/2025 12:12:41 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=355f108b-0422-4c93-ad26-e44dcf1b7f50; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; company=CarelonRx (IngenioRx); workspace=azrapm1080855-prod; application-name=IngenioRx Jira (IRx) AZURE; PatchGroup=default; elvh-app-servicenow-group=CRx Agile Tools Support; PatchWindow=default; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080855-prod; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; app-servicenow-group=CRx Agile Tools Support; elvh-ci-owner=AG45836; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); business-division=irx; elvh-apm-id=APM1080855; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; infra-env=production; ci-owner=AG45836; app-env=prod; apm-id=apm1080855; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080855-PLAT-0A2BG-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080855-PRD-APP-2
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080857-PLAT-TII03-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080857-MSSQL-PLT-01
+name             : apm1080857-mssql-plt-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080857-plat-tii03-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/3/2025 5:47:41 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=3b44ad62-69d0-48d0-b3cc-e40fb1bfa6c9; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; PatchGroup=default; company=CarelonRx (IngenioRx); workspace=azrapm1080857-db-prod; application-name=BLUEPRINT AZURE; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=BLUEPRINT AZURE; elvh-app-support-dl=dl-BluePrintToolSupport@ingenio-rx.com; PatchWindow=default; elvh-costcenter=6590211000; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; elvh-infra-env=production; elvh-workspace=azrapm1080857-db-prod; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; app-servicenow-group=CRx Agile Tools Support; elvh-apm-id=apm1080857; business-division=irx; app-support-dl=dl-BluePrintToolSupport@ingenio-rx.com; infra-env=production; ci-owner=AG45836; app-env=prod; apm-id=apm1080857; project_vulcan=true}
+identity         : @{principalId=eff3d3e1-72d0-4959-a0b2-1cab55db95e9; userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=SystemAssigned, UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080857-PLAT-TII03-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080857-MSSQL-PLT-01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080857-PLAT-TII03-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080857-PLT-APPVM-01
+name             : apm1080857-plt-appvm-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080857-plat-tii03-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=4/3/2025 5:51:24 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=ec18b834-c562-442d-ac9e-4674a2f47536; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; application-name=BLUEPRINT AZURE; workspace=azrapm1080857-prod; PatchGroup=default; company=CarelonRx (IngenioRx); elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=BLUEPRINT AZURE; elvh-app-support-dl=dl-BluePrintToolSupport@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; elvh-workspace=azrapm1080857-prod; elvh-ci-owner=AG45836; PatchWindow=default; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=APM1080857; app-support-dl=dl-BluePrintToolSupport@ingenio-rx.com; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-env=prod; infra-env=production; ci-owner=AG45836; apm-id=apm1080857}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080857-PLAT-TII03-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080857-PLT-APPVM-01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-DR-RG/providers/Microsoft.Compute/virtualMachines/apm1080857-tmp-pltdr-01
+name             : apm1080857-tmp-pltdr-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080858-plat-hu8hz-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/6/2025 2:29:59 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; vmId=ab45bab1-e3e1-4763-9e1b-fb0923a1c927; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=Qtest (IRx) AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1080858-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1080858; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1080858-dr; infra-env=plat; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; ci-owner=AG45836; app-env=prod; apm-id=apm1080858}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-DR-RG/providers/Microsoft.Compute/virtualMachines/apm1080857-tmp-pltdr-01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080858-plat-hu8hz-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080858-plt-app-dr-1
+name             : apm1080858-plt-app-dr-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080858-plat-hu8hz-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/8/2025 4:17:49 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; vmId=1d0a196d-422c-49bf-a67e-e9c4134e15e0; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=Qtest (IRx) AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1080858-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1080858; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1080858-dr; infra-env=plat; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; ci-owner=AG45836; app-env=prod; apm-id=apm1080858}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080858-plat-hu8hz-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1080858-plt-app-dr-1
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080858-APP-PLT-1
+name             : apm1080858-app-plt-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080858-plat-hu8hz-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/2/2025 2:59:29 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=18121dfe-e511-4e64-8c54-bb7ed33c2853; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; application-name=Qtest (IRx) AZURE; workspace=azrapm1080858-prod; PatchGroup=default; company=CarelonRx (IngenioRx); elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; elvh-workspace=azrapm1080858-prod; elvh-ci-owner=AG45836; PatchWindow=default; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=APM1080858; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-env=prod; infra-env=production; ci-owner=AG45836; apm-id=apm1080858}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080858-APP-PLT-1
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080858-TMP-PLT-01
+name             : apm1080858-tmp-plt-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080858-plat-hu8hz-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=5/6/2025 11:54:35 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=0c451b6c-dc9b-4b03-ac89-5cc55b9ca2d8; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; company=CarelonRx (IngenioRx); application-name=Qtest (IRx) AZURE; PatchGroup=default; workspace=azrapm1080858-prod; PatchWindow=default; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080858-prod; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1080858; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; infra-env=production; ci-owner=AG45836; app-env=prod; apm-id=apm1080858}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1080858-PLAT-HU8HZ-01-RG/providers/Microsoft.Compute/virtualMachines/APM1080858-TMP-PLT-01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1081527-01-dr-app
+name             : apm1081527-01-dr-app
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081527-plat-hzms8-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=7/4/2025 12:46:22 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; vmId=7ccabaae-1f5f-4551-a236-e92305ffacdb; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=IngenioRx Confluence (IRx) - AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1081527-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1081527; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1081527-dr; infra-env=plat; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; ci-owner=AG45836; app-env=prod; apm-id=apm1081527; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1081527-01-dr-app
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1081527-02-dr-app
+name             : apm1081527-02-dr-app
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081527-plat-hzms8-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=7/4/2025 12:46:21 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; vmId=164ff5e6-892d-47f6-bfb5-82291861abc0; diagnosticsProfile=; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; application-name=IngenioRx Confluence (IRx) - AZURE; elvh-costcenter=6590211000; elvh-workspace=azrapm1081527-dr; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=APM1081527; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchGroup=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; company=CarelonRx (IngenioRx); PatchWindow=default; workspace=azrapm1081527-dr; infra-env=plat; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; ci-owner=AG45836; app-env=prod; apm-id=apm1081527; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.Compute/virtualMachines/apm1081527-02-dr-app
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1081527-PLAT-HZMS8-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081527-01-PRD-APP
+name             : apm1081527-01-prd-app
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081527-plat-hzms8-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/30/2025 2:54:51 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=dc70b15f-b494-49e7-bb07-536981d32062; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; application-name=IngenioRx Confluence (IRx) - AZURE; workspace=azrapm1081527-prod; company=CarelonRx (IngenioRx); PatchGroup=default; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchWindow=default; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081527-prod; elvh-ci-owner=AG45836; app-servicenow-group=CRx Agile Tools Support; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; elvh-apm-id=APM1081527; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; infra-env=production; ci-owner=AG45836; app-env=prod; apm-id=apm1081527; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1081527-PLAT-HZMS8-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081527-01-PRD-APP
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1081527-PLAT-HZMS8-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081527-02-PRD-APP
+name             : apm1081527-02-prd-app
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081527-plat-hzms8-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=6/30/2025 2:54:51 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=677165ae-6c8b-4642-b1c5-8d5f0203ced5; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=6590211000; workspace=azrapm1081527-prod; company=CarelonRx (IngenioRx); application-name=IngenioRx Confluence (IRx) - AZURE; PatchGroup=default; PatchWindow=default; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-workspace=azrapm1081527-prod; elvh-infra-env=production; elvh-ci-owner=AG45836; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; provisioned-by=terraform-azurerm-linux-virtual-machine_0-0-7; elvh-apm-id=APM1081527; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; app-servicenow-group=CRx Agile Tools Support; business-division=irx; infra-env=production; apm-id=apm1081527; app-env=prod; ci-owner=AG45836; project_vulcan=true}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/APM1081527-PLAT-HZMS8-01-RG/providers/Microsoft.Compute/virtualMachines/APM1081527-02-PRD-APP
+
+id               : /subscriptions/14eb8fcc-ee00-4422-86b9-7f3612e87a99/resourceGroups/RG-EASTUS2-NETWORK-001/providers/Microsoft.Compute/virtualMachines/VAAZRFWINET11
+name             : vaazrfwinet11
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-eastus2-network-001
+subscriptionId   : 14eb8fcc-ee00-4422-86b9-7f3612e87a99
+managedBy        : 
+sku              : 
+plan             : @{publisher=paloaltonetworks; product=vmseries-flex; name=byol}
+properties       : @{provisioningState=Succeeded; timeCreated=10/4/2021 2:26:56 PM; storageProfile=; networkProfile=; hardwareProfile=; diagnosticsProfile=; osProfile=; extended=; vmId=de66d6d5-744d-4357-a8de-568712d894c7}
+tags             : @{PatchGroup=manual-patch; PatchWindow=manual-patch; elvh-apm-id=APM1081552; elvh-application-name=vpn-firewall; elvh-app-servicenow-group=security-firewall; elvh-app-support-dl=dl-FirewallAdmins@anthem.com; elvh-business-division=CORP; elvh-ci-owner=borthrb; elvh-company=Anthem; elvh-costcenter=6037137300; elvh-infra-env=Prod; elvh-app-env=Prod; elvh-workspace=manual-firewall-team}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/14eb8fcc-ee00-4422-86b9-7f3612e87a99/resourceGroups/RG-EASTUS2-NETWORK-001/providers/Microsoft.Compute/virtualMachines/VAAZRFWINET11
+
+id               : /subscriptions/14eb8fcc-ee00-4422-86b9-7f3612e87a99/resourceGroups/rg-eastus2-network-001/providers/Microsoft.Compute/virtualMachines/vaazrfwinet12
+name             : vaazrfwinet12
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-eastus2-network-001
+subscriptionId   : 14eb8fcc-ee00-4422-86b9-7f3612e87a99
+managedBy        : 
+sku              : 
+plan             : @{publisher=paloaltonetworks; product=vmseries-flex; name=byol}
+properties       : @{provisioningState=Succeeded; timeCreated=10/4/2021 2:20:00 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=b1f89826-c91a-485e-a4aa-986cea2632c3; extended=}
+tags             : @{elvh-app-servicenow-group=security-firewall; elvh-business-division=CORP; elvh-application-name=vpn-firewall; elvh-app-support-dl=dl-FirewallAdmins@anthem.com; PatchGroup=manual-patch; elvh-costcenter=6037137300; elvh-infra-env=Prod; elvh-workspace=manual-firewall-team; elvh-ci-owner=borthrb; elvh-company=Anthem; elvh-app-env=Prod; elvh-apm-id=APM1081552; PatchWindow=manual-patch}
+identity         : 
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/14eb8fcc-ee00-4422-86b9-7f3612e87a99/resourceGroups/rg-eastus2-network-001/providers/Microsoft.Compute/virtualMachines/vaazrfwinet12
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-dns-centralus/providers/Microsoft.Compute/virtualMachines/azu-cus-iee-dns-01
+name             : azu-cus-iee-dns-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : rg-iee-dns-centralus
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=infoblox; product=infoblox-nios-for-9_0_x-for-ddi; name=vgsot}
+properties       : @{provisioningState=Succeeded; timeCreated=2/19/2026 6:54:37 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=2e3d3a5b-ce4e-4785-95be-cc17d7678662; extended=}
+tags             : @{environment=prod; costcenter=5500508400; businessunit=EntShr; elvh-app-servicenow-group=DNS-DHCP Support; elvh-business-division=corp; elvh-application-name=Infoblox; elvh-app-support-dl=Anthem-DNS-F5-Support@kyndryl.com; elvh-costcenter=6590215400; elvh-workspace=azrapm1011480-prod; elvh-infra-env=production; PatchWindow=manual; elvh-ci-owner=aa71492; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1002007 ; PatchGroup=manual}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-dns-centralus/providers/Microsoft.Compute/virtualMachines/azu-cus-iee-dns-01
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-DNS-CENTRALUS/providers/Microsoft.Compute/virtualMachines/AZU-CUS-IEE-DNS-02
+name             : azu-cus-iee-dns-02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : rg-iee-dns-centralus
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=infoblox; product=infoblox-nios-for-9_0_x-for-ddi; name=vgsot}
+properties       : @{provisioningState=Updating; timeCreated=2/19/2026 7:24:18 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=a97ad5fc-faec-4242-b435-13dfa447b61a}
+tags             : @{environment=prod; costcenter=5500508400; businessunit=EntShr; PatchWindow=manual; PatchGroup=manual; elvh-app-servicenow-group=DNS-DHCP Support; elvh-business-division=corp; elvh-application-name=Infoblox; elvh-app-support-dl=Anthem-DNS-F5-Support@kyndryl.com; elvh-costcenter=6590215400; elvh-workspace=azrapm1011480-prod; elvh-infra-env=production; elvh-ci-owner=aa71492; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1002007 }
+identity         : 
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-DNS-CENTRALUS/providers/Microsoft.Compute/virtualMachines/AZU-CUS-IEE-DNS-02
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-dns-eastus2/providers/Microsoft.Compute/virtualMachines/azu-eu2-iee-dns-01
+name             : azu-eu2-iee-dns-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-dns-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=infoblox; product=infoblox-nios-for-9_0_x-for-ddi; name=vgsot}
+properties       : @{provisioningState=Succeeded; timeCreated=2/19/2026 6:14:17 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=b16ceb25-93d8-46a8-8bb5-b86788862f97; extended=}
+tags             : @{environment=prod; costcenter=5500508400; businessunit=EntShr; elvh-app-servicenow-group=DNS-DHCP Support; elvh-business-division=corp; elvh-application-name=Infoblox; elvh-app-support-dl=Anthem-DNS-F5-Support@kyndryl.com; elvh-costcenter=6590215400; elvh-workspace=azrapm1011480-prod; elvh-infra-env=production; PatchWindow=manual; elvh-ci-owner=aa71492; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1002007 ; PatchGroup=manual}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-dns-eastus2/providers/Microsoft.Compute/virtualMachines/azu-eu2-iee-dns-01
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-DNS-EASTUS2/providers/Microsoft.Compute/virtualMachines/AZU-EU2-IEE-DNS-02
+name             : azu-eu2-iee-dns-02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-dns-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=infoblox; product=infoblox-nios-for-9_0_x-for-ddi; name=vgsot-ni}
+properties       : @{provisioningState=Succeeded; timeCreated=2/19/2026 6:49:30 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; extended=; vmId=53aa9c5f-491f-4456-b291-19a38d38ff67}
+tags             : @{environment=prod; costcenter=5500508400; businessunit=EntShr; PatchWindow=manual; PatchGroup=manual; elvh-app-servicenow-group=DNS-DHCP Support; elvh-business-division=corp; elvh-application-name=Infoblox; elvh-app-support-dl=Anthem-DNS-F5-Support@kyndryl.com; elvh-costcenter=6590215400; elvh-infra-env=production; elvh-workspace=azrapm1011480-prod; elvh-ci-owner=aa71492; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1002007 }
+identity         : 
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-DNS-EASTUS2/providers/Microsoft.Compute/virtualMachines/AZU-EU2-IEE-DNS-02
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-PA1-EASTUS2/providers/Microsoft.Compute/virtualMachines/IEEAZRPAFW01
+name             : ieeazrpafw01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-pa1-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=paloaltonetworks; product=vmseries-flex; name=byol}
+properties       : @{provisioningState=Succeeded; timeCreated=2/19/2026 6:49:16 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; extended=; vmId=1571e9ae-800e-4b22-b967-dad22ebaa91d; availabilitySet=}
+tags             : @{DeploymentTag=panNGFWremh4u5a3hkvu}
+identity         : @{principalId=8299a335-9f75-4ca8-9f48-58227d7597db; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=SystemAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-PA1-EASTUS2/providers/Microsoft.Compute/virtualMachines/IEEAZRPAFW01
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-PA2-EASTUS2/providers/Microsoft.Compute/virtualMachines/IEEAZRPAFW02
+name             : ieeazrpafw02
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-pa2-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=paloaltonetworks; product=vmseries-flex; name=byol}
+properties       : @{provisioningState=Succeeded; timeCreated=2/19/2026 7:04:00 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; extended=; vmId=2466cc0b-10d9-494c-9ea0-d863444beddf; availabilitySet=}
+tags             : @{DeploymentTag=panNGFWqynh3zuqfbfgu}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-PA2-EASTUS2/providers/Microsoft.Compute/virtualMachines/IEEAZRPAFW02
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-centralus/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-centralus-1
+name             : gw-iee-sdwan-centralus-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : rg-iee-ss-network-centralus
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=cisco; product=cisco-c8000v-byol; name=17_15_04-byol}
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/20/2026 12:03:28 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=595e732c-457c-42e6-aa87-5359e920b10e; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{environment=Prod; costcenter=6590221900; fastpathenabled=true; compliance=none; application-name=Multi-Cloud SD-WAN; elvh-app-servicenow-group=Multi-Cloud Network Architecture and Engineering; elvh-business-division=corp; elvh-application-name=Azure Landing Zone; elvh-app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; elvh-costcenter=6590221900; elvh-workspace=lzssdev1-np01; elvh-infra-env=production; elvh-ci-owner=AG00683; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1011480; workspace=NA; app-servicenow-group=Multi-Cloud Network Architecture & Engineering; company=ANTM; business-division=Corporate; app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; patchgroup=Default; schedule-window=AlwaysOn; patchwindow=NoPatch; apm-id=APM1007529}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-centralus/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-centralus-1
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-centralus/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-centralus-2
+name             : gw-iee-sdwan-centralus-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : rg-iee-ss-network-centralus
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=cisco; product=cisco-c8000v-byol; name=17_15_04-byol}
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/20/2026 12:03:29 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=c6d336a2-a8ea-417f-acfc-0c76e0d385e7; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{environment=Prod; costcenter=6590221900; fastpathenabled=true; compliance=none; application-name=Multi-Cloud SD-WAN; elvh-app-servicenow-group=Multi-Cloud Network Architecture and Engineering; elvh-business-division=corp; elvh-application-name=Azure Landing Zone; elvh-app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; elvh-costcenter=6590221900; elvh-workspace=lzssdev1-np01; elvh-infra-env=production; elvh-ci-owner=AG00683; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1011480; workspace=NA; app-servicenow-group=Multi-Cloud Network Architecture & Engineering; company=ANTM; business-division=Corporate; app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; patchgroup=Default; schedule-window=AlwaysOn; patchwindow=NoPatch; apm-id=APM1007529}
+identity         : 
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-centralus/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-centralus-2
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-eastus2/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-eastus2-1
+name             : gw-iee-sdwan-eastus2-1
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-ss-network-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=cisco; product=cisco-c8000v-byol; name=17_15_04-byol}
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/19/2026 8:55:48 PM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=5db286b7-c564-459f-81d8-8be09d985d0c; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{environment=Prod; costcenter=6590221900; fastpathenabled=true; compliance=none; application-name=Multi-Cloud SD-WAN; elvh-app-servicenow-group=Multi-Cloud Network Architecture and Engineering; elvh-business-division=corp; elvh-application-name=Azure Landing Zone; elvh-app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; elvh-costcenter=6590221900; elvh-workspace=lzssdev1-np01; elvh-infra-env=production; elvh-ci-owner=AG00683; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1011480; workspace=NA; app-servicenow-group=Multi-Cloud Network Architecture & Engineering; company=ANTM; business-division=Corporate; app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; patchgroup=Default; schedule-window=AlwaysOn; patchwindow=NoPatch; apm-id=APM1007529}
+identity         : 
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/rg-iee-ss-network-eastus2/providers/Microsoft.Compute/virtualMachines/gw-iee-sdwan-eastus2-1
+
+id               : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-SS-NETWORK-EASTUS2/providers/Microsoft.Compute/virtualMachines/GW-IEE-SDWAN-EASTUS2-2
+name             : gw-iee-sdwan-eastus2-2
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : rg-iee-ss-network-eastus2
+subscriptionId   : 1dfa6006-1988-454e-b6c8-fe9dda71c3d5
+managedBy        : 
+sku              : 
+plan             : @{publisher=cisco; product=cisco-c8000v-byol; name=17_15_04-byol}
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=2/19/2026 10:02:17 PM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; diagnosticsProfile=; vmId=6e53caf3-8a46-4168-8126-2f52be529cee; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{environment=Prod; fastpathenabled=true; costcenter=6590221900; elvh-app-servicenow-group=Multi-Cloud Network Architecture and Engineering; elvh-business-division=corp; elvh-application-name=Azure Landing Zone; elvh-app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; elvh-costcenter=6590221900; elvh-workspace=lzssdev1-np01; elvh-infra-env=production; elvh-ci-owner=AG00683; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=APM1011480; application-name=Multi-Cloud SD-WAN; workspace=NA; compliance=none; company=ANTM; patchwindow=NoPatch; app-servicenow-group=Multi-Cloud Network Architecture & Engineering; business-division=Corporate; app-support-dl=dl-cloudnetworkarchitectureteam@anthem.com; apm-id=APM1007529; patchgroup=Default; schedule-window=AlwaysOn}
+identity         : 
+zones            : {2}
+extendedLocation : 
+ResourceId       : /subscriptions/1dfa6006-1988-454e-b6c8-fe9dda71c3d5/resourceGroups/RG-IEE-SS-NETWORK-EASTUS2/providers/Microsoft.Compute/virtualMachines/GW-IEE-SDWAN-EASTUS2-2
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GD-EU2-00
+name             : vm-uma-api-gd-eu2-00
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/25/2025 10:26:23 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=d257307c-16ae-4221-8033-7f3f8ab53beb; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; PatchGroup=default; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-np02dev; elvh-infra-env=test; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001745; company=Anthem; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; workspace=azrapm1001745-np02dev; PatchWindow=default; app-servicenow-group=GBD-CM-ClinicalSystems-UM; business-division=dig; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; infra-env=gld; ci-owner=AC88324; app-env=development; apm-id=apm1001745; vm-role=api; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GD-EU2-00
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GD-EU2-01
+name             : vm-uma-api-gd-eu2-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/25/2025 10:26:23 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=acd569ef-7f16-467c-9783-479d4b693cd2; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; application-name=GBD Facets Utilization Management Authorizations (UMAU); company=Anthem; PatchGroup=default; workspace=azrapm1001745-np02dev; PatchWindow=default; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-costcenter=5501885700; elvh-infra-env=test; elvh-workspace=azrapm1001745-np02dev; business-division=dig; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=test; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-apm-id=apm1001745; infra-env=gld; ci-owner=AC88324; app-env=development; apm-id=apm1001745; vm-role=api; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GD-EU2-01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GU-EU2-00
+name             : vm-uma-api-gu-eu2-00
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/26/2025 10:57:02 AM; networkProfile=; storageProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=5cb7c9dc-2930-46be-a6f4-e6337136c58c; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; company=Anthem; application-name=GBD Facets Utilization Management Authorizations (UMAU); PatchGroup=default; PatchWindow=default; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; workspace=azrapm1001745-np02; infra-env=gld; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-np02; elvh-infra-env=test; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=APM1001745; app-servicenow-group=GBD-CM-ClinicalSystems-UM; business-division=dig; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; ci-owner=AC88324; app-env=test; apm-id=apm1001745; vm-role=api; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GU-EU2-00
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GU-EU2-01
+name             : vm-uma-api-gu-eu2-01
+type             : microsoft.compute/virtualmachines
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{provisioningState=Succeeded; priority=Regular; timeCreated=3/26/2025 10:57:01 AM; storageProfile=; networkProfile=; hardwareProfile=; osProfile=; licenseType=Windows_Server; diagnosticsProfile=; vmId=88550ea7-df66-417b-ab08-d2395da118c5; extended=; extensionsTimeBudget=PT1H30M}
+tags             : @{costcenter=5501885700; application-name=GBD Facets Utilization Management Authorizations (UMAU); company=Anthem; PatchGroup=default; workspace=azrapm1001745-np02; PatchWindow=default; elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; provisioned-by=terraform-azurerm-windows-virtual-machine_0-0-5; app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-costcenter=5501885700; elvh-infra-env=test; elvh-workspace=azrapm1001745-np02; business-division=dig; elvh-ci-owner=AC88324; elvh-company=Anthem; elvh-app-env=test; app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-apm-id=APM1001745; infra-env=gld; ci-owner=AC88324; app-env=test; apm-id=apm1001745; vm-role=api; vm-os=windows}
+identity         : @{userAssignedIdentities=; type=UserAssigned}
+zones            : {1}
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/APM1001745-GLD-KTYT5-01-RG/providers/Microsoft.Compute/virtualMachines/VM-UMA-API-GU-EU2-01
+

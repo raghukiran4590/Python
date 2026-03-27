@@ -1,0 +1,596 @@
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00prd01
+name             : zmysql-apm1080852-00prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080852-plat-8krpr-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080852-00prd01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-EEE Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; costcenter=5212032600; elvh-costcenter=5212032600; elvh-workspace=azrapm1080852-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; created-by=AN161059AD@us.ad.wellpoint.com; elvh-apm-id=apm1080852; application-name=PS-ES-EEE Domain Azure; workspace=azrapm1080852-db-prod; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=plat; ci-owner=AF85271; app-env=prod; apm-id=apm1080852; project_vulcan=true; application_tag2=DIG; application_tag5=MySQL; application_tag4=member; application_tag3=production; application_tag1=EEE; bcp-tier=Tier-84; database-platform=mysqlServer; database-platform-name=zmysql-apm1080852-00prd01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0200; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080852-plat-8krpr-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-90prd01
+name             : zmysql-apm1081073-90prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081073-plat-2z3e0-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D32ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-90prd01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=Replica; replicaCapacity=0; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; costcenter=6590189800; elvh-costcenter=6590189800; elvh-workspace=azrapm1081073-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081073; app-servicenow-group=Student Advantage Enroll DevOps Support; application-name=Student Advantage Enroll - AZURE; business-division=dig; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; PatchWindow=default; created-by=AN619474AD; PatchGroup=default; workspace=azrapm1081073-db-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081073; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1081073-90prd01; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; application_tag1=app-tag1; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01
+name             : zmysql-apm1081073-00prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081073-plat-2z3e0-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D32ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00prd01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=Source; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=production; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-workspace=azrapm1081073-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081073; costcenter=6590189800; app-servicenow-group=Student Advantage Enroll DevOps Support; application-name=Student Advantage Enroll - AZURE; business-division=dig; created-by=AN619474AD; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081073-db-prod; infra-env=production; ci-owner=AF85271; company=Anthem; app-env=prod; apm-id=apm1081073; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081073-00prd01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081073-plat-2z3e0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-14
+name             : zmysql-apm1081073-00per01-rubrik-clone-2026-03-14
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082484-plat-6yhgg-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=1; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00per01-rubrik-clone-2026-03-14.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=prod; elvh-app-servicenow-group=Rubrik Cloud Support; elvh-business-division=gbd; elvh-application-name=Rubrik - Exo - ElevanceHeath AZURE - GBD; elvh-app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; elvh-costcenter=6590221900; elvh-infra-env=prod; elvh-workspace=cyber resiliancy automation; elvh-ci-owner=AG23865; costcenter=6590221900; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081511; app-servicenow-group=Rubrik Cloud Support; application-name=Rubrik - Exo - ElevanceHeath AZURE; business-division=GBD; app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; PatchWindow=Default; created-by=cyber resiliancy automation; PatchGroup=Default; workspace=cyber resiliancy automation; infra-env=plat; ci-owner=AG23865; company=Anthem; app-env=prod; apm-id=apm1081511; prepatch-snapshot-flag=N; date_created=2026-03-14; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; bcp-tier=Tier-84; source_server_id=/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-14
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-15
+name             : zmysql-apm1081073-00per01-rubrik-clone-2026-03-15
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082484-plat-6yhgg-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00per01-rubrik-clone-2026-03-15.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=prod; elvh-app-servicenow-group=Rubrik Cloud Support; elvh-business-division=gbd; elvh-application-name=Rubrik - Exo - ElevanceHeath AZURE - GBD; elvh-app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; elvh-costcenter=6590221900; elvh-workspace=cyber resiliancy automation; elvh-infra-env=prod; elvh-ci-owner=AG23865; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081511; costcenter=6590221900; app-servicenow-group=Rubrik Cloud Support; application-name=Rubrik - Exo - ElevanceHeath AZURE; business-division=GBD; created-by=cyber resiliancy automation; app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; PatchWindow=Default; PatchGroup=Default; workspace=cyber resiliancy automation; infra-env=plat; ci-owner=AG23865; company=Anthem; app-env=prod; apm-id=apm1081511; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; bcp-tier=Tier-84; date_created=2026-03-15; source_server_id=/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-15
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-16
+name             : zmysql-apm1081073-00per01-rubrik-clone-2026-03-16
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082484-plat-6yhgg-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00per01-rubrik-clone-2026-03-16.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=prod; elvh-app-servicenow-group=Rubrik Cloud Support; elvh-business-division=gbd; elvh-application-name=Rubrik - Exo - ElevanceHeath AZURE - GBD; elvh-app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; costcenter=6590221900; elvh-costcenter=6590221900; elvh-workspace=cyber resiliancy automation; elvh-infra-env=prod; elvh-ci-owner=AG23865; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=APM1081511; app-servicenow-group=Rubrik Cloud Support; application-name=Rubrik - Exo - ElevanceHeath AZURE; business-division=GBD; app-support-dl=DL-RubrikCloudSupport@elevancehealth.com; PatchWindow=Default; created-by=cyber resiliancy automation; PatchGroup=Default; workspace=cyber resiliancy automation; infra-env=plat; ci-owner=AG23865; company=Anthem; app-env=prod; apm-id=apm1081511; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; date_created=2026-03-16; bcp-tier=Tier-84; source_server_id=/subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1082484-plat-6yhgg-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01-rubrik-clone-2026-03-16
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-90prd01
+name             : zmysql-apm1080854-90prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080854-plat-lrvk9-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_E2ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080854-90prd01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=Replica; replicaCapacity=0; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=Ingenio Rx Digital SOA API Support; elvh-business-division=irx; application-name=CarelonRx Developer Portal AZURE; elvh-application-name=CarelonRx Developer Portal AZURE; elvh-app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; elvh-costcenter=6590211000; created-by=AN295663AD; elvh-infra-env=production; elvh-workspace=azrapm1080854-db-prod; elvh-ci-owner=AG74055; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=apm1080854; app-servicenow-group=Ingenio Rx Digital SOA API Support; business-division=irx; PatchGroup=default; app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; PatchWindow=default; workspace=azrapm1080854-db-prod; company=CarelonRx (IngenioRx); infra-env=production; ci-owner=AG74055; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.9; app-env=prod; apm-id=apm1080854; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1080854-90prd01; db-patch-time-window=Sunday 0500; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag3=app-tag3; application_tag5=app-tag5; application_tag1=DR; application_tag4=app-tag4; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-83}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01
+name             : zmysql-apm1080854-00prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080854-plat-lrvk9-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_E2ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080854-00prd01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=Source; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=Ingenio Rx Digital SOA API Support; elvh-business-division=irx; application-name=CarelonRx Developer Portal AZURE; elvh-application-name=CarelonRx Developer Portal AZURE; elvh-app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; elvh-costcenter=6590211000; created-by=Mukund.Bajaj@elevancehealth.com; elvh-infra-env=production; elvh-workspace=azrapm1080854-db-prod; elvh-ci-owner=AG74055; elvh-company=CarelonRx (IngenioRx); elvh-app-env=prod; elvh-apm-id=apm1080854; app-servicenow-group=Ingenio Rx Digital SOA API Support; business-division=irx; PatchGroup=default; app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; PatchWindow=default; workspace=azrapm1080854-db-prod; company=CarelonRx (IngenioRx); infra-env=production; ci-owner=AG74055; app-env=prod; apm-id=apm1080854; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1080854-00prd01; db-patch-time-window=Sunday 0300; db-patch-schedule=M01W2; database-platform=mysqlServer; application_tag3=app-tag3; application_tag5=app-tag5; application_tag1=PROD; application_tag4=app-tag4; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-83}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080854-plat-lrvk9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00prd01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00per01
+name             : zmysql-apm1080852-00per01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080852-gld-x7g9b-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080852-00per01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=10; replicationRole=None; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=performance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-EEE Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1080852-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1080852; company=Anthem; application-name=PS-ES-EEE Domain Azure; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchWindow=default; PatchGroup=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=test; workspace=azrapm1080852-db-np02; ci-owner=AF85271; app-env=test; apm-id=apm1080852; created-by=AN571972AD@us.ad.wellpoint.com; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1080852-00per01; application_tag1=EEE; application_tag4=app-tag4; application_tag2=DIG; application_tag3=performance; application_tag5=app-tag5; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=mysqlServer; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00uat01
+name             : zmysql-apm1080852-00uat01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080852-gld-x7g9b-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080852-00uat01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; backup=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=user_acceptance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-EEE Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1080852-db-np02; elvh-infra-env=test; elvh-ci-owner=AF85271; application-name=PS-ES-EEE Domain Azure; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1080852; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchGroup=default; created-by=AN161059AD@us.ad.wellpoint.com; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; company=Anthem; workspace=azrapm1080852-db-np02; infra-env=test; ci-owner=AF85271; app-env=test; apm-id=apm1080852; project_vulcan=true; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=EEE; application_tag2=DIG; application_tag3=user_acceptance; database-platform-name=zmysql-apm1080852-00uat01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=mysqlServer; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080852-gld-x7g9b-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01
+name             : zmysql-apm1081073-00per01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081073-gld-q2b1c-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_D8ads_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00per01.mysql.database.azure.com; administratorLogin=elvsysdba; backup=; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=performance; costcenter=6590189800; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-infra-env=test; elvh-workspace=azrapm1081073-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=APM1081073; app-servicenow-group=Student Advantage Enroll DevOps Support; application-name=Student Advantage Enroll - AZURE; business-division=dig; app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081073-db-np02; infra-env=test; ci-owner=AF85271; company=Anthem; app-env=test; project_vulcan=true; created-by=AN619474AD; apm-id=apm1081073; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081073-00per01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; application_tag4=app-tag4; db-patch-schedule=M00W0; database-platform=mysqlServer; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081073-gld-q2b1c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01
+name             : zmysql-apm1081266-00per01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081266-gld-t91t9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E64ads_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081266-00per01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=10; replicationRole=None; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=performance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081266-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081266; company=Anthem; application-name=Benefits Modernization - BenefitX - AZURE; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; PatchWindow=default; PatchGroup=default; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; infra-env=test; workspace=azrapm1081266-db-np02; ci-owner=AF85271; app-env=test; apm-id=apm1081266; created-by=AN619474AD; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081266-00per01; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=mysqlServer; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01
+name             : zmysql-apm1081266-00uat01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081266-gld-t91t9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E48ads_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081266-00uat01.mysql.database.azure.com; administratorLogin=elvsysdba; backup=; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=user_acceptance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081266-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1081266; app-servicenow-group=Digital 10x Engineering Support; application-name=Benefits Modernization - BenefitX - AZURE; business-division=dig; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081266-db-np02; infra-env=test; ci-owner=AF85271; company=Anthem; app-env=test; project_vulcan=true; created-by=AN619474AD; apm-id=apm1081266; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081266-00uat01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag5=app-tag5; application_tag3=app-tag3; application_tag4=app-tag4; db-patch-schedule=M00W0; database-platform=mysqlServer; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081266-gld-t91t9-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00uat01
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1011819-00dev01
+name             : zmysql-apm1011819-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1011819-slvr-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zmysql-apm1011819-00dev01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; backup=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=development; elvh-app-servicenow-group=data monitoring protection; elvh-business-division=corp; elvh-application-name=sonar; elvh-app-support-dl=dl-dam_ops@anthem.com; elvh-costcenter=6590330000; elvh-infra-env=slvr; elvh-workspace=azrapm1011819-dam-np01; elvh-ci-owner=AD97263; elvh-app-env=development; elvh-company=Anthem; elvh-apm-id=apm1011819; costcenter=6590330000; application-name=sonar; app-servicenow-group=data monitoring protection; PatchWindow=Default; business-division=corp; app-support-dl=dl-dam_ops@anthem.com
+                   ; PatchGroup=Default; company=ElevanceHealth; workspace=azrapm1011819-dam-np01; infra-env=slvr; ci-owner=AD97263; app-env=development; apm-id=apm1011819; created-by=Pavani; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1011819-00dev01; database-platform=mysqlServer; db-patch-schedule=M00W0; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag4=app-tag4; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1011819-00dev01
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00uat01
+name             : zmysql-apm1082070-00uat01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082070-gld-2b73t-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zmysql-apm1082070-00uat01.mysql.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; backup=; maintenancePolicy=; databasePort=3306; network=; fullVersion=8.0.42; dataEncryption=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=SBI IT Support; elvh-business-division=gbd; elvh-application-name=SmartOps Dedicated AKS Cluster; elvh-app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; elvh-costcenter=6590335500; elvh-infra-env=test; elvh-workspace=azrapm1082070-db-np02; app-servicenow-group=SBI IT Support; elvh-ci-owner=KICHLJS; elvh-app-env=test; elvh-company=Anthem; application-name=SmartOps Dedicated AKS Cluster; costcenter=6590335500; business-division=gbd; elvh-apm-id=apm1082070; app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1082070-db-np02; infra-env=gld; ci-owner=KICHLJS; company=Anthem; app-env=user_acceptance; created-by=AN627805AD; apm-id=apm1082070; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1082070-00uat01; db-patch-schedule=M00W0; database-platform=mysqlServer; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.9; application_tag1=SmartOps Dedicated AKS Cluster; application_tag5=UAT; application_tag3=DL-SBIHPMS-Developers@elevancehealth.com; application_tag2=Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com; application_tag4=apm1082070; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1082070-gld-2b73t-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00uat01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00sit01
+name             : zmysql-apm1080854-00sit01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080854-slvr-mk74c-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_E2ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1080854-00sit01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; elvh-app-servicenow-group=Ingenio Rx Digital SOA API Support; elvh-business-division=irx; elvh-application-name=CarelonRx Developer Portal AZURE; elvh-app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1080854-db-np01; elvh-ci-owner=AG74055; elvh-company=CarelonRx (IngenioRx); elvh-app-env=dev; elvh-apm-id=apm1080854; costcenter=6590211000; PatchGroup=default; company=CarelonRx (IngenioRx); created-by=s.udayakumar@elevancehealth.com; application-name=CarelonRx Developer Portal AZURE; PatchWindow=default; app-servicenow-group=Ingenio Rx Digital SOA API Support; business-division=irx; app-support-dl=dl-IRxAPIGeeks@ingenio-rx.com; workspace=azrapm1080854-db-np01; infra-env=slvr; project_vulcan=true; ci-owner=AG74055; app-env=integration; apm-id=apm1080854; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-85; database-platform=mysqlServer; database-platform-name=zmysql-apm1080854-00sit01; database-state=Active; db-patch-schedule=M01W2; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080854-slvr-mk74c-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080854-00sit01
+
+id               : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082127-00per01
+name             : zmysql-apm1082127-00per01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082127-gld-k7ww5-01-rg
+subscriptionId   : 72a586e4-671d-48ac-aa5a-c85c81f38f81
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=1; storage=; fullyQualifiedDomainName=zmysql-apm1082127-00per01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; backup=; highAvailability=; replicationRole=None; replicaCapacity=10; network=; dataEncryption=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=performance; costcenter=6590197400; created-by=AN182553AD; application-name=Smartops CSBD - Azure; company=Anthem; elvh-app-servicenow-group=ENTERPRISE PRODUCT SUPPORT; elvh-business-division=csbd; elvh-application-name=Smartops CSBD - Azure; PatchWindow=default; elvh-app-support-dl=dl-jaa-smartops-support@anthem.com; elvh-costcenter=6590197400; PatchGroup=default; elvh-workspace=azrapm1082127-db-np02; elvh-infra-env=test; elvh-ci-owner=AC03806; app-servicenow-group=ENTERPRISE PRODUCT SUPPORT; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1082127; business-division=csbd; workspace=azrapm1082127-db-np02; app-support-dl=dl-jaa-smartops-support@anthem.com; infra-env=test; ci-owner=AC03806; app-env=testing; apm-id=apm1082127; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1082127-00per01; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag3=Naushad.Lal@elevancehealth.com; application_tag4=apm1082127; application_tag1=SmartOps; application_tag5=Kennedy, Adam; application_tag2=Naushad Lal S (AM61441); database-state=Active; bcp-tier=Tier-81; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.8}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1082127-gld-k7ww5-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082127-00per01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-90prd01
+name             : zmysql-apm1082070-90prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1082070-plat-betc0-01-dr-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; maintenanceWindow=; fullyQualifiedDomainName=zmysql-apm1082070-90prd01.mysql.database.azure.com; administratorLogin=elvhadmin; highAvailability=; replicationRole=Replica; replicaCapacity=0; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42; sourceServerResourceId=/subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=SBI IT Support; elvh-business-division=gbd; elvh-application-name=SmartOps Dedicated AKS Cluster; elvh-app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; costcenter=6590335500; elvh-costcenter=6590335500; elvh-workspace=azrapm1082070-db-prod; elvh-infra-env=production; app-servicenow-group=SBI IT Support; elvh-ci-owner=KICHLJS; elvh-app-env=prod; elvh-company=Anthem; business-division=gbd; application-name=apm1082070; elvh-apm-id=apm1082070; app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1082070-db-prod; infra-env=plat; ci-owner=KICHLJS; company=Anthem; app-env=production; apm-id=apm1082070; created-by=automated; prepatch-snapshot-flag=N; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.9; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zmysql-apm1082070-90prd01; database-platform=mysqlServer; application_tag2=Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com; application_tag5=app-tag5; application_tag3=DL-SBIHPMS-Developers@elevancehealth.com; application_tag1=SmartOps Dedicated AKS Cluster; application_tag4=apm1082070; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-90prd01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01
+name             : zmysql-apm1082070-00prd01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082070-plat-betc0-01-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; maintenanceWindow=; fullyQualifiedDomainName=zmysql-apm1082070-00prd01.mysql.database.azure.com; administratorLogin=elvhadmin; highAvailability=; replicationRole=Source; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=production; elvh-app-servicenow-group=SBI IT Support; elvh-business-division=gbd; elvh-application-name=SmartOps Dedicated AKS Cluster; elvh-app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; costcenter=6590335500; elvh-costcenter=6590335500; elvh-workspace=azrapm1082070-db-prod; elvh-infra-env=production; app-servicenow-group=SBI IT Support; elvh-ci-owner=KICHLJS; elvh-app-env=prod; elvh-company=Anthem; business-division=gbd; application-name=apm1082070; elvh-apm-id=apm1082070; app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1082070-db-prod; infra-env=plat; ci-owner=KICHLJS; company=Anthem; app-env=production; apm-id=apm1082070; created-by=automated; prepatch-snapshot-flag=N; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.9; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zmysql-apm1082070-00prd01; database-platform=mysqlServer; application_tag2=Priyal.Patel@wellpoint.com Kaveri.Anil@elevancehealth.com; application_tag5=app-tag5; application_tag3=DL-SBIHPMS-Developers@elevancehealth.com; application_tag1=SmartOps Dedicated AKS Cluster; application_tag4=apm1082070; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1082070-plat-betc0-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00prd01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00dev01
+name             : zmysql-apm1080852-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080852-slvr-wvzuc-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; fullyQualifiedDomainName=zmysql-apm1080852-00dev01.mysql.database.azure.com; storage=; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; maintenancePolicy=; network=; dataEncryption=; databasePort=3306; fullVersion=8.0.42; backup=}
+tags             : @{environment=development; elvh-app-servicenow-group=IAS SUPPORT; costcenter=5212032600; elvh-business-division=dig; elvh-application-name=PS-ES-EEE Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1080852-db-np01; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; created-by=AN571972AD@us.ad.wellpoint.com; elvh-apm-id=apm1080852; application-name=PS-ES-EEE Domain Azure; workspace=azrapm1080852-db-np01; PatchWindow=default; PatchGroup=default; company=Anthem; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1080852; project_vulcan=true; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=mysqlServer; database-platform-name=zmysql-apm1080852-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; application_tag1=EEE; application_tag2=DIG; application_tag3=development}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080852-slvr-wvzuc-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1080852-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00dev01
+name             : zmysql-apm1081073-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081073-slvr-zk46d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00dev01.mysql.database.azure.com; maintenanceWindow=; administratorLogin=elvsysdba; highAvailability=; replicaCapacity=10; replicationRole=None; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=development; costcenter=6590189800; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-workspace=azrapm1081073-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=APM1081073; created-by=AN619474AD; application-name=Student Advantage Enroll (Edept) - AZURE; company=Anthem; PatchWindow=default; workspace=azrapm1081073-db-np01; app-servicenow-group=Student Advantage Enroll DevOps Support; PatchGroup=default; business-division=dig; app-support-dl=baiju.nair@elevancehealth.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081073; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=mysqlServer; database-platform-name=zmysql-apm1081073-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00sit01
+name             : zmysql-apm1081073-00sit01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081073-slvr-zk46d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081073-00sit01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; backup=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; elvh-app-servicenow-group=Sydney Enterprise DevOps Support; created-by=AN619474AD; elvh-business-division=dig; elvh-application-name=Student Advantage Enroll - AZURE; costcenter=6590189800; elvh-app-support-dl=dl-SydEnt-Optimizers@elevancehealth.com; elvh-costcenter=6590189800; elvh-workspace=azrapm1081073-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=APM1081073; application-name=Student Advantage Enroll (Edept) - AZURE; workspace=azrapm1081073-db-np01; company=Anthem; PatchWindow=default; PatchGroup=default; app-servicenow-group=Student Advantage Enroll DevOps Support; business-division=dig; app-support-dl=baiju.nair@elevancehealth.com; project_vulcan=true; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081073; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081073-00sit01; db-patch-time-window=Sunday 0100; database-platform=mysqlServer; db-patch-schedule=M00W0; application_tag4=app-tag4; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081073-slvr-zk46d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081073-00sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081111-00dev01
+name             : zmysql-apm1081111-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081111-slvr-ktm08-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_E16ads_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081111-00dev01.mysql.database.azure.com; maintenanceWindow=; administratorLogin=elvsysdba; highAvailability=; replicaCapacity=10; replicationRole=None; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=development; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Governing Unified Repository Utility AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1081111-db-np01; elvh-infra-env=development; elvh-ci-owner=AC04130; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081111; created-by=AM51100; application-name=Governing Unified Repository Utility AZURE; workspace=azrapm1081111-db-np01; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AC04130; app-env=dev; apm-id=apm1081111; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=mysqlServer; database-platform-name=zmysql-apm1081111-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081111-slvr-ktm08-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081111-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02
+name             : zmysql-apm1081266-00sit02
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081266-slvr-miqyj-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_E16ads_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.0.21; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081266-00sit02.mysql.database.azure.com; maintenanceWindow=; administratorLogin=elvsysdba; highAvailability=; replicaCapacity=10; replicationRole=None; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=Benefits Modernization - BenefitX - AZURE; elvh-app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1081266-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081266; created-by=AN619474AD; application-name=Benefits Modernization - Experience Data Platform - AZURE; company=Anthem; PatchWindow=default; workspace=azrapm1081266-db-np01; PatchGroup=default; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-10xe-benefits-lo@elevancehealth.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081266; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081266-00sit02; db-patch-time-window=Sunday 0100; database-platform=mysqlServer; db-patch-schedule=M00W0; application_tag4=app-tag4; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081266-slvr-miqyj-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081266-00sit02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev01
+name             : zmysql-apm1081762-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D64ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=8.0.21; state=Ready; privateEndpointConnections=System.Object[]; storage=; availabilityZone=3; fullyQualifiedDomainName=zmysql-apm1081762-00dev01.mysql.database.azure.com; administratorLogin=elvsysdba; fullVersion=8.0.42; maintenanceWindow=; replicationRole=None; replicaCapacity=10; network=; backup=; highAvailability=; dataEncryption=; maintenancePolicy=; databasePort=3306}
+tags             : @{elvh-app-servicenow-group=API and Microservices Support; elvh-business-division=dig; elvh-application-name=Experience Data Platform - AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081762-db-np01; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081762; environment=development; app-servicenow-group=API and Microservices Support; business-division=dig; application-name=Experience Data Platform - AZURE; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; costcenter=5212032600; company=Anthem; workspace=azrapm1081762-db-np01; PatchGroup=default; infra-env=development; ci-owner=AF85271; created-by=AN535796AD; app-env=development; apm-id=apm1081762; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-state=Active; database-platform-name=zmysql-apm1081762-00dev01; database-platform=mysqlServer; bcp-tier=Tier-82; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1}
+identity         : @{userAssignedIdentities=; principalId=00000000-0000-0000-0000-000000000000; type=UserAssigned; tenantId=00000000-0000-0000-0000-000000000000}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev02
+name             : zmysql-apm1081762-00dev02
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081762-00dev02.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=development; application-name=Experience Data Platform - AZURE; costcenter=5212032600; elvh-app-servicenow-group=API and Microservices Support; elvh-business-division=dig; created-by=AN535796AD; elvh-application-name=Experience Data Platform - AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081762-db-np01; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081762; workspace=azrapm1081762-db-np01; company=Anthem; PatchWindow=default; PatchGroup=default; app-servicenow-group=API and Microservices Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1081762; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-82; database-platform=mysqlServer; database-platform-name=zmysql-apm1081762-00dev02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00dev02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit01
+name             : zmysql-apm1081762-00sit01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081762-00sit01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; costcenter=5212032600; created-by=AN535796AD; elvh-app-servicenow-group=API and Microservices Support; elvh-business-division=dig; elvh-application-name=Experience Data Platform - AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081762-db-np01; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081762; application-name=Experience Data Platform - AZURE; company=Anthem; PatchGroup=default; PatchWindow=default; workspace=azrapm1081762-db-np01; app-servicenow-group=API and Microservices Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1081762; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-82; database-platform=mysqlServer; database-platform-name=zmysql-apm1081762-00sit01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit02
+name             : zmysql-apm1081762-00sit02
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1081762-00sit02.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; elvh-app-servicenow-group=API and Microservices Support; costcenter=5212032600; elvh-business-division=dig; elvh-application-name=Experience Data Platform - AZURE; created-by=AN535796AD; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081762-db-np01; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081762; application-name=Experience Data Platform - AZURE; PatchWindow=default; workspace=azrapm1081762-db-np01; company=Anthem; PatchGroup=default; app-servicenow-group=API and Microservices Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1081762; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-82; database-platform=mysqlServer; database-platform-name=zmysql-apm1081762-00sit02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit03
+name             : zmysql-apm1081762-00sit03
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; fullyQualifiedDomainName=zmysql-apm1081762-00sit03.mysql.database.azure.com; storage=; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=integration; costcenter=5212032600; elvh-app-servicenow-group=API and Microservices Support; elvh-business-division=dig; elvh-application-name=Experience Data Platform - AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; created-by=AN535796AD; elvh-costcenter=5212032600; elvh-infra-env=development; elvh-workspace=azrapm1081762-db-np01; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081762; PatchWindow=default; application-name=Experience Data Platform - AZURE; workspace=azrapm1081762-db-np01; company=Anthem; app-servicenow-group=API and Microservices Support; PatchGroup=default; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1081762; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1081762-00sit03; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag4=app-tag4; application_tag5=app-tag5; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-82}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1081762-00sit03
+
+id               : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-90prd05
+name             : zmysql-apm1009165-90prd05
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1009165-plat-pyw8i-01-dr-rg
+subscriptionId   : ada453e0-81b7-4edd-89d9-b650585a7b0d
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1009165-90prd05.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; backup=; highAvailability=; replicationRole=Replica; replicaCapacity=0; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42; sourceServerResourceId=/subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd05}
+tags             : @{environment=production; application-name=CloudDBA; costcenter=6590215400; elvh-app-servicenow-group=AWS Cloud DB Fulfillment; elvh-business-division=corp; elvh-application-name=CloudDBA; elvh-app-support-dl=dl-cloud-db-fulfillment@anthem.com; app-servicenow-group=AWS Cloud DB Fulfillment; workspace=azrapm1009165-db-prod; elvh-costcenter=6590215400; elvh-infra-env=production; elvh-workspace=azrapm1009165-db-prod; business-division=corp; elvh-ci-owner=AG29970; elvh-company=Anthem; elvh-app-env=prod; created-by=AN813121AD; elvh-apm-id=apm1009165; app-support-dl=dl-cloud-db-fulfillment@anthem.com; PatchWindow=default; PatchGroup=default; company=Anthem; infra-env=plat; ci-owner=AG29970; app-env=production; apm-id=apm1009165; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.6; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1009165-90prd05; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-dr-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-90prd05
+
+id               : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd05
+name             : zmysql-apm1009165-00prd05
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1009165-plat-pyw8i-01-rg
+subscriptionId   : ada453e0-81b7-4edd-89d9-b650585a7b0d
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zmysql-apm1009165-00prd05.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; backup=; highAvailability=; replicationRole=Source; replicaCapacity=10; dataEncryption=; network=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=production; application-name=CloudDBA; costcenter=6590215400; elvh-app-servicenow-group=AWS Cloud DB Fulfillment; elvh-business-division=corp; elvh-application-name=CloudDBA; elvh-app-support-dl=dl-cloud-db-fulfillment@anthem.com; app-servicenow-group=AWS Cloud DB Fulfillment; workspace=azrapm1009165-db-prod; elvh-costcenter=6590215400; elvh-infra-env=production; elvh-workspace=azrapm1009165-db-prod; business-division=corp; elvh-ci-owner=AG29970; elvh-company=Anthem; elvh-app-env=prod; created-by=AN637130AD; elvh-apm-id=apm1009165; app-support-dl=dl-cloud-db-fulfillment@anthem.com; PatchWindow=default; PatchGroup=default; company=Anthem; infra-env=plat; ci-owner=AG29970; app-env=production; apm-id=apm1009165; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.6; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zmysql-apm1009165-00prd05; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/ada453e0-81b7-4edd-89d9-b650585a7b0d/resourceGroups/apm1009165-plat-pyw8i-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1009165-00prd05
+
+id               : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev01
+name             : zmysql-apm1082070-00dev01
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1082070-slvr-wmdvt-01-rg
+subscriptionId   : f3d26a3b-0b31-4223-94ea-9683f2fd5af7
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=8.0.21; state=Ready; availabilityZone=1; storage=; fullyQualifiedDomainName=zmysql-apm1082070-00dev01.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.0.42}
+tags             : @{environment=development; costcenter=6590335500; elvh-app-servicenow-group=SBI IT Support; elvh-business-division=gbd; elvh-application-name=SmartOps Dedicated AKS Cluster; elvh-app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; elvh-costcenter=6590335500; elvh-workspace=azrapm1082070-db-np01; elvh-infra-env=development; elvh-ci-owner=KICHLJS; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1082070; created-by=automated; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.8; application-name=SmartOps Dedicated AKS Cluster; company=Anthem; workspace=azrapm1082070-db-np01; PatchGroup=default; PatchWindow=default; app-servicenow-group=SBI IT Support; business-division=gbd; app-support-dl=dl-SBI-Scrummy-Bears@anthem.com; infra-env=development; ci-owner=KICHLJS; app-env=development; apm-id=apm1082070; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=mysqlServer; database-platform-name=zmysql-apm1082070-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev01
+
+id               : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev02
+name             : zmysql-apm1082070-00dev02
+type             : microsoft.dbformysql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1082070-slvr-wmdvt-01-rg
+subscriptionId   : f3d26a3b-0b31-4223-94ea-9683f2fd5af7
+managedBy        : 
+sku              : @{name=Standard_D2ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=8.4; availabilityZone=1; storage=; fullyQualifiedDomainName=zmysql-apm1082070-00dev02.mysql.database.azure.com; administratorLogin=elvsysdba; maintenanceWindow=; highAvailability=; replicationRole=None; replicaCapacity=10; dataEncryption=; network=; backup=; maintenancePolicy=; databasePort=3306; fullVersion=8.4.5}
+tags             : @{environment=development; elvh-app-servicenow-group=SBI IT Support; elvh-business-division=gbd; elvh-application-name=SmartOps Dedicated AKS Cluster; elvh-app-support-dl=DL-SBI-Scrummy-Bears-Developers@elevancehealth.com; elvh-costcenter=6590335500; elvh-workspace=azrapm1082070-db-np01; elvh-infra-env=development; elvh-ci-owner=KICHLJS; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1082070; created-by=automated; costcenter=6590335500; company=Anthem; PatchGroup=default; PatchWindow=default; application-name=SmartOps Dedicated AKS Cluster; app-servicenow-group=SBI IT Support; workspace=azrapm1082070-db-np01; business-division=gbd; app-support-dl=dl-SBI-Scrummy-Bears@anthem.com; infra-env=development; ci-owner=KICHLJS; app-env=development; provisioned_by=terraform-azurerm-mysql-flexible-server:1.0.8; apm-id=apm1082070; prepatch-snapshot-flag=N; database-platform-name=zmysql-apm1082070-00dev02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=mysqlServer; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{principalId=00000000-0000-0000-0000-000000000000; userAssignedIdentities=; tenantId=00000000-0000-0000-0000-000000000000; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/f3d26a3b-0b31-4223-94ea-9683f2fd5af7/resourceGroups/apm1082070-slvr-wmdvt-01-rg/providers/Microsoft.DBforMySQL/flexibleServers/zmysql-apm1082070-00dev02
+

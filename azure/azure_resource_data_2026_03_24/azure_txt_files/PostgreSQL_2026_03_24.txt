@@ -1,0 +1,1333 @@
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1060465-plat-d03un-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-90prd01
+name             : zpgsql-apm1060465-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1060465-plat-d03un-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D32ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1060465-90prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; minorVersion=20; authConfig=; network=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1060465-plat-d03un-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=Care Management Appeals Support; elvh-business-division=dig; elvh-application-name=Nextgen G_amp_A Cloud; costcenter=6590222800; elvh-app-support-dl=dl-nextgen_ops@anthem.com; elvh-costcenter=6590199700; elvh-infra-env=production; elvh-workspace=azrapm1060465-db-prod; elvh-ci-owner=SNMS036; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1060465; application-name=Nextgen G_amp_A Cloud; app-servicenow-group=Default; business-division=dig; PatchWindow=default; app-support-dl=dl-nextgen_ops@anthem.com; created-by=AN304412AD; PatchGroup=default; workspace=azrapm1060465-db-prod; infra-env=production; company=Anthem; ci-owner=SNMS036; app-env=production; apm-id=apm1060465; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1060465-90prd01; db-patch-schedule=M0W00; database-platform=PgSql; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1060465-plat-d03un-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1060465-plat-d03un-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00prd01
+name             : zpgsql-apm1060465-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1060465-plat-d03un-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D32ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=1; storage=; fullyQualifiedDomainName=zpgsql-apm1060465-00prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=19; authConfig=; backup=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=Care Management Appeals Support; elvh-business-division=dig; elvh-application-name=Nextgen G_amp_A Cloud; elvh-app-support-dl=dl-nextgen_ops@anthem.com; elvh-costcenter=6590199700; elvh-infra-env=production; elvh-workspace=azrapm1060465-db-prod; elvh-ci-owner=SNMS036; application-name=Nextgen G_amp_A Cloud; elvh-company=Anthem; elvh-app-env=prod; costcenter=6590222800; elvh-apm-id=apm1060465; app-servicenow-group=Default; business-division=dig; app-support-dl=dl-nextgen_ops@anthem.com; PatchWindow=default; workspace=azrapm1060465-db-prod; PatchGroup=default; infra-env=production; created-by=AN304412AD; ci-owner=SNMS036; company=Anthem; app-env=production; apm-id=apm1060465; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1060465-00prd01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag5=app-tag5; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1060465-plat-d03un-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079282-plat-xdbio-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-90prd01
+name             : zpgsql-apm1079282-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1079282-plat-xdbio-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E96ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1079282-90prd01.postgres.database.azure.com; administratorLogin=antmsysdba; maintenanceWindow=; highAvailability=; backup=; replicaCapacity=0; replicationRole=GeoAsyncReplica; dataEncryption=; minorVersion=21; authConfig=; network=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079282-plat-xdbio-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00prd01}
+tags             : @{environment=production; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; created-by=AN645295AD; elvh-application-name=PS-ES-HIPAA Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1079282-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=apm1079282; application-name=PS-ES-HIPAA Domain Azure; workspace=azrapm1079282-db-prod; PatchWindow=default; PatchGroup=default; company=Anthem; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1079282; project_vulcan=true; prepatch-snapshot-flag=N; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-platform=postgresqlServer; database-platform-name=zpgsql-apm1079282-90prd01; database-state=Active; db-patch-schedule=M09W4; db-patch-time-window=Sunday 0100}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079282-plat-xdbio-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079282-plat-xdbio-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00prd01
+name             : zpgsql-apm1079282-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1079282-plat-xdbio-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E96ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1079282-00prd01.postgres.database.azure.com; administratorLogin=antmsysdba; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=21; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=5212032600; created-by=AN645295AD; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-HIPAA Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; application-name=PS-ES-HIPAA Domain Azure; elvh-costcenter=5212032600; workspace=azrapm1079282-db-prod; elvh-workspace=azrapm1079282-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=apm1079282; PatchWindow=default; company=Anthem; PatchGroup=default; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=production; ci-owner=AF85271; app-env=prod; apm-id=apm1079282; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=postgresqlServer; database-platform-name=zpgsql-apm1079282-00prd01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1079282-plat-xdbio-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080718-plat-ze8mn-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-90prd01
+name             : zpgsql-apm1080718-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080718-plat-ze8mn-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E2ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080718-90prd01.postgres.database.azure.com; administratorLogin=src_abi_adm; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080718-plat-ze8mn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1080718-db-prod; elvh-ci-owner=AC04130; application-name=Automated Benefit Integration-ABI-AZURE; elvh-company=Anthem; elvh-app-env=prod; costcenter=6590222500; elvh-apm-id=apm1080718; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; workspace=azrapm1080718-db-prod; PatchGroup=default; infra-env=plat; created-by=AN735676AD; ci-owner=AC04130; company=Anthem; app-env=prod; apm-id=apm1080718; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080718-90prd01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M00W0; application_tag5=app-tag5; application_tag1=ABI; application_tag2=production; application_tag4=app-tag4; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-82; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080718-plat-ze8mn-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080718-plat-ze8mn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00prd01
+name             : zpgsql-apm1080718-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080718-plat-ze8mn-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E2ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080718-00prd01.postgres.database.azure.com; administratorLogin=src_abi_adm; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=19; authConfig=; backup=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1080718-db-prod; elvh-ci-owner=AC04130; application-name=Automated Benefit Integration-ABI-AZURE; elvh-company=Anthem; elvh-app-env=prod; costcenter=6590222500; elvh-apm-id=apm1080718; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; workspace=azrapm1080718-db-prod; PatchGroup=default; infra-env=plat; created-by=AN735676AD; ci-owner=AC04130; company=Anthem; app-env=prod; apm-id=apm1080718; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080718-00prd01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M00W0; application_tag5=app-tag5; application_tag1=ABI; application_tag2=production; application_tag4=app-tag4; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-82; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080718-plat-ze8mn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-90prd01
+name             : zpgsql-apm1080953-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080953-plat-0gx7y-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-90prd01.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; minorVersion=11; authConfig=; network=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; costcenter=6590189800; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-infra-env=production; elvh-workspace=azrapm1080953-db-prod; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1080953; application-name=Employer Content Management System - AZURE; app-servicenow-group=EMPLOYER DEVOPS Support; business-division=dig; PatchWindow=default; app-support-dl=dl-emp-employercommoncore@anthem.com; created-by=AN619474AD; PatchGroup=default; workspace=azrapm1080953-db-prod; infra-env=production; company=Anthem; ci-owner=AA71626; app-env=prod; apm-id=apm1080953; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1080953-90prd01; db-patch-schedule=M0W00; database-platform=PgSql; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-90prd02
+name             : zpgsql-apm1080953-90prd02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080953-plat-0gx7y-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-90prd02.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=11; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd02}
+tags             : @{environment=production; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-infra-env=production; elvh-workspace=azrapm1080953-db-prod; elvh-ci-owner=AA71626; application-name=Employer Content Management System - AZURE; elvh-company=Anthem; elvh-app-env=prod; costcenter=6590189800; elvh-apm-id=apm1080953; app-servicenow-group=EMPLOYER DEVOPS Support; business-division=dig; app-support-dl=dl-emp-employercommoncore@anthem.com; PatchWindow=default; workspace=azrapm1080953-db-prod; PatchGroup=default; infra-env=production; created-by=AN619474AD; ci-owner=AA71626; company=Anthem; app-env=prod; apm-id=apm1080953; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080953-90prd02; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag5=app-tag5; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-90prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd01
+name             : zpgsql-apm1080953-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080953-plat-0gx7y-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-00prd01.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=10; authConfig=; network=; backup=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; costcenter=6590189800; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-infra-env=production; elvh-workspace=azrapm1080953-db-prod; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1080953; application-name=Employer Content Management System - AZURE; app-servicenow-group=EMPLOYER DEVOPS Support; business-division=dig; PatchWindow=default; app-support-dl=dl-emp-employercommoncore@anthem.com; created-by=AN619474AD; PatchGroup=default; workspace=azrapm1080953-db-prod; infra-env=production; company=Anthem; ci-owner=AA71626; app-env=prod; apm-id=apm1080953; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1080953-00prd01; db-patch-schedule=M0W00; database-platform=PgSql; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd02
+name             : zpgsql-apm1080953-00prd02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080953-plat-0gx7y-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-00prd02.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; network=; minorVersion=10; backup=; authConfig=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; costcenter=6590189800; elvh-costcenter=6590189800; elvh-workspace=azrapm1080953-db-prod; elvh-infra-env=production; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1080953; app-servicenow-group=EMPLOYER DEVOPS Support; application-name=Employer Content Management System - AZURE; business-division=dig; created-by=AN619474AD; app-support-dl=dl-emp-employercommoncore@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1080953-db-prod; infra-env=production; company=Anthem; ci-owner=AA71626; app-env=prod; apm-id=apm1080953; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080953-00prd02; db-patch-time-window=Sunday 0100; db-patch-schedule=M0W00; database-platform=PgSql; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; application_tag3=app-tag3; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1080953-plat-0gx7y-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-90prd01
+name             : zpgsql-apm1081074-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081074-plat-60vln-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081074-90prd01.postgres.database.azure.com; administratorLogin=dbadmin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; minorVersion=11; authConfig=; network=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; costcenter=6590222500; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=production; elvh-workspace=azrapm1081074-db-prod; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081074; application-name=ECM ILOS AZURE; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; PatchWindow=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; created-by=an469590ad; PatchGroup=default; workspace=azrapm1081074-db-prod; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081074; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1081074-90prd01; db-patch-schedule=M0W00; database-platform=PgSql; application_tag4=app-tag4; application_tag2=app-tag2; application_tag5=app-tag5; application_tag1=app-tag1; application_tag3=app-tag3; database-state=Active; bcp-tier=Tier-81; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00prd01
+name             : zpgsql-apm1081074-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081074-plat-60vln-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=1; storage=; fullyQualifiedDomainName=zpgsql-apm1081074-00prd01.postgres.database.azure.com; administratorLogin=dbadmin; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; network=; minorVersion=11; backup=; authConfig=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; costcenter=6590222500; elvh-costcenter=6590222500; elvh-workspace=azrapm1081074-db-prod; elvh-infra-env=production; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081074; app-servicenow-group=Digital 10x Engineering Support; application-name=ECM ILOS AZURE; business-division=dig; created-by=an469590ad; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081074-db-prod; infra-env=plat; company=Anthem; ci-owner=AF85271; app-env=prod; apm-id=apm1081074; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081074-00prd01; db-patch-time-window=Sunday 0100; db-patch-schedule=M0W00; database-platform=PgSql; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; application_tag3=app-tag3; application_tag2=app-tag2; database-state=Active; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081074-plat-60vln-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-90prd01
+name             : zpgsql-apm1081667-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081667-plat-zn5y8-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-90prd01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; minorVersion=11; authConfig=; network=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; costcenter=5100048000; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081667-db-prod; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081667; application-name=Sydney Member Management Layer; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; PatchWindow=default; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; created-by=AN598774AD; PatchGroup=default; workspace=azrapm1081667-db-prod; infra-env=production; company=Anthem; ci-owner=AM33142; app-env=production; apm-id=apm1081667; prepatch-snapshot-flag=N; db-patch-time-window=Friday 2400; database-platform-name=zpgsql-apm1081667-90prd01; db-patch-schedule=M0W00; database-platform=PgSql; application_tag4=APM1081667; application_tag2=Ray, Sumit; application_tag5=app-tag5; application_tag1=Sydney Member Management Layer; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-90prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-90prd02
+name             : zpgsql-apm1081667-90prd02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081667-plat-zn5y8-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-90prd02.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=11; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd02}
+tags             : @{environment=production; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081667-db-prod; elvh-ci-owner=AM33142; application-name=Sydney Member Management Layer; elvh-company=Anthem; elvh-app-env=prod; costcenter=5100048000; elvh-apm-id=apm1081667; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; workspace=azrapm1081667-db-prod; PatchGroup=default; infra-env=production; created-by=AN598774AD; ci-owner=AM33142; company=Anthem; app-env=production; apm-id=apm1081667; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081667-90prd02; db-patch-time-window=Friday 2400; database-platform=PgSql; db-patch-schedule=M0W00; application_tag5=app-tag5; application_tag1=Sydney Member Management Layer; application_tag2=Ray, Sumit; application_tag4=APM1081667; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-90prd02
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd01
+name             : zpgsql-apm1081667-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081667-plat-zn5y8-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=2; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-00prd01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; network=; minorVersion=10; backup=; authConfig=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; costcenter=5100048000; elvh-costcenter=5100048000; elvh-workspace=azrapm1081667-db-prod; elvh-infra-env=production; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=prod; elvh-apm-id=apm1081667; app-servicenow-group=Secure Member Portal DevOps Support; application-name=Sydney Member Management Layer; business-division=dig; created-by=AN598774AD; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081667-db-prod; infra-env=production; company=Anthem; ci-owner=AM33142; app-env=production; apm-id=apm1081667; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081667-00prd01; db-patch-time-window=Friday 2400; db-patch-schedule=M0W00; database-platform=PgSql; application_tag5=app-tag5; application_tag4=APM1081667; application_tag1=Sydney Member Management Layer; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; application_tag2=Ray, Sumit; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd01
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd02
+name             : zpgsql-apm1081667-00prd02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081667-plat-zn5y8-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=2; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-00prd02.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=10; authConfig=; backup=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=production; elvh-workspace=azrapm1081667-db-prod; elvh-ci-owner=AM33142; application-name=Sydney Member Management Layer; elvh-company=Anthem; elvh-app-env=prod; costcenter=5100048000; elvh-apm-id=apm1081667; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchWindow=default; workspace=azrapm1081667-db-prod; PatchGroup=default; infra-env=production; created-by=AN598774AD; ci-owner=AM33142; company=Anthem; app-env=production; apm-id=apm1081667; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081667-00prd02; db-patch-time-window=Friday 2400; database-platform=PgSql; db-patch-schedule=M0W00; application_tag5=app-tag5; application_tag1=Sydney Member Management Layer; application_tag2=Ray, Sumit; application_tag4=APM1081667; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1081667-plat-zn5y8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00prd02
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-90prd01
+name             : zpgsql-apm1080855-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080855-plat-0a2bg-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080855-90prd01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-00prd01}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080855-db-prod; elvh-ci-owner=AG45836; application-name=IngenioRx Jira (IRx) AZURE; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080855; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080855-db-prod; infra-env=production; created-by=automated; ci-owner=AG45836; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1080855; project_vulcan=true; database-platform-name=zpgsql-apm1080855-90prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-00prd01
+name             : zpgsql-apm1080855-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080855-plat-0a2bg-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080855-00prd01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=19; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080855-db-prod; elvh-ci-owner=AG45836; application-name=IngenioRx Jira (IRx) AZURE; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080855; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080855-db-prod; infra-env=production; created-by=automated; ci-owner=AG45836; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1080855; project_vulcan=true; database-platform-name=zpgsql-apm1080855-00prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080855-plat-0a2bg-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-00prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080858-plat-hu8hz-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080858-00prd01
+name             : zpgsql-apm1080858-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080858-plat-hu8hz-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D8ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=13; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080858-00prd01.postgres.database.azure.com; administratorLogin=postgres; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=22; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1080858-db-prod; elvh-ci-owner=AG45836; application-name=Qtest (IRx) AZURE; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080858; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080858-db-prod; infra-env=production; created-by=AN400527AD; ci-owner=AG45836; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1080858; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; database-platform-name=zpgsql-apm1080858-00prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M00W0; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080858-plat-hu8hz-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080858-00prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080912-plat-4pfcq-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-90prd01
+name             : zpgsql-apm1080912-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080912-plat-4pfcq-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D8ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080912-90prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=11; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080912-plat-4pfcq-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00prd01}
+tags             : @{environment=production; costcenter=6590316900; elvh-app-servicenow-group=Rx SOT IT Support; elvh-business-division=irx; elvh-application-name=Rx Source Of Truth (SOT) Platform; elvh-app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=production; elvh-workspace=azrapm1080912-db-prod; elvh-ci-owner=AH34255; application-name=Rx Source Of Truth (SOT) Platform; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080912; app-servicenow-group=Rx SOT IT Support; business-division=irx; app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080912-db-prod; infra-env=plat; created-by=AN598774AD; ci-owner=AH34255; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1080912; database-platform-name=zpgsql-apm1080912-90prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=dl-carelonRx-RxSOT-support@carelon.com; application_tag5=postgres; application_tag2=Manish Garg; application_tag1=Rx Source Of Truth (SOT) Platform; application_tag4=APM1080912; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080912-plat-4pfcq-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080912-plat-4pfcq-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00prd01
+name             : zpgsql-apm1080912-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080912-plat-4pfcq-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D8ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080912-00prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=10; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=6590316900; elvh-app-servicenow-group=Rx SOT IT Support; elvh-business-division=irx; elvh-application-name=Rx Source Of Truth (SOT) Platform; elvh-app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=production; elvh-workspace=azrapm1080912-db-prod; elvh-ci-owner=AH34255; application-name=Rx Source Of Truth (SOT) Platform; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080912; app-servicenow-group=Rx SOT IT Support; business-division=irx; app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080912-db-prod; infra-env=plat; created-by=AN598774AD; ci-owner=AH34255; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1080912; database-platform-name=zpgsql-apm1080912-00prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=dl-carelonRx-RxSOT-support@carelon.com; application_tag5=postgres; application_tag2=Manish Garg; application_tag1=Rx Source Of Truth (SOT) Platform; application_tag4=APM1080912; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1080912-plat-4pfcq-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-90prd01
+name             : zpgsql-apm1081525-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081525-plat-q056w-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D48ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081525-90prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd01}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081525-db-prod; elvh-ci-owner=AG74055; application-name=ZipDrug CareControl - AZURE; elvh-app-env=prod; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; app-servicenow-group=CPTC Application Support; business-division=irx; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081525-db-prod; infra-env=production; created-by=AN400527AD; ci-owner=AG74055; company=Community Pharmacy Total Care (ZipDrug); app-env=prod; apm-id=apm1081525; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; database-platform-name=zpgsql-apm1081525-90prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd01
+name             : zpgsql-apm1081525-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081525-plat-q056w-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D48ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Inaccessible; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081525-00prd01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081525-db-prod; elvh-ci-owner=AG74055; application-name=ZipDrug CareControl - AZURE; elvh-app-env=prod; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; app-servicenow-group=CPTC Application Support; business-division=irx; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081525-db-prod; infra-env=production; created-by=AN400527AD; ci-owner=AG74055; company=Community Pharmacy Total Care (ZipDrug); app-env=prod; apm-id=apm1081525; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; database-platform-name=zpgsql-apm1081525-00prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=postgresqlServer; db-patch-schedule=M00W0; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd02
+name             : zpgsql-apm1081525-00prd02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081525-plat-q056w-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D48ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Inaccessible; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081525-00prd02.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=AsyncReplica; replicaCapacity=5; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd01}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081525-db-prod; elvh-ci-owner=AG74055; application-name=ZipDrug CareControl - AZURE; elvh-app-env=prod; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; app-servicenow-group=CPTC Application Support; business-division=irx; app-support-dl=dl-zipdrug_engineering@carelon.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081525-db-prod; infra-env=production; created-by=AN400527AD; ci-owner=AG74055; company=Community Pharmacy Total Care (ZipDrug); app-env=prod; apm-id=apm1081525; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; database-platform-name=zpgsql-apm1081525-00prd02; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081525-plat-q056w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00prd02
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-90prd01
+name             : zpgsql-apm1081527-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081527-plat-hzms8-01-dr-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081527-90prd01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; replicaCapacity=0; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=; sourceServerResourceId=/subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00prd01}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081527-db-prod; elvh-ci-owner=AG45836; application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081527; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081527-db-prod; infra-env=production; created-by=AN645295AD; ci-owner=AG45836; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1081527; project_vulcan=true; database-platform-name=zpgsql-apm1081527-90prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-90prd01
+
+id               : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00prd01
+name             : zpgsql-apm1081527-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081527-plat-hzms8-01-rg
+subscriptionId   : 1331ca66-af3b-4f11-a819-9efb0be5df35
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081527-00prd01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=19; authConfig=; backup=; replica=}
+tags             : @{environment=production; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=production; elvh-workspace=azrapm1081527-db-prod; elvh-ci-owner=AG45836; application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-env=prod; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081527; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081527-db-prod; infra-env=production; created-by=AN645295AD; ci-owner=AG45836; company=CarelonRx (IngenioRx); app-env=production; apm-id=apm1081527; project_vulcan=true; database-platform-name=zpgsql-apm1081527-00prd01; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; application_tag1=app-tag1; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/1331ca66-af3b-4f11-a819-9efb0be5df35/resourceGroups/apm1081527-plat-hzms8-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00prd01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1060465-gld-s9etg-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00per01
+name             : zpgsql-apm1060465-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1060465-gld-s9etg-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_D32ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1060465-00per01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=10; network=; authConfig=; replica=}
+tags             : @{environment=performance; elvh-app-servicenow-group=Default; elvh-business-division=dig; elvh-application-name=Nextgen G_amp_A Cloud; elvh-app-support-dl=dl-nextgen_ops@anthem.com; elvh-costcenter=6590222800; elvh-infra-env=test; elvh-workspace=azrapm1060465-db-np02; elvh-ci-owner=SNMS036; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1060465; application-name=Nextgen G_amp_A Cloud; app-servicenow-group=Default; costcenter=6590222800; business-division=dig; company=Anthem; app-support-dl=dl-nextgen_ops@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1060465-db-np02; infra-env=gld; ci-owner=SNMS036; app-env=performance; apm-id=apm1060465; created-by=AN637130AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1060465-00per01; db-patch-time-window=Sunday 0100; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1060465-gld-s9etg-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1079282-gld-u2won-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00per01
+name             : zpgsql-apm1079282-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1079282-gld-u2won-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E96ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=14; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1079282-00per01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=performance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-HIPAA Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-infra-env=test; elvh-workspace=azrapm1079282-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; application-name=PS-ES-HIPAA Domain (Azure); elvh-apm-id=apm1079282; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1079282-db-np02; infra-env=test; company=Anthem; ci-owner=AF85271; app-env=user_acceptance; apm-id=apm1079282; created-by=AN619474AD; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1079282-00per01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1079282-gld-u2won-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1079282-gld-u2won-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00uat01
+name             : zpgsql-apm1079282-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1079282-gld-u2won-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E8ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; state=Ready; version=14; availabilityZone=2; storage=; fullyQualifiedDomainName=zpgsql-apm1079282-00uat01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; backup=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=user_acceptance; costcenter=5212032600; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-HIPAA Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1079282-db-np02; elvh-infra-env=test; elvh-ci-owner=AF85271; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1079282; application-name=PS-ES-HIPAA Domain (Azure); app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1079282-db-np02; infra-env=test; company=Anthem; ci-owner=AF85271; created-by=AN619474AD; app-env=user_acceptance; apm-id=apm1079282; project_vulcan=true; application_tag3=app-tag3; application_tag5=app-tag5; application_tag1=app-tag1; application_tag4=app-tag4; application_tag2=app-tag2; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1079282-00uat01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1079282-gld-u2won-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080718-gld-sdph9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00per01
+name             : zpgsql-apm1080718-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080718-gld-sdph9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E2ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080718-00per01.postgres.database.azure.com; administratorLogin=src_abi_adm; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=19; network=; authConfig=; replica=}
+tags             : @{environment=performance; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1080718-db-np02; elvh-ci-owner=AC04130; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1080718; application-name=Automated Benefit Integration-ABI-AZURE; app-servicenow-group=IAS SUPPORT; costcenter=6590222500; business-division=dig; company=Anthem; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1080718-db-np02; infra-env=test; ci-owner=AC04130; app-env=test; project_vulcan=true; apm-id=apm1080718; created-by=AN735676AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080718-00per01; db-patch-time-window=Sunday 0100; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=PERF; application_tag1=ABI; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080718-gld-sdph9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080718-gld-sdph9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00uat01
+name             : zpgsql-apm1080718-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080718-gld-sdph9-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E2ds_v4; tier=MemoryOptimized}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080718-00uat01.postgres.database.azure.com; administratorLogin=src_abi_adm; maintenanceWindow=; highAvailability=; backup=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=user_acceptance; costcenter=6590222500; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1080718-db-np02; elvh-infra-env=test; elvh-ci-owner=AC04130; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1080718; application-name=Automated Benefit Integration-ABI-AZURE; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1080718-db-np02; infra-env=test; company=Anthem; ci-owner=AC04130; created-by=AN735676AD; app-env=test; apm-id=apm1080718; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; application_tag3=app-tag3; application_tag5=app-tag5; application_tag1=ABI; application_tag4=app-tag4; application_tag2=UAT; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080718-00uat01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080718-gld-sdph9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080953-gld-rrd9k-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00per01
+name             : zpgsql-apm1080953-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080953-gld-rrd9k-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-00per01.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=performance; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-infra-env=test; elvh-workspace=azrapm1080953-db-np02; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1080953; apm-id=apm1080953; created-by=AN619474AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080953-00per01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1080953-gld-rrd9k-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081074-gld-i8iu2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00per01
+name             : zpgsql-apm1081074-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081074-gld-i8iu2-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E2s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=14; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081074-00per01.postgres.database.azure.com; administratorLogin=dbadmin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=performance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081074-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; application-name=ECM ILOS AZURE; elvh-apm-id=apm1081074; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081074-db-np02; infra-env=test; company=Anthem; ci-owner=AF85271; app-env=test; apm-id=apm1081074; created-by=AN373227AD; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081074-00per01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081074-gld-i8iu2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081074-gld-i8iu2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00uat01
+name             : zpgsql-apm1081074-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081074-gld-i8iu2-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081074-00uat01.postgres.database.azure.com; administratorLogin=dbadmin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=19; authConfig=; network=; replica=}
+tags             : @{environment=user_acceptance; costcenter=6590222500; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=test; elvh-workspace=azrapm1081074-db-np02; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=test; application-name=ECM ILOS AZURE; elvh-apm-id=apm1081074; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081074-db-np02; infra-env=test; company=Anthem; ci-owner=AF85271; app-env=test; apm-id=apm1081074; created-by=AN373227AD; project_vulcan=true; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081074-00uat01; db-patch-time-window=Sunday 0100; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag3=app-tag3; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081074-gld-i8iu2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081509-gld-a4v2u-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081509-00uat01
+name             : zpgsql-apm1081509-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081509-gld-a4v2u-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081509-00uat01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=11; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=EHDS AZURE MIGRATION Support; elvh-business-division=dig; elvh-application-name=ShipSmart.ai; elvh-app-support-dl=dl-EHDS-Concierge@elevancehealth.com; elvh-costcenter=6590331600; elvh-infra-env=test; elvh-workspace=azrapm1081509-db-np02; elvh-ci-owner=AF85271; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1081509; application-name=ShipSmart.ai; app-servicenow-group=EHDS AZURE MIGRATION Support; costcenter=6590331600; business-division=dig; company=Anthem; app-support-dl=dl-EHDS-Concierge@elevancehealth.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081509-db-np02; infra-env=test; ci-owner=AF85271; app-env=user_acceptance; apm-id=apm1081509; created-by=AN182553AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081509-00uat01; db-patch-time-window=Sunday 0100; application_tag5=Balraj Singh; application_tag4=APM1081509; application_tag3=dl-EHDS-Concierge@elevancehealth.com; application_tag2=Srini Pingali; application_tag1=ShipSmart.ai; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081509-gld-a4v2u-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081509-00uat01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00per01
+name             : zpgsql-apm1081667-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081667-gld-95huj-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; availabilityZone=2; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-00per01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=10; authConfig=; network=; replica=}
+tags             : @{environment=performance; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081667-db-np02; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; application-name=Sydney Member Management Layer; elvh-apm-id=apm1081667; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081667-db-np02; infra-env=test; company=Anthem; ci-owner=AM33142; app-env=performance; apm-id=apm1081667; created-by=AN598774AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081667-00per01; db-patch-time-window=Friday 2400; application_tag1=Sydney Member Management Layer; application_tag2=Ray, Sumit; application_tag4=APM1081667; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00per01
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00uat01
+name             : zpgsql-apm1081667-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081667-gld-95huj-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : @{name=Standard_E4s_v3; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=16; availabilityZone=2; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-00uat01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; backup=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=10; authConfig=; network=; replica=}
+tags             : @{environment=user_acceptance; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=test; elvh-workspace=azrapm1081667-db-np02; elvh-ci-owner=AM33142; elvh-company=Anthem; elvh-app-env=test; application-name=Sydney Member Management Layer; elvh-apm-id=apm1081667; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; PatchGroup=default; PatchWindow=default; workspace=azrapm1081667-db-np02; infra-env=test; company=Anthem; ci-owner=AM33142; app-env=performance; apm-id=apm1081667; created-by=AN598774AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081667-00uat01; db-patch-time-window=Friday 2400; application_tag1=Sydney Member Management Layer; application_tag2=Ray, Sumit; application_tag4=APM1081667; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; application_tag5=app-tag5; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1081667-gld-95huj-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00uat01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080855-slvr-jrzyf-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-00dev01
+name             : zpgsql-apm1080855-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080855-slvr-jrzyf-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D4ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; fullyQualifiedDomainName=zpgsql-apm1080855-00dev01.postgres.database.azure.com; administratorLogin=local_admin; storage=; maintenanceWindow=; highAvailability=; replicationRole=Primary; dataEncryption=; authConfig=; replicaCapacity=5; network=; backup=; replica=; minorVersion=20}
+tags             : @{environment=development; costcenter=6590211000; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Jira (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1080855-db-np01; elvh-ci-owner=AG45836; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080855; created-by=AN645295AD; application-name=IngenioRx Jira (IRx) AZURE; company=CarelonRx (IngenioRx); PatchGroup=default; PatchWindow=default; workspace=azrapm1080855-db-np01; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; project_vulcan=true; infra-env=development; ci-owner=AG45836; app-env=dev; apm-id=apm1080855; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1080855-00dev01; database-state=Active; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; db-patch-schedule=M00W0}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080855-slvr-jrzyf-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080855-00dev01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080858-slvr-siwvd-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080858-00sit01
+name             : zpgsql-apm1080858-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080858-slvr-siwvd-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D8ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080858-00sit01.postgres.database.azure.com; administratorLogin=postgres; maintenanceWindow=; highAvailability=; replicationRole=Primary; dataEncryption=; replicaCapacity=5; network=; authConfig=; backup=; minorVersion=10; replica=}
+tags             : @{environment=integration; PatchGroup=default; elvh-app-servicenow-group=CRx Agile Tools Support; costcenter=6590211000; elvh-business-division=irx; elvh-application-name=Qtest (IRx) AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1080858-db-np01; elvh-ci-owner=AG45836; company=CarelonRx (IngenioRx); elvh-company=CarelonRx (IngenioRx); elvh-app-env=dev; elvh-apm-id=apm1080858; created-by=AN400527AD; application-name=Qtest (IRx) AZURE; PatchWindow=default; workspace=azrapm1080858-db-np01; app-servicenow-group=CRx Agile Tools Support; business-division=irx; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; project_vulcan=true; infra-env=development; ci-owner=AG45836; app-env=development; apm-id=apm1080858; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M09W4; database-state=Active; database-platform-name=zpgsql-apm1080858-00sit01; database-platform=postgresqlServer; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080858-slvr-siwvd-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080858-00sit01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080912-slvr-jtibi-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00dev02
+name             : zpgsql-apm1080912-00dev02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080912-slvr-jtibi-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080912-00dev02.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=11; network=; authConfig=; backup=; replica=}
+tags             : @{environment=development; costcenter=6590316900; elvh-app-servicenow-group=Rx SOT IT Support; elvh-business-division=irx; elvh-application-name=Rx Source Of Truth (SOT) Platform; elvh-app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=development; elvh-workspace=azrapm1080912-db-np01; elvh-ci-owner=AH34255; elvh-company=CarelonRx (IngenioRx); elvh-app-env=dev; elvh-apm-id=apm1080912; created-by=AN813121AD; application-name=Rx Source Of Truth (SOT) Platform; company=Anthem; PatchGroup=default; PatchWindow=default; app-servicenow-group=Rx SOT IT Support; business-division=IRX; app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; workspace=azrapm1080912-db-np01; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; infra-env=development; ci-owner=AH56556; app-env=development; apm-id=apm1080912; application_tag1=Rx Source Of Truth SOT Platform; application_tag2=Manish Garg; application_tag3=dl-carelonRx-RxSOT-support@carelon.com; application_tag4=APM1080912; application_tag5=dev restored; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1080912-00dev02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080912-slvr-jtibi-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00dev02
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080912-slvr-jtibi-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00sit01
+name             : zpgsql-apm1080912-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080912-slvr-jtibi-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080912-00sit01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; dataEncryption=; replicaCapacity=5; network=; authConfig=; backup=; minorVersion=11; replica=}
+tags             : @{environment=integration; elvh-app-servicenow-group=Rx SOT IT Support; elvh-business-division=irx; elvh-application-name=Rx Source Of Truth (SOT) Platform; elvh-app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=development; elvh-workspace=azrapm1080912-db-np01; elvh-ci-owner=AH34255; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080912; created-by=AN825444AD; apm-id=apm1080912; application_tag1=Rx Source Of Truth SOT Platform; application_tag2=Manish Garg; application_tag3=dl-carelonRx-RxSOT-support@carelon.com; application_tag4=APM1080912; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1080912-00sit01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1080912-slvr-jtibi-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00sit01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081527-slvr-o64l2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00dev01
+name             : zpgsql-apm1081527-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081527-slvr-o64l2-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D4ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081527-00dev01.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=20; network=; authConfig=; backup=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=CRx Agile Tools Support; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1081527-db-np01; elvh-ci-owner=AG45836; costcenter=6590211000; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081527; created-by=AN645295AD; workspace=azrapm1081527-db-np01; application-name=IngenioRx Confluence (IRx) - AZURE; PatchGroup=default; company=CarelonRx (IngenioRx); app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchWindow=default; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; project_vulcan=true; infra-env=development; ci-owner=AG45836; app-env=dev; apm-id=apm1081527; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1081527-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081527-slvr-o64l2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00dev01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081527-slvr-o64l2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00dev02
+name             : zpgsql-apm1081527-00dev02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081527-slvr-o64l2-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D4ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081527-00dev02.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=20; authConfig=; network=; backup=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=CRx Agile Tools Support; costcenter=6590211000; elvh-business-division=irx; elvh-application-name=IngenioRx Confluence (IRx) - AZURE; elvh-app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; elvh-costcenter=6590211000; elvh-infra-env=development; elvh-workspace=azrapm1081527-db-np01; elvh-ci-owner=AG45836; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081527; PatchGroup=default; application-name=IngenioRx Confluence (IRx) - AZURE; company=CarelonRx (IngenioRx); created-by=AN645295AD; infra-env=development; app-servicenow-group=CRx Agile Tools Support; business-division=irx; PatchWindow=default; workspace=azrapm1081527-db-np01; app-support-dl=DL-IRxIT_Jira_Administration@ingenio-rx.com; project_vulcan=true; ci-owner=AG45836; app-env=dev; apm-id=apm1081527; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-state=Active; database-platform-name=zpgsql-apm1081527-00dev01; database-platform=PgSql; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081527-slvr-o64l2-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081527-00dev02
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081561-slvr-rtjmm-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081561-00dev01
+name             : zpgsql-apm1081561-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081561-slvr-rtjmm-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D4ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081561-00dev01.postgres.database.azure.com; administratorLogin=crx_strapi; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=11; network=; authConfig=; backup=; replica=}
+tags             : @{environment=development; created-by=AN702077AD; costcenter=6590211000; elvh-app-servicenow-group=Ingenio Rx Digital Portal Support; elvh-business-division=irx; elvh-application-name=CarelonRx Standalone Member Portal - AZURE; elvh-app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; elvh-costcenter=6590211000; elvh-workspace=azrapm1081561-db-np01; elvh-infra-env=development; elvh-ci-owner=AG53033; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081561; PatchGroup=default; application-name=CarelonRx Standalone Member Portal - AZURE; company=CarelonRx (IngenioRx); provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; workspace=azrapm1081561-db-np01; PatchWindow=default; app-servicenow-group=Ingenio Rx Digital Portal Support; business-division=irx; app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; infra-env=development; project_vulcan=true; ci-owner=AG53033; app-env=dev; apm-id=apm1081561; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-81; database-platform=postgresqlServer; database-platform-name=zpgsql-apm1081561-00dev01; db-patch-schedule=M09W4; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; database-state=Active}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1081561-slvr-rtjmm-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081561-00dev01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1082128-slvr-rkvvo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00dev01
+name             : zpgsql-apm1082128-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1082128-slvr-rkvvo-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1082128-00dev01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=11; backup=; authConfig=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=Rx BW IT Support; created-by=automated; elvh-business-division=irx; elvh-application-name=Rx Benefits Wrapper (RxBW); elvh-app-support-dl=dl-carelonRx-RxBW-support@carelon.com; costcenter=6590316900; elvh-costcenter=6590316900; elvh-workspace=azrapm1082128-db-np01; elvh-infra-env=development; elvh-ci-owner=AH34255; elvh-app-env=dev; elvh-company=CarelonRx (IngenioRx); application-name=Rx Benefits Wrapper (RxBW); elvh-apm-id=apm1082128; workspace=azrapm1082128-db-np01; company=CarelonRx (IngenioRx); PatchGroup=default; PatchWindow=default; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; app-servicenow-group=Rx BW IT Support; business-division=irx; app-support-dl=dl-carelonRx-RxBW-support@carelon.com; infra-env=development; ci-owner=AH34255; app-env=dev; apm-id=apm1082128; application_tag1=Rx Benefits Wrapper - RxBW; application_tag2=Garg Manish; application_tag3=dl-carelonRx-RxBW-support@carelon.com; application_tag4=APM1082128; application_tag5=Dev; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1082128-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1082128-slvr-rkvvo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00dev01
+
+id               : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1082128-slvr-rkvvo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00sit01
+name             : zpgsql-apm1082128-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1082128-slvr-rkvvo-01-rg
+subscriptionId   : 4a4ca28a-039f-4b71-be03-0eac742a48a2
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1082128-00sit01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=11; network=; authConfig=; backup=; replica=}
+tags             : @{environment=integration; application-name=Rx Benefits Wrapper (RxBW); costcenter=6590316900; created-by=AN627805AD; elvh-app-servicenow-group=Rx BW IT Support; elvh-business-division=irx; elvh-application-name=Rx Benefits Wrapper (RxBW); elvh-app-support-dl=dl-carelonRx-RxBW-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=development; elvh-workspace=azrapm1082128-db-np01; elvh-ci-owner=AH34255; elvh-company=CarelonRx (IngenioRx); elvh-app-env=dev; elvh-apm-id=apm1082128; company=CarelonRx (IngenioRx); PatchGroup=default; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; PatchWindow=default; app-servicenow-group=Rx BW IT Support; business-division=irx; app-support-dl=dl-carelonRx-RxBW-support@carelon.com; workspace=azrapm1082128-db-np01; infra-env=slvr; ci-owner=AH34255; app-env=dev; apm-id=apm1082128; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-state=Active; database-platform-name=zpgsql-apm1082128-00sit01; database-platform=PgSql; bcp-tier=Tier-84; application_tag5=sit; application_tag4=APM1082128; application_tag3=dl-carelonRx-RxBW-support@carelon.com; application_tag2=Garg Manish; application_tag1=Rx Benefits Wrapper - RxBW}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/4a4ca28a-039f-4b71-be03-0eac742a48a2/resourceGroups/apm1082128-slvr-rkvvo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00sit01
+
+id               : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00per01
+name             : zpgsql-apm1081045-00per01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081045-gld-hr5sn-01-rg
+subscriptionId   : 72a586e4-671d-48ac-aa5a-c85c81f38f81
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00per01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; backup=; minorVersion=10; network=; authConfig=; replica=}
+tags             : @{environment=performance; costcenter=6037133700; company=Anthem; created-by=AN160833AD; application-name=SPIDER Base; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; PatchWindow=default; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np02; elvh-infra-env=test; PatchGroup=default; app-servicenow-group=SPIDER SUPPORT; elvh-ci-owner=AB57324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-np02; infra-env=gld; ci-owner=AC03806; app-env=performance; apm-id=apm1081045; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1081045-00per01; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag1=SPIDER Base; application_tag2=Sujeeth Narayan; application_tag5=Performance; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00per01
+
+id               : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat01
+name             : zpgsql-apm1081045-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081045-gld-hr5sn-01-rg
+subscriptionId   : 72a586e4-671d-48ac-aa5a-c85c81f38f81
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00uat01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; backup=; minorVersion=10; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; costcenter=6037133700; company=Anthem; created-by=AN160833AD; application-name=SPIDER Base; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; PatchWindow=default; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np02; elvh-infra-env=test; PatchGroup=default; app-servicenow-group=SPIDER SUPPORT; elvh-ci-owner=AB57324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-np02; infra-env=gld; ci-owner=AC03806; app-env=user_acceptance; apm-id=apm1081045; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1081045-00uat01; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag1=SPIDER Base; application_tag2=Sujeeth Narayan; application_tag5=UAT 1; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat01
+
+id               : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat02
+name             : zpgsql-apm1081045-00uat02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081045-gld-hr5sn-01-rg
+subscriptionId   : 72a586e4-671d-48ac-aa5a-c85c81f38f81
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00uat02.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; backup=; minorVersion=10; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; costcenter=6037133700; company=Anthem; created-by=AN160833AD; application-name=SPIDER Base; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; PatchWindow=default; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np02; elvh-infra-env=test; PatchGroup=default; app-servicenow-group=SPIDER SUPPORT; elvh-ci-owner=AB57324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-np02; infra-env=gld; ci-owner=AC03806; app-env=user_acceptance; apm-id=apm1081045; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1081045-00uat02; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag1=SPIDER Base; application_tag2=Sujeeth Narayan; application_tag5=Performance; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat02
+
+id               : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat03
+name             : zpgsql-apm1081045-00uat03
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081045-gld-hr5sn-01-rg
+subscriptionId   : 72a586e4-671d-48ac-aa5a-c85c81f38f81
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00uat03.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; backup=; minorVersion=12; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; costcenter=6037133700; company=Anthem; created-by=AN627805AD; application-name=SPIDER Base; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; PatchWindow=default; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np02; elvh-infra-env=test; PatchGroup=default; app-servicenow-group=SPIDER SUPPORT; elvh-ci-owner=AB57324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-np02; infra-env=gld; ci-owner=AC03806; app-env=user_acceptance; apm-id=apm1081045; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform-name=zpgsql-apm1081045-00uat03; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag1=SPIDER Base; application_tag2=Sujeeth Narayan; application_tag5=UAT; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/72a586e4-671d-48ac-aa5a-c85c81f38f81/resourceGroups/apm1081045-gld-hr5sn-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00uat03
+
+id               : /subscriptions/763ffddd-49ad-40ec-9ce4-bf20a34ff488/resourceGroups/apm1081045-plat-3mp8k-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-90prd01
+name             : zpgsql-apm1081045-90prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081045-plat-3mp8k-01-dr-rg
+subscriptionId   : 763ffddd-49ad-40ec-9ce4-bf20a34ff488
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; fullyQualifiedDomainName=zpgsql-apm1081045-90prd01.postgres.database.azure.com; storage=; maintenanceWindow=; highAvailability=; replicationRole=GeoAsyncReplica; dataEncryption=; authConfig=; network=; backup=; replica=; replicaCapacity=0; minorVersion=10; sourceServerResourceId=/subscriptions/763ffddd-49ad-40ec-9ce4-bf20a34ff488/resourceGroups/apm1081045-plat-3mp8k-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00prd01}
+tags             : @{environment=production; elvh-app-servicenow-group=SPIDER SUPPORT; costcenter=6037133700; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-support@anthem.com; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-prod; elvh-infra-env=production; elvh-ci-owner=AB57324; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=apm1081045; application-name=SPIDER Base; created-by=AN918713AD; app-servicenow-group=SPIDER SUPPORT; PatchGroup=default; business-division=csbd; PatchWindow=default; company=Anthem; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-prod; infra-env=plat; ci-owner=AC03806; app-env=prod; apm-id=apm1081045; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-90prd01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag2=Sujeeth Narayan; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag5=DR; application_tag1=SPIDER Base; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/763ffddd-49ad-40ec-9ce4-bf20a34ff488/resourceGroups/apm1081045-plat-3mp8k-01-dr-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-90prd01
+
+id               : /subscriptions/763ffddd-49ad-40ec-9ce4-bf20a34ff488/resourceGroups/apm1081045-plat-3mp8k-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00prd01
+name             : zpgsql-apm1081045-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081045-plat-3mp8k-01-rg
+subscriptionId   : 763ffddd-49ad-40ec-9ce4-bf20a34ff488
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=3; fullyQualifiedDomainName=zpgsql-apm1081045-00prd01.postgres.database.azure.com; storage=; maintenanceWindow=; highAvailability=; replicationRole=Primary; dataEncryption=; authConfig=; network=; backup=; replica=; replicaCapacity=5; minorVersion=10}
+tags             : @{environment=production; elvh-app-servicenow-group=SPIDER SUPPORT; costcenter=6037133700; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-support@anthem.com; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-prod; elvh-infra-env=production; elvh-ci-owner=AB57324; elvh-app-env=prod; elvh-company=Anthem; elvh-apm-id=apm1081045; application-name=SPIDER Base; created-by=AN918713AD; app-servicenow-group=SPIDER SUPPORT; PatchGroup=default; business-division=csbd; PatchWindow=default; company=Anthem; app-support-dl=dl-spider-support@anthem.com; workspace=azrapm1081045-db-prod; infra-env=plat; ci-owner=AC03806; app-env=prod; apm-id=apm1081045; project_vulcan=true; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-00prd01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M0W00; application_tag2=Sujeeth Narayan; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag5=PROD; application_tag1=SPIDER Base; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/763ffddd-49ad-40ec-9ce4-bf20a34ff488/resourceGroups/apm1081045-plat-3mp8k-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00prd01
+
+id               : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1080737-plat-qzlzo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080737-00prd01
+name             : zpgsql-apm1080737-00prd01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080737-plat-qzlzo-01-rg
+subscriptionId   : a6f4e8a6-64c4-43e8-b209-9072cd4c80c3
+managedBy        : 
+sku              : @{name=Standard_D4s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; fullyQualifiedDomainName=zpgsql-apm1080737-00prd01.postgres.database.azure.com; storage=; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=10; network=; authConfig=; backup=; replica=}
+tags             : @{environment=production; elvh-app-servicenow-group=GBD-CM-ClaimsEDISupport; elvh-business-division=gbd; elvh-application-name=AIOps POC; costcenter=6590218900; elvh-app-support-dl=rohith.pujari@wellpoint.com; elvh-costcenter=6590218900; elvh-workspace=azrapm1080737-db-prod; elvh-infra-env=production; app-servicenow-group=GBD-CM-ClaimsEDISupport; application-name=AIOps POC; elvh-ci-owner=AH40497; elvh-company=Anthem; elvh-app-env=prod; business-division=gbd; elvh-apm-id=apm1080737; app-support-dl=rohith.pujari@wellpoint.com; workspace=azrapm1080737-db-prod; PatchWindow=default; PatchGroup=default; company=Anthem; infra-env=production; ci-owner=AH40497; app-env=prod; apm-id=apm1080737; created-by=AN811938AD; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M0W00; database-platform-name=zpgsql-apm1080737-00prd01; database-platform=PgSql; application_tag5=prod; application_tag2=Chen Yusi and Pujari Rohith; application_tag3=APM1080737; application_tag1=AIOps POC; application_tag4=rohith.pujari@wellpoint.com; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/a6f4e8a6-64c4-43e8-b209-9072cd4c80c3/resourceGroups/apm1080737-plat-qzlzo-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080737-00prd01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1060465-slvr-9x0n1-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00dev02
+name             : zpgsql-apm1060465-00dev02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1060465-slvr-9x0n1-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; state=Ready; availabilityZone=1; storage=; fullyQualifiedDomainName=zpgsql-apm1060465-00dev02.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=11; authConfig=; network=; backup=; replica=}
+tags             : @{environment=development; costcenter=6590222800; created-by=am21753; elvh-app-servicenow-group=Care Management Appeals Support; elvh-business-division=dig; elvh-application-name=Nextgen G_amp_A Cloud; elvh-app-support-dl=dl-nextgen_ops@anthem.com; elvh-costcenter=6590199700; elvh-infra-env=development; elvh-workspace=azrapm1060465-db-np01; elvh-ci-owner=SNMS036; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1060465; workspace=azrapm1060465-db-np01; application-name=Nextgen G_amp_A Cloud; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=Default; business-division=dig; app-support-dl=dl-nextgen_ops@anthem.com; infra-env=slvr; ci-owner=SNMS036; app-env=development; apm-id=apm1060465; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1060465-00dev02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1060465-slvr-9x0n1-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00dev02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1060465-slvr-9x0n1-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00dev03
+name             : zpgsql-apm1060465-00dev03
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1060465-slvr-9x0n1-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=1; storage=; fullyQualifiedDomainName=zpgsql-apm1060465-00dev03.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; network=; minorVersion=11; backup=; authConfig=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=Care Management Appeals Support; elvh-business-division=dig; elvh-application-name=Nextgen G_amp_A Cloud; elvh-app-support-dl=dl-nextgen_ops@anthem.com; costcenter=6590222800; elvh-costcenter=6590199700; elvh-workspace=azrapm1060465-db-np01; elvh-infra-env=development; elvh-ci-owner=SNMS036; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1060465; app-servicenow-group=Default; application-name=Nextgen G_amp_A Cloud; business-division=dig; created-by=am21753; app-support-dl=dl-nextgen_ops@anthem.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1060465-db-np01; infra-env=slvr; company=Anthem; ci-owner=SNMS036; app-env=development; apm-id=apm1060465; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1060465-00dev03; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag5=app-tag5; application_tag4=app-tag4; application_tag1=app-tag1; application_tag3=app-tag3; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1060465-slvr-9x0n1-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1060465-00dev03
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1079282-slvr-rygva-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00dev05
+name             : zpgsql-apm1079282-00dev05
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1079282-slvr-rygva-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_E8ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{privateEndpointConnections=System.Object[]; version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1079282-00dev05.postgres.database.azure.com; administratorLogin=local_admin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=20; network=; authConfig=; backup=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=PS-ES-HIPAA Domain Azure; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; elvh-workspace=azrapm1079282-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1079282; costcenter=5212032600; created-by=AN619474AD; application-name=PS-ES-HIPAA Domain (Azure); workspace=azrapm1079282-db-np01; PatchWindow=default; company=Anthem; app-servicenow-group=IAS SUPPORT; business-division=dig; PatchGroup=default; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=development; apm-id=apm1079282; project_vulcan=true; database-platform-name=zpgsql-apm1079282-00dev05; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1079282-slvr-rygva-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1079282-00dev05
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080718-slvr-k092x-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00dev01
+name             : zpgsql-apm1080718-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080718-slvr-k092x-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_E2ds_v5; tier=MemoryOptimized}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080718-00dev01.postgres.database.azure.com; administratorLogin=src_abi_adm; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=}
+tags             : @{environment=development; elvh-app-servicenow-group=IAS SUPPORT; elvh-business-division=dig; elvh-application-name=Automated Benefit Integration-ABI-AZURE; costcenter=6590222500; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-infra-env=development; elvh-workspace=azrapm1080718-db-np01; created-by=AN735676AD; elvh-ci-owner=AC04130; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1080718; company=Anthem; application-name=Automated Benefit Integration-ABI-AZURE; workspace=azrapm1080718-db-np01; PatchGroup=default; PatchWindow=default; app-servicenow-group=IAS SUPPORT; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; infra-env=development; ci-owner=AC04130; app-env=dev; apm-id=apm1080718; project_vulcan=true; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform-name=zpgsql-apm1080718-00dev01; database-platform=PgSql; application_tag4=app-tag4; bcp-tier=Tier-82; application_tag1=ABI; application_tag2=SIT; application_tag3=app-tag3; application_tag5=app-tag5; database-state=Active}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080718-slvr-k092x-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080718-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00dev01
+name             : zpgsql-apm1080953-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080953-slvr-mfevu-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; fullyQualifiedDomainName=zpgsql-apm1080953-00dev01.postgres.database.azure.com; storage=; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=20; authConfig=; network=; replica=; backup=}
+tags             : @{environment=development; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-workspace=azrapm1080953-db-np01; elvh-infra-env=development; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1080953; created-by=AN645295AD; apm-id=apm1080953; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080953-00dev01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; application_tag4=app-tag4; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00sit01
+name             : zpgsql-apm1080953-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080953-slvr-mfevu-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-00sit01.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; network=; minorVersion=20; authConfig=; backup=; replica=}
+tags             : @{environment=integration; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; created-by=AN645295AD; elvh-costcenter=6590189800; elvh-infra-env=development; elvh-workspace=azrapm1080953-db-np01; elvh-ci-owner=AA71626; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1080953; apm-id=apm1080953; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1080953-00sit01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00sit02
+name             : zpgsql-apm1080953-00sit02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1080953-slvr-mfevu-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080953-00sit02.postgres.database.azure.com; administratorLogin=azureadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=20; network=; authConfig=; backup=; replica=}
+tags             : @{environment=integration; elvh-app-servicenow-group=EMPLOYER DEVOPS Support; elvh-business-division=dig; elvh-application-name=Employer Content Management System - AZURE; created-by=AN645295AD; elvh-app-support-dl=dl-emp-employercommoncore@anthem.com; elvh-costcenter=6590189800; elvh-workspace=azrapm1080953-db-np01; elvh-infra-env=development; elvh-ci-owner=AA71626; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1080953; apm-id=apm1080953; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1080953-00sit02; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1080953-slvr-mfevu-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080953-00sit02
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081074-slvr-5qng9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00dev01
+name             : zpgsql-apm1081074-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081074-slvr-5qng9-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D2ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=14; state=Ready; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081074-00dev01.postgres.database.azure.com; administratorLogin=dbadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=20; network=; authConfig=; backup=; replica=}
+tags             : @{environment=development; costcenter=6590222500; created-by=AN373227AD; elvh-app-servicenow-group=Digital 10x Engineering Support; elvh-business-division=dig; elvh-application-name=ECM ILOS AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=6590222500; elvh-workspace=azrapm1081074-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081074; application-name=ECM ILOS AZURE; company=Anthem; workspace=azrapm1081074-db-np01; PatchWindow=default; PatchGroup=default; app-servicenow-group=Digital 10x Engineering Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; app-env=dev; apm-id=apm1081074; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1081074-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081074-slvr-5qng9-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081074-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081509-slvr-aox29-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081509-00sit01
+name             : zpgsql-apm1081509-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081509-slvr-aox29-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D8ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081509-00sit01.postgres.database.azure.com; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=11; authConfig=; network=; backup=; replica=}
+tags             : @{environment=integration; costcenter=6590331600; elvh-app-servicenow-group=EHDS AZURE MIGRATION Support; elvh-business-division=dig; elvh-application-name=ShipSmart.ai; elvh-app-support-dl=dl-EHDS-Concierge@elevancehealth.com; created-by=AN791345AD; elvh-costcenter=6590331600; elvh-infra-env=development; elvh-workspace=azrapm1081509-db-np01; application-name=apm1081509; elvh-ci-owner=AF85271; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081509; PatchWindow=default; workspace=azrapm1081509-db-np01; PatchGroup=default; company=Anthem; app-servicenow-group=EHDS AZURE MIGRATION Support; business-division=dig; app-support-dl=dl-EHDS-Concierge@elevancehealth.com; infra-env=slvr; ci-owner=AF85271; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; app-env=integration; apm-id=apm1081509; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081509-00sit01; db-patch-time-window=Sunday 0100; database-platform=PgSql; db-patch-schedule=M00W0; application_tag5=SIT; application_tag4=APM1081509; application_tag3=Srini Pingali; application_tag2=dl-EHDS-Concierge@elevancehealth.com; application_tag1=ShipSmart.ai; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081509-slvr-aox29-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081509-00sit01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081667-slvr-hy6p5-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00dev01
+name             : zpgsql-apm1081667-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081667-slvr-hy6p5-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D4ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081667-00dev01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; dataEncryption=; backup=; replicaCapacity=5; network=; authConfig=; replica=; minorVersion=11}
+tags             : @{environment=development; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=Sydney Member Management Layer; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-workspace=azrapm1081667-db-np01; elvh-infra-env=development; elvh-ci-owner=AM33142; elvh-app-env=dev; elvh-company=Anthem; created-by=AN825444AD; elvh-apm-id=apm1081667; workspace=azrapm1081667-db-np01; company=Anthem; PatchWindow=default; application-name=Sydney Member Management Layer; app-servicenow-group=Secure Member Portal DevOps Support; PatchGroup=default; business-division=dig; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; infra-env=development; ci-owner=AM33142; app-env=development; apm-id=apm1081667; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-state=Active; database-platform-name=zpgsql-apm1081667-00dev01; database-platform=PgSql; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=APM1081667; application_tag3=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; application_tag2=Ray Sumit; application_tag1=Sydney Member Management Layer}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081667-slvr-hy6p5-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081667-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081702-slvr-6fhfk-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081702-00dev01
+name             : zpgsql-apm1081702-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081702-slvr-6fhfk-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D4s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; administratorLogin=dbadmin; fullyQualifiedDomainName=zpgsql-apm1081702-00dev01.postgres.database.azure.com; highAvailability=; dataEncryption=; maintenanceWindow=; authConfig=; network=; backup=; replicationRole=Primary; replicaCapacity=5; minorVersion=20; replica=}
+tags             : @{environment=development; costcenter=5100048000; elvh-app-servicenow-group=Secure Member Portal DevOps Support; elvh-business-division=dig; elvh-application-name=PS-SM-Sydney Web/Mobile APIs - AZURE; elvh-app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; elvh-costcenter=5100048000; elvh-infra-env=development; elvh-workspace=azrapm1081702-db-np01; elvh-ci-owner=AM33142; application-name=PS-SM-Sydney Web/Mobile APIs - AZURE; created-by=AN569322AD; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081702; PatchWindow=default; workspace=azrapm1081702-db-np01; company=Anthem; app-servicenow-group=Secure Member Portal DevOps Support; business-division=dig; PatchGroup=default; app-support-dl=dl-EDEPT-ASRE1-Optimizers@elevancehealth.com; app-env=dev; infra-env=development; ci-owner=AM33142; apm-id=apm1081702; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1081702-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081702-slvr-6fhfk-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081702-00dev01
+
+id               : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081762-00dev01
+name             : zpgsql-apm1081762-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081762-slvr-q4m4d-01-rg
+subscriptionId   : aa8115ec-6502-4dc6-b67e-742b0a24846f
+managedBy        : 
+sku              : @{name=Standard_D4ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=2; storage=; fullyQualifiedDomainName=zpgsql-apm1081762-00dev01.postgres.database.azure.com; administratorLogin=elvhadmin; maintenanceWindow=; highAvailability=; replicationRole=Primary; replicaCapacity=5; dataEncryption=; minorVersion=10; authConfig=; network=; backup=; replica=}
+tags             : @{environment=development; costcenter=5212032600; elvh-app-servicenow-group=API and Microservices Support; elvh-business-division=dig; elvh-application-name=Experience Data Platform - AZURE; elvh-app-support-dl=dl-advancedsoamonitoring@anthem.com; elvh-costcenter=5212032600; created-by=automated; elvh-workspace=azrapm1081762-db-np01; elvh-infra-env=development; elvh-ci-owner=AF85271; elvh-app-env=dev; elvh-company=Anthem; elvh-apm-id=apm1081762; application-name=Experience Data Platform - AZURE; workspace=azrapm1081762-db-np01; PatchWindow=default; company=Anthem; PatchGroup=default; app-servicenow-group=API and Microservices Support; business-division=dig; app-support-dl=dl-advancedsoamonitoring@anthem.com; infra-env=development; ci-owner=AF85271; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; app-env=development; apm-id=apm1081762; project_vulcan=true; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; bcp-tier=Tier-84; database-platform=PgSql; database-platform-name=zpgsql-apm1081762-00dev01; database-state=Active; db-patch-schedule=M00W0; db-patch-time-window=Sunday 0100; prepatch-snapshot-flag=N}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/aa8115ec-6502-4dc6-b67e-742b0a24846f/resourceGroups/apm1081762-slvr-q4m4d-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081762-00dev01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1080912-gld-th6s4-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00uat01
+name             : zpgsql-apm1080912-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1080912-gld-th6s4-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Standard_D8s_v3; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1080912-00uat01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=10; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=Rx SOT IT Support; elvh-business-division=irx; elvh-application-name=Rx Source Of Truth (SOT) Platform; elvh-app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=test; elvh-workspace=azrapm1080912-db-np02; elvh-ci-owner=AH56556; elvh-app-env=test; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1080912; application-name=Rx Source Of Truth (SOT) Platform; app-servicenow-group=Rx SOT IT Support; costcenter=6590316900; business-division=irx; company=CarelonRx (IngenioRx); app-support-dl=dl-carelonRx-RxSOT-support@carelon.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1080912-db-np02; infra-env=test; ci-owner=AH56556; app-env=user_acceptance; apm-id=apm1080912; created-by=AN232459AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1080912-00uat01; db-patch-time-window=Sunday 0100; application_tag5=manish garg; application_tag4=APM1080912; application_tag3=dl-carelonRx-RxSOT-support@carelon.com; application_tag2=Manish Garg; application_tag1=Rx Source Of Truth (SOT) Platform; database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1080912-gld-th6s4-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1080912-00uat01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00uat01
+name             : zpgsql-apm1081525-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081525-gld-grqag-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081525-00uat01.postgres.database.azure.com; administratorLogin=postgres; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=19; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=test; elvh-workspace=azrapm1081525-db-np02; elvh-ci-owner=AG74055; elvh-app-env=test; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; application-name=ZipDrug CareControl - AZURE; app-servicenow-group=CPTC Application Support; costcenter=6590211000; business-division=irx; company=Community Pharmacy Total Care (ZipDrug); app-support-dl=dl-zipdrug_engineering@carelon.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081525-db-np02; infra-env=test; ci-owner=AG74055; app-env=test; project_vulcan=true; apm-id=apm1081525; created-by=AN400527AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081525-00uat01; db-patch-time-window=Sunday 0100; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-platform=postgresqlServer; db-patch-schedule=M00W0; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00uat01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-01uat01
+name             : zpgsql-apm1081525-01uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081525-gld-grqag-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Standard_D16ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=14; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081525-01uat01.postgres.database.azure.com; administratorLogin=postgres; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=AsyncReplica; dataEncryption=; minorVersion=19; network=; authConfig=; replica=; sourceServerResourceId=/subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-00uat01}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=CPTC Application Support; elvh-business-division=irx; elvh-application-name=ZipDrug CareControl - AZURE; elvh-app-support-dl=dl-zipdrug_engineering@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=test; elvh-workspace=azrapm1081525-db-np02; elvh-ci-owner=AG74055; elvh-app-env=test; elvh-company=Community Pharmacy Total Care (ZipDrug); elvh-apm-id=apm1081525; application-name=ZipDrug CareControl - AZURE; app-servicenow-group=CPTC Application Support; costcenter=6590211000; business-division=irx; company=Community Pharmacy Total Care (ZipDrug); app-support-dl=dl-zipdrug_engineering@carelon.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081525-db-np02; infra-env=test; ci-owner=AG74055; app-env=test; project_vulcan=true; apm-id=apm1081525; created-by=AN400527AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081525-01uat01; db-patch-time-window=Sunday 0100; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-platform=postgresqlServer; db-patch-schedule=M09W4; database-state=Active; bcp-tier=Tier-82}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081525-gld-grqag-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081525-01uat01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081561-gld-fppqc-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081561-00uat01
+name             : zpgsql-apm1081561-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1081561-gld-fppqc-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Standard_D4ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1081561-00uat01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=11; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=Ingenio Rx Digital Portal Support; elvh-business-division=irx; elvh-application-name=CarelonRx Standalone Member Portal - AZURE; elvh-app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; elvh-costcenter=6590211000; elvh-infra-env=test; elvh-workspace=azrapm1081561-db-np02; elvh-ci-owner=AG53033; elvh-app-env=test; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1081561; application-name=CarelonRx Standalone Member Portal - AZURE; app-servicenow-group=Ingenio Rx Digital Portal Support; costcenter=6590211000; business-division=irx; company=CarelonRx (IngenioRx); app-support-dl=DL-CarelonRxDigitalPortal_Support@carelon.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1081561-db-np02; infra-env=test; ci-owner=AG53033; app-env=test; project_vulcan=true; apm-id=apm1081561; created-by=AN702077AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081561-00uat01; db-patch-time-window=Sunday 0100; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-platform=postgresqlServer; db-patch-schedule=M09W4; database-state=Active; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.8; bcp-tier=Tier-81}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1081561-gld-fppqc-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081561-00uat01
+
+id               : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1082128-gld-8d40b-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00uat01
+name             : zpgsql-apm1082128-00uat01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1082128-gld-8d40b-01-rg
+subscriptionId   : b43bae36-4cb9-426a-86b8-678ed9f0ed95
+managedBy        : 
+sku              : @{name=Standard_D8ds_v4; tier=GeneralPurpose}
+plan             : 
+properties       : @{state=Ready; version=16; availabilityZone=3; storage=; fullyQualifiedDomainName=zpgsql-apm1082128-00uat01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicaCapacity=5; replicationRole=Primary; dataEncryption=; minorVersion=11; network=; authConfig=; replica=}
+tags             : @{environment=user_acceptance; elvh-app-servicenow-group=Rx BW IT Support; elvh-business-division=irx; elvh-application-name=Rx Benefits Wrapper (RxBW); elvh-app-support-dl=dl-carelonRx-RxBW-support@carelon.com; elvh-costcenter=6590316900; elvh-infra-env=test; elvh-workspace=azrapm1082128-db-np02; elvh-ci-owner=AH34255; elvh-app-env=test; elvh-company=CarelonRx (IngenioRx); elvh-apm-id=apm1082128; application-name=Rx Benefits Wrapper (RxBW); app-servicenow-group=Rx BW IT Support; costcenter=6590316900; business-division=irx; company=CarelonRx (IngenioRx); app-support-dl=dl-carelonRx-RxBW-support@carelon.com; PatchWindow=default; PatchGroup=default; workspace=azrapm1082128-db-np02; infra-env=gld; ci-owner=AH34255; app-env=user_acceptance; apm-id=apm1082128; created-by=AN627805AD; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1082128-00uat01; db-patch-time-window=Sunday 0100; application_tag5=UAT; application_tag4=APM1082128; application_tag3=dl-carelonRx-RxBW-support@carelon.com; application_tag2=Sasikumar Narappanchavadi Pachamuthu manish garg; application_tag1=Rx Benefits Wrapper (RxBW); database-platform=PgSql; db-patch-schedule=M00W0; database-state=Active; provisioned_by=terraform-azurerm-postgresql-flexible-server:1.0.7; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/b43bae36-4cb9-426a-86b8-678ed9f0ed95/resourceGroups/apm1082128-gld-8d40b-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1082128-00uat01
+
+id               : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00dev01
+name             : zpgsql-apm1081045-00dev01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081045-slvr-g0c1w-01-rg
+subscriptionId   : d71b6737-629b-4cca-8537-75fe19bbf911
+managedBy        : 
+sku              : @{name=Standard_D16ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00dev01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicationRole=Primary; replicaCapacity=5; network=; dataEncryption=; minorVersion=11; authConfig=; replica=}
+tags             : @{environment=development; costcenter=6037133700; created-by=AN825444AD; application-name=SPIDER  Base; company=Anthem; PatchGroup=default; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; workspace=azrapm1081045-db-np01; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np01; elvh-infra-env=development; elvh-ci-owner=AB57324; app-servicenow-group=SPIDER SUPPORT; PatchWindow=default; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; infra-env=development; ci-owner=AC03806; app-env=development; apm-id=apm1081045; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-00dev01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=Jeff Abrams; application_tag3=dl-spider-lo@anthem.com; application_tag5=app-tag5; application_tag1=SPIDER Base; application_tag2=Sujeeth.narayan2@elevancehealth.com adam.kennedy2@elevancehealth.com; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00dev01
+
+id               : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit01
+name             : zpgsql-apm1081045-00sit01
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081045-slvr-g0c1w-01-rg
+subscriptionId   : d71b6737-629b-4cca-8537-75fe19bbf911
+managedBy        : 
+sku              : @{name=Standard_D16ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00sit01.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicationRole=Primary; replicaCapacity=5; network=; dataEncryption=; minorVersion=11; authConfig=; replica=}
+tags             : @{environment=integration; costcenter=6037133700; created-by=AN846900AD; application-name=SPIDER  Base; company=Anthem; PatchGroup=default; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; workspace=azrapm1081045-db-np01; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np01; elvh-infra-env=development; elvh-ci-owner=AB57324; app-servicenow-group=SPIDER SUPPORT; PatchWindow=default; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; infra-env=development; ci-owner=AC03806; app-env=integration; apm-id=apm1081045; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-00sit01; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=Jeff Abrams; application_tag3=dl-spider-lo@anthem.com; application_tag5=SIT; application_tag1=SPIDER Base; application_tag2=Sujeeth.narayan2@elevancehealth.com adam.kennedy2@elevancehealth.com; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit01
+
+id               : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit02
+name             : zpgsql-apm1081045-00sit02
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081045-slvr-g0c1w-01-rg
+subscriptionId   : d71b6737-629b-4cca-8537-75fe19bbf911
+managedBy        : 
+sku              : @{name=Standard_D16ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00sit02.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicationRole=Primary; replicaCapacity=5; network=; dataEncryption=; minorVersion=10; authConfig=; replica=}
+tags             : @{environment=integration; costcenter=6037133700; created-by=AN627805AD; application-name=SPIDER  Base; company=Anthem; PatchGroup=default; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; workspace=azrapm1081045-db-np01; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np01; elvh-infra-env=development; elvh-ci-owner=AB57324; app-servicenow-group=SPIDER SUPPORT; PatchWindow=default; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; infra-env=development; ci-owner=AC03806; app-env=integration; apm-id=apm1081045; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-00sit02; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag5=SIT; application_tag1=SPIDER Base; application_tag2=Sujeeth.narayan2@elevancehealth.com adam.kennedy2@elevancehealth.com; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit02
+
+id               : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit03
+name             : zpgsql-apm1081045-00sit03
+type             : microsoft.dbforpostgresql/flexibleservers
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1081045-slvr-g0c1w-01-rg
+subscriptionId   : d71b6737-629b-4cca-8537-75fe19bbf911
+managedBy        : 
+sku              : @{name=Standard_D16ds_v5; tier=GeneralPurpose}
+plan             : 
+properties       : @{version=16; availabilityZone=3; state=Ready; storage=; fullyQualifiedDomainName=zpgsql-apm1081045-00sit03.postgres.database.azure.com; maintenanceWindow=; backup=; highAvailability=; replicationRole=Primary; replicaCapacity=5; network=; dataEncryption=; minorVersion=10; authConfig=; replica=}
+tags             : @{environment=integration; costcenter=6037133700; created-by=AN627805AD; application-name=SPIDER  Base; company=Anthem; PatchGroup=default; elvh-app-servicenow-group=SPIDER SUPPORT; elvh-business-division=csbd; elvh-application-name=SPIDER Base; elvh-app-support-dl=dl-spider-lo@anthem.com; workspace=azrapm1081045-db-np01; elvh-costcenter=6037133700; elvh-workspace=azrapm1081045-db-np01; elvh-infra-env=development; elvh-ci-owner=AB57324; app-servicenow-group=SPIDER SUPPORT; PatchWindow=default; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1081045; business-division=csbd; app-support-dl=dl-spider-support@anthem.com; infra-env=development; ci-owner=AC03806; app-env=integration; apm-id=apm1081045; prepatch-snapshot-flag=N; database-platform-name=zpgsql-apm1081045-00sit03; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=PgSql; application_tag4=apm1081045; application_tag3=dl-spider-lo@anthem.com; application_tag5=SIT; application_tag1=SPIDER Base; application_tag2=Sujeeth.narayan2@elevancehealth.com adam.kennedy2@elevancehealth.com; database-state=Active; bcp-tier=Tier-84}
+identity         : @{userAssignedIdentities=; tenantId=be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7; type=UserAssigned}
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/d71b6737-629b-4cca-8537-75fe19bbf911/resourceGroups/apm1081045-slvr-g0c1w-01-rg/providers/Microsoft.DBforPostgreSQL/flexibleServers/zpgsql-apm1081045-00sit03
+

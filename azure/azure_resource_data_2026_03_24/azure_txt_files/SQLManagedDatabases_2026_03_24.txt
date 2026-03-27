@@ -1,0 +1,1801 @@
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-90prd01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1001745-plat-8u7lp-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=eastus2; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/1/2025 2:50:47 PM; isLedgerOn=False; failoverGroupId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/locations/Central US/instanceFailoverGroups/zmssql-apm1001745-00prd01-fog}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-90prd01/databases/DBAUTIL
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-90prd01/databases/GBDUMSOLUTIONS
+name             : GBDUMSOLUTIONS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1001745-plat-8u7lp-01-dr-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=eastus2; creationDate=5/24/2025 3:34:53 PM; isLedgerOn=False; failoverGroupId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/locations/Central US/instanceFailoverGroups/zmssql-apm1001745-00prd01-fog}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-dr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-90prd01/databases/GBDUMSOLUTIONS
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00prd01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=centralus; creationDate=4/1/2025 2:44:47 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM; failoverGroupId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/locations/East US 2/instanceFailoverGroups/zmssql-apm1001745-00prd01-fog}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00prd01/databases/DBAUTIL
+
+id               : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00prd01/databases/GBDUMSOLUTIONS
+name             : GBDUMSOLUTIONS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-plat-8u7lp-01-rg
+subscriptionId   : 0c19acff-2e84-4d15-8e3d-69429f05d4ad
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=centralus; creationDate=5/24/2025 3:28:33 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM; failoverGroupId=/subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/locations/East US 2/instanceFailoverGroups/zmssql-apm1001745-00prd01-fog}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/0c19acff-2e84-4d15-8e3d-69429f05d4ad/resourceGroups/apm1001745-plat-8u7lp-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00prd01/databases/GBDUMSOLUTIONS
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00dev01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=centralus; creationDate=1/30/2025 1:16:14 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations -UMAU-; elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-np02; elvh-infra-env=test; elvh-ci-owner=AC88324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001745; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00dev01/databases/DBAUTIL
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00dev01/databases/GbdUmSolutions
+name             : GbdUmSolutions
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/29/2025 9:24:13 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations -UMAU-; elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-infra-env=test; elvh-workspace=azrapm1001745-np02; elvh-ci-owner=AC88324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001745; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00dev01/databases/GbdUmSolutions
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00uat01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=centralus; creationDate=2/7/2025 1:04:22 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-np02; elvh-infra-env=test; elvh-ci-owner=AC88324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001745; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00uat01/databases/DBAUTIL
+
+id               : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00uat01/databases/GbdUmSolutions
+name             : GbdUmSolutions
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001745-gld-ktyt5-01-rg
+subscriptionId   : 20659eb6-9c76-49ae-9f30-7c478bb5244d
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; collation=SQL_Latin1_General_CP1_CI_AS; defaultSecondaryLocation=centralus; creationDate=2/7/2025 2:25:41 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClinicalSystems-UM; elvh-business-division=dig; elvh-application-name=GBD Facets Utilization Management Authorizations (UMAU); elvh-app-support-dl=dl-mcmsolutionsgbdumqm@anthem.com; elvh-costcenter=5501885700; elvh-workspace=azrapm1001745-np02; elvh-infra-env=test; elvh-ci-owner=AC88324; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001745; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/20659eb6-9c76-49ae-9f30-7c478bb5244d/resourceGroups/apm1001745-gld-ktyt5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001745-00uat01/databases/GbdUmSolutions
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/dpmsdb
+name             : dpmsdb
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1011819-slvr-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=eastus2; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/15/2025 7:11:10 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/dpmsdb
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/mssql-db
+name             : mssql-db
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1011819-slvr-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=eastus2; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=8/29/2025 1:40:28 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM}
+tags             : @{company=elevance health}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/mssql-db
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/test
+name             : test
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1011819-slvr-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=eastus2; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/17/2025 3:38:44 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-00dev01/databases/test
+
+id               : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-dev/databases/dam-sonar-test
+name             : dam-sonar-test
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : centralus
+resourceGroup    : apm1011819-slvr-rg
+subscriptionId   : 25b174eb-e281-4183-8906-89037a996460
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=eastus2; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/11/2024 1:16:19 PM; isLedgerOn=False; earliestRestorePoint=3/17/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=Data Monitoring Protection Services; elvh-business-division=corp; elvh-application-name=Imperva jSonar - Azure Gateway; elvh-app-support-dl=dl-Dam_ops@elevancehealth.com; elvh-costcenter=6590330000; elvh-infra-env=development; elvh-workspace=azrapm1011819-np01; elvh-ci-owner=AD97263; elvh-company=Anthem; elvh-app-env=dev; elvh-apm-id=apm1011819; PatchWindow=default; PatchGroup=default; company=Elevance Health}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/25b174eb-e281-4183-8906-89037a996460/resourceGroups/apm1011819-slvr-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1011819-dev/databases/dam-sonar-test
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev03/databases/AGPDM
+name             : AGPDM
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=6/20/2025 8:54:10 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev03/databases/AGPDM
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev03/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/18/2025 1:38:02 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ProviderDataExchange; elvh-business-division=gbd; elvh-application-name=AGPDM (GBD); elvh-app-support-dl=dl-GBD-PODS@anthem.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1000105-np02; elvh-ci-owner=AE06462; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1000105; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev03/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev04/databases/AGPDM_MCARE
+name             : AGPDM_MCARE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=2/17/2025 3:46:16 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ProviderDataExchange; elvh-business-division=gbd; elvh-application-name=AGPDM (GBD); elvh-app-support-dl=dl-GBD-PODS@anthem.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1000105-np02; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000105; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev04/databases/AGPDM_MCARE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev04/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/18/2025 2:26:19 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ProviderDataExchange; elvh-business-division=gbd; elvh-application-name=AGPDM (GBD); elvh-app-support-dl=dl-GBD-PODS@anthem.com; elvh-costcenter=6590196600; elvh-workspace=azrapm1000105-np02; elvh-infra-env=test; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000105; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00dev04/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst01/databases/AGPDM
+name             : AGPDM
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=6/18/2025 5:06:47 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst01/databases/AGPDM
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst01/databases/DBAUTIL_old
+name             : DBAUTIL_old
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=1/27/2025 3:21:05 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ProviderDataExchange; elvh-business-division=gbd; elvh-application-name=AGPDM -GBD-; elvh-app-support-dl=dl-GBD-PODS@anthem.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1000105-np02; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000105; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst01/databases/DBAUTIL_old
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst02/databases/AGPDM_MCARE
+name             : AGPDM_MCARE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000105-gld-nx5cs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=6/18/2025 4:59:09 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000105-gld-nx5cs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000105-00tst02/databases/AGPDM_MCARE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/BOSS
+name             : BOSS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/10/2024 1:13:14 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-infra-env=test; elvh-workspace=azrapm1000353-np02; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/BOSS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/BOSS_OS
+name             : BOSS_OS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/10/2024 2:42:16 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-infra-env=test; elvh-workspace=azrapm1000353-np02; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/BOSS_OS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/10/2024 3:23:41 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-workspace=azrapm1000353-np02; elvh-infra-env=test; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstd01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/BOSS
+name             : BOSS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=12/16/2024 6:15:59 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-infra-env=test; elvh-workspace=azrapm1000353-np02; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/BOSS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/BOSS_OS
+name             : BOSS_OS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/16/2024 6:25:38 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-infra-env=test; elvh-workspace=azrapm1000353-np02; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/BOSS_OS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000353-gld-m35i5-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/13/2024 6:40:32 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-BillingFinanceIDCards; elvh-business-division=gbd; elvh-application-name=The BOSS Portal -GBD-; elvh-app-support-dl=dl-BFI_All@Anthem.com; elvh-costcenter=6590318400; elvh-workspace=azrapm1000353-np02; elvh-infra-env=test; elvh-ci-owner=AL47105; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000353; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000353-gld-m35i5-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000353-00tstu01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/CIRT3D
+name             : CIRT3D
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:29:30 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/CIRT3D
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=11/29/2024 3:19:13 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClaimsEDISupport; elvh-business-division=gbd; elvh-application-name=CIRT - Claims Intake Repair Tool -GBD-; elvh-app-support-dl=DL-Team-CIFT-Developers@elevancehealth.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1000697-np02; elvh-ci-owner=AC85041; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1000697; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/mssqlcrtcu100
+name             : mssqlcrtcu100
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=11/7/2025 4:12:44 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/mssqlcrtcu100
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/PEGA_FE3D
+name             : PEGA_FE3D
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:34:19 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00dev01/databases/PEGA_FE3D
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/CIRT
+name             : CIRT
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:50:42 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/CIRT
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/4/2025 11:02:10 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClaimsEDISupport; elvh-business-division=gbd; elvh-application-name=CIRT - Claims Intake Repair Tool (GBD); elvh-app-support-dl=DL-Team-CIFT-Developers@elevancehealth.com; elvh-costcenter=6224801000; elvh-workspace=azrapm1000697-np02; elvh-infra-env=test; elvh-ci-owner=AC85041; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1000697; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/PEGA_FE
+name             : PEGA_FE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1000697-gld-0r7b6-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=4/28/2025 7:50:52 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1000697-gld-0r7b6-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1000697-00uat01/databases/PEGA_FE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=10/11/2024 2:03:48 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001261; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_ENC
+name             : EIDS_ENC
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=3/4/2025 4:09:01 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; costcenter=6224801000; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; application-name=Encounters Integrated Data Store; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02dev; app-servicenow-group=GBD EIDS - Support; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; business-division=gbd; elvh-apm-id=apm1001261; workspace=azrapm1001261-np02dev; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; PatchWindow=default; PatchGroup=default; infra-env=gld; company=Anthem; ci-owner=AF36653; app-env=dev; apm-id=apm1001261; created-by=AM07030; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; database-platform=MSSQL-MI; db-patch-schedule=M09W4; application_tag3=app-tag3; application_tag4=app-tag4; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_ENC
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_HST
+name             : EIDS_HST
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=3/4/2025 4:10:16 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; costcenter=6224801000; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; application-name=Encounters Integrated Data Store; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02dev; app-servicenow-group=GBD EIDS - Support; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; business-division=gbd; elvh-apm-id=apm1001261; workspace=azrapm1001261-np02dev; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; PatchWindow=default; PatchGroup=default; infra-env=gld; company=Anthem; ci-owner=AF36653; app-env=dev; apm-id=apm1001261; created-by=AM07030; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; database-platform=MSSQL-MI; db-patch-schedule=M09W4; application_tag3=app-tag3; application_tag4=app-tag4; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_HST
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_STG
+name             : EIDS_STG
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=3/3/2025 5:47:01 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; costcenter=6224801000; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; application-name=Encounters Integrated Data Store; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02dev; app-servicenow-group=GBD EIDS - Support; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; business-division=gbd; elvh-apm-id=apm1001261; workspace=azrapm1001261-np02dev; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; PatchWindow=default; PatchGroup=default; infra-env=gld; company=Anthem; ci-owner=AF36653; app-env=dev; apm-id=apm1001261; created-by=AM07030; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; database-platform=MSSQL-MI; db-patch-schedule=M09W4; application_tag3=app-tag3; application_tag4=app-tag4; application_tag2=app-tag2; application_tag1=app-tag1; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/EIDS_STG
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/TEST_MI
+name             : TEST_MI
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=3/3/2025 8:24:47 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001261; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/TEST_MI
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/Test_MI2
+name             : Test_MI2
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=3/12/2025 7:19:09 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001261; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev03/databases/Test_MI2
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/11/2024 2:03:55 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001261; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_ENC
+name             : EIDS_ENC
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=3/4/2025 4:11:41 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; costcenter=6224801000; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02dev; app-servicenow-group=GBD EIDS - Support; elvh-ci-owner=AF36653; application-name=Encounters Integrated Data Store; elvh-app-env=test; elvh-company=Anthem; business-division=gbd; elvh-apm-id=apm1001261; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; workspace=azrapm1001261-np02dev; PatchWindow=default; PatchGroup=default; created-by=AM07030; infra-env=gld; ci-owner=AF36653; company=Anthem; app-env=dev; apm-id=apm1001261; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M09W4; database-platform=MSSQL-MI; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_ENC
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_HST
+name             : EIDS_HST
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=3/4/2025 4:19:05 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; costcenter=6224801000; created-by=AM07030; application-name=Encounters Integrated Data Store; company=Anthem; PatchGroup=default; workspace=azrapm1001261-np02dev; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; elvh-app-servicenow-group=GBD EIDS - Support; PatchWindow=default; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-workspace=azrapm1001261-np02dev; elvh-infra-env=test; elvh-ci-owner=AF36653; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001261; infra-env=gld; app-servicenow-group=GBD EIDS - Support; business-division=gbd; prepatch-snapshot-flag=N; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; db-patch-time-window=Sunday 0100; database-platform=MSSQL-MI; db-patch-schedule=M09W4; application_tag5=app-tag5; application_tag1=app-tag1; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; database-state=Active; ci-owner=AF36653; app-env=dev; apm-id=apm1001261; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_HST
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_STG
+name             : EIDS_STG
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=3/4/2025 4:24:26 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02dev; elvh-ci-owner=AF36653; app-servicenow-group=GBD EIDS - Support; elvh-company=Anthem; elvh-app-env=test; application-name=Encounters Integrated Data Store; business-division=gbd; elvh-apm-id=apm1001261; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; PatchGroup=default; PatchWindow=default; created-by=AM07030; workspace=azrapm1001261-np02dev; company=Anthem; infra-env=gld; ci-owner=AF36653; app-env=dev; apm-id=apm1001261; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; database-platform=MSSQL-MI; db-patch-schedule=M09W4; application_tag1=app-tag1; application_tag4=app-tag4; application_tag3=app-tag3; application_tag5=app-tag5; application_tag2=app-tag2; database-state=Active; bcp-tier=Tier-84; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00dev04/databases/EIDS_STG
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=11/13/2024 4:22:28 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001261; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_ENC
+name             : EIDS_ENC
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:04:47 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; costcenter=6224801000; application-name=Encounters Integrated Data Store; created-by=AM07030; workspace=azrapm1001261-np02; PatchGroup=default; company=Anthem; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; PatchWindow=default; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-app-env=test; elvh-company=Anthem; prepatch-snapshot-flag=N; elvh-apm-id=apm1001261; db-patch-time-window=Sunday 0100; app-servicenow-group=GBD EIDS - Support; infra-env=gld; database-platform=MSSQL-MI; business-division=gbd; db-patch-schedule=M09W4; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-state=Active; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; bcp-tier=Tier-84; ci-owner=AF36653; app-env=test; apm-id=apm1001261}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_ENC
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_HST
+name             : EIDS_HST
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Inaccessible; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:07:37 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM; extendedAccessibilityInfo=}
+tags             : @{environment=testing; costcenter=6224801000; application-name=Encounters Integrated Data Store; workspace=azrapm1001261-np02; PatchGroup=default; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; company=Anthem; created-by=AM07030; elvh-app-servicenow-group=GBD EIDS - Support; infra-env=gld; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; app-servicenow-group=GBD EIDS - Support; elvh-workspace=azrapm1001261-np02; elvh-infra-env=test; elvh-ci-owner=AF36653; business-division=gbd; elvh-company=Anthem; elvh-app-env=test; PatchWindow=default; elvh-apm-id=apm1001261; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; ci-owner=AF36653; prepatch-snapshot-flag=N; app-env=test; db-patch-time-window=Sunday 0100; apm-id=apm1001261; db-patch-schedule=M09W4; database-platform=MSSQL-MI; application_tag3=app-tag3; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_HST
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_STG
+name             : EIDS_STG
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:08:07 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; costcenter=6224801000; application-name=Encounters Integrated Data Store; created-by=AM07030; workspace=azrapm1001261-np02; PatchGroup=default; company=Anthem; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; PatchWindow=default; elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-app-env=test; elvh-company=Anthem; prepatch-snapshot-flag=N; elvh-apm-id=apm1001261; db-patch-time-window=Sunday 0100; app-servicenow-group=GBD EIDS - Support; infra-env=gld; database-platform=MSSQL-MI; business-division=gbd; db-patch-schedule=M09W4; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1; database-state=Active; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; bcp-tier=Tier-84; ci-owner=AF36653; app-env=test; apm-id=apm1001261}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst01/databases/EIDS_STG
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=11/13/2024 4:22:21 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD EIDS - Support; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001261; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_ENC
+name             : EIDS_ENC
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:11:13 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; application-name=Encounters Integrated Data Store; costcenter=6224801000; PatchGroup=default; workspace=azrapm1001261-np02; created-by=AM07030; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; elvh-app-servicenow-group=GBD EIDS - Support; infra-env=gld; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; company=Anthem; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001261-np02; elvh-ci-owner=AF36653; elvh-app-env=test; elvh-company=Anthem; PatchWindow=default; elvh-apm-id=apm1001261; app-servicenow-group=GBD EIDS - Support; business-division=gbd; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; ci-owner=AF36653; app-env=test; apm-id=apm1001261; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M09W4; database-state=Active; database-platform=MSSQL-MI; bcp-tier=Tier-84; application_tag5=app-tag5; application_tag4=app-tag4; application_tag3=app-tag3; application_tag2=app-tag2; application_tag1=app-tag1}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_ENC
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_HST
+name             : EIDS_HST
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:11:38 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; costcenter=6224801000; application-name=Encounters Integrated Data Store; workspace=azrapm1001261-np02; PatchGroup=default; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; company=Anthem; created-by=AM07030; elvh-app-servicenow-group=GBD EIDS - Support; infra-env=gld; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; app-servicenow-group=GBD EIDS - Support; elvh-workspace=azrapm1001261-np02; elvh-infra-env=test; elvh-ci-owner=AF36653; business-division=gbd; elvh-company=Anthem; elvh-app-env=test; PatchWindow=default; elvh-apm-id=apm1001261; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; ci-owner=AF36653; prepatch-snapshot-flag=N; app-env=test; db-patch-time-window=Sunday 0100; apm-id=apm1001261; db-patch-schedule=M09W4; database-platform=MSSQL-MI; application_tag3=app-tag3; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_HST
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_STG
+name             : EIDS_STG
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001261-gld-6e1hg-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 1:53:35 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; costcenter=6224801000; application-name=Encounters Integrated Data Store; workspace=azrapm1001261-np02; PatchGroup=default; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; company=Anthem; created-by=AM07030; elvh-app-servicenow-group=GBD EIDS - Support; infra-env=gld; elvh-business-division=gbd; elvh-application-name=Encounters Integrated Data Store; elvh-app-support-dl=dl-gbd-encounters-eids-it-notifications@anthem.com; elvh-costcenter=6224801000; app-servicenow-group=GBD EIDS - Support; elvh-workspace=azrapm1001261-np02; elvh-infra-env=test; elvh-ci-owner=AF36653; business-division=gbd; elvh-company=Anthem; elvh-app-env=test; PatchWindow=default; elvh-apm-id=apm1001261; app-support-dl=dl-gbd-encounters-eids-it-development@anthem.com; ci-owner=AF36653; prepatch-snapshot-flag=N; app-env=test; db-patch-time-window=Sunday 0100; apm-id=apm1001261; db-patch-schedule=M09W4; database-platform=MSSQL-MI; application_tag3=app-tag3; application_tag1=app-tag1; application_tag2=app-tag2; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001261-gld-6e1hg-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001261-00tst02/databases/EIDS_STG
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev02/databases/DBAUtil
+name             : DBAUtil
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/23/2024 1:35:11 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1001390-np02; elvh-ci-owner=AE06462; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001390; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev02/databases/DBAUtil
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev02/databases/EPAS
+name             : EPAS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/24/2024 3:57:57 AM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-workspace=azrapm1001390-np02; elvh-infra-env=test; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001390; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev02/databases/EPAS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev03/databases/DBAUtil
+name             : DBAUtil
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/23/2024 1:31:49 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1001390-np02; elvh-ci-owner=AE06462; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001390; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev03/databases/DBAUtil
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev03/databases/EPAS
+name             : EPAS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/17/2025 9:41:24 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00dev03/databases/EPAS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat00/databases/DBAUtil
+name             : DBAUtil
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/14/2025 6:07:07 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1001390-np02; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001390; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat00/databases/DBAUtil
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat00/databases/EPAS
+name             : EPAS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=1/15/2025 9:38:25 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1001390-np02; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001390; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat00/databases/EPAS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat01/databases/DBAUtil
+name             : DBAUtil
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/14/2025 6:04:22 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-infra-env=test; elvh-workspace=azrapm1001390-np02; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001390; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat01/databases/DBAUtil
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat01/databases/EPAS
+name             : EPAS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001390-gld-pomgs-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/15/2025 9:36:17 PM; isLedgerOn=False; earliestRestorePoint=2/21/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-FacetsFinance; elvh-business-division=gbd; elvh-application-name=ePremium Analysis System -GBD-; elvh-app-support-dl=wrkgp-ePASITSupport@elevancehealth.com; elvh-costcenter=6590196600; elvh-workspace=azrapm1001390-np02; elvh-infra-env=test; elvh-ci-owner=AE06462; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001390; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001390-gld-pomgs-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001390-00uat01/databases/EPAS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00dev01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001478-gld-w04qb-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Inaccessible; defaultSecondaryLocation=centralus; creationDate=10/31/2024 4:16:46 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM; extendedAccessibilityInfo=}
+tags             : @{elvh-app-servicenow-group=GBD-HPSS; elvh-business-division=gbd; elvh-application-name=Facets Configuration Migration Tool -GBD-; elvh-app-support-dl=DL-PCS_Support-Onshore@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001478-np02; elvh-ci-owner=AC97073; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001478; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00dev01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00dev01/databases/FACETS_CONFIG_91
+name             : FACETS_CONFIG_91
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001478-gld-w04qb-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/31/2024 2:50:50 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=development; elvh-app-servicenow-group=GBD-HPSS; elvh-business-division=gbd; elvh-application-name=Facets Configuration Migration Tool (GBD); elvh-app-support-dl=DL-PCS_Support-Onshore@anthem.com; costcenter=6224801000; elvh-costcenter=6224801000; application-name=Facets Configuration Migration Tool (GBD); elvh-infra-env=test; elvh-workspace=azrapm1001478-np02; app-servicenow-group=GBD-HPSS; elvh-ci-owner=AC97073; elvh-company=Anthem; elvh-app-env=test; business-division=gbd; elvh-apm-id=apm1001478; app-support-dl=pcssupport@anthem.com; PatchGroup=default; PatchWindow=default; workspace=azapm1001478-np02; infra-env=gld; ci-owner=AC97073; company=Anthem; app-env=test; apm-id=apm1001478; created-by=AL96035; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=MSSQL-MI; application_tag2=app-tag2; application_tag1=app-tag1; application_tag3=app-tag3; application_tag4=app-tag4; application_tag5=app-tag5; database-state=Active; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00dev01/databases/FACETS_CONFIG_91
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00tst01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001478-gld-w04qb-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Inaccessible; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/3/2024 12:06:20 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM; extendedAccessibilityInfo=}
+tags             : @{elvh-app-servicenow-group=GBD-HPSS; elvh-business-division=gbd; elvh-application-name=Facets Configuration Migration Tool -GBD-; elvh-app-support-dl=DL-PCS_Support-Onshore@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001478-np02; elvh-ci-owner=AC97073; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001478; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00tst01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00tst01/databases/FACETS_CONFIG_91
+name             : FACETS_CONFIG_91
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001478-gld-w04qb-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/16/2024 10:32:02 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{environment=testing; elvh-app-servicenow-group=GBD-HPSS; elvh-business-division=gbd; elvh-application-name=Facets Configuration Migration Tool (GBD); costcenter=6224801000; elvh-app-support-dl=DL-PCS_Support-Onshore@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001478-np02; app-servicenow-group=GBD-HPSS; elvh-ci-owner=AC97073; application-name=Facets Configuration Migration Tool (GBD); elvh-app-env=test; elvh-company=Anthem; business-division=gbd; elvh-apm-id=apm1001478; app-support-dl=pcssupport@anthem.com; workspace=azapm1001478-np02; PatchWindow=default; PatchGroup=default; created-by=AL96035; infra-env=gld; ci-owner=AC97073; company=Anthem; app-env=test; apm-id=apm1001478; provisioned_by=terraform-azurerm-mssql-managed-database:1.0.2; prepatch-snapshot-flag=N; db-patch-time-window=Sunday 0100; db-patch-schedule=M00W0; database-platform=MSSQL-MI; application_tag4=app-tag4; application_tag1=app-tag1; application_tag2=app-tag2; application_tag3=app-tag3; application_tag5=app-tag5; database-state=Active; bcp-tier=Tier-84}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001478-gld-w04qb-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001478-00tst01/databases/FACETS_CONFIG_91
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/15/2024 4:29:36 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001487-np02; elvh-ci-owner=AD62368; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001487; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/FICR
+name             : FICR
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/13/2024 10:36:24 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001487-np02; elvh-ci-owner=AD62368; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001487; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/FICR
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/FICR4D_OFFSHORE
+name             : FICR4D_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/13/2024 11:17:12 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-workspace=azrapm1001487-np02; elvh-infra-env=test; elvh-ci-owner=AD62368; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001487; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/FICR4D_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/PEGA_CA
+name             : PEGA_CA
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 3:08:56 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/PEGA_CA
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/PEGA_CA4D_OFFSHORE
+name             : PEGA_CA4D_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 3:11:09 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00dev01/databases/PEGA_CA4D_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=10/14/2025 6:28:45 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/FICR
+name             : FICR
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/11/2026 6:23:25 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/FICR
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/PEGA_CA
+name             : PEGA_CA
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/14/2025 6:28:45 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00per01/databases/PEGA_CA
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=11/29/2024 11:07:39 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001487-np02; elvh-ci-owner=AD62368; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001487; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR
+name             : FICR
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/15/2024 8:47:43 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-workspace=azrapm1001487-np02; elvh-infra-env=test; elvh-ci-owner=AD62368; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001487; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR2U
+name             : FICR2U
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/16/2024 9:18:36 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001487-np02; elvh-ci-owner=AD62368; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001487; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR2U
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR3U
+name             : FICR3U
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=10/16/2024 10:52:37 AM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1001487-np02; elvh-ci-owner=AD62368; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001487; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR3U
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR4U_OFFSHORE
+name             : FICR4U_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=10/16/2024 11:09:56 AM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-Claims AdjudicationSupport; elvh-business-division=gbd; elvh-application-name=FACETS Integrated Claims Repair -GBD-; elvh-app-support-dl=dl-FICRQADEVSupport@anthem.com; elvh-costcenter=6224801000; elvh-workspace=azrapm1001487-np02; elvh-infra-env=test; elvh-ci-owner=AD62368; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001487; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/FICR4U_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA
+name             : PEGA_CA
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 5:10:32 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA2U
+name             : PEGA_CA2U
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=4/28/2025 5:13:04 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA2U
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA3U
+name             : PEGA_CA3U
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 5:13:40 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA3U
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA4U_OFFSHORE
+name             : PEGA_CA4U_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001487-gld-7d4r8-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 5:13:55 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001487-gld-7d4r8-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001487-00uat01/databases/PEGA_CA4U_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00sit02/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001735-gld-8o423-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=12/12/2024 5:05:39 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-MACESS; elvh-business-division=gbd; elvh-application-name=GBD - Iris letter Hub; elvh-app-support-dl=dl-gbdxpressionadmins@anthem.com; elvh-costcenter=6590190900; elvh-infra-env=test; elvh-workspace=azrapm1001735-np02; elvh-ci-owner=EBERHTH; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001735; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00sit02/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00sit02/databases/xPression_UTIL
+name             : xPression_UTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001735-gld-8o423-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/26/2025 2:23:55 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=PSDG Support; elvh-business-division=gbd; elvh-application-name=GBD - Iris letter Hub; elvh-app-support-dl=dl-gbdxpressionadmins@anthem.com; elvh-costcenter=6590190900; elvh-infra-env=test; elvh-workspace=azrapm1001735-np02; elvh-ci-owner=EBERHTH; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001735; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00sit02/databases/xPression_UTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00uat03/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001735-gld-8o423-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=12/20/2024 1:50:34 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-MACESS; elvh-business-division=gbd; elvh-application-name=GBD - Iris letter Hub; elvh-app-support-dl=dl-gbdxpressionadmins@anthem.com; elvh-costcenter=6590190900; elvh-infra-env=test; elvh-workspace=azrapm1001735-np02; elvh-ci-owner=EBERHTH; elvh-company=Anthem; elvh-app-env=test; elvh-apm-id=apm1001735; PatchGroup=default; PatchWindow=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00uat03/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00uat03/databases/xPression_UTIL
+name             : xPression_UTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1001735-gld-8o423-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=2/24/2025 6:54:06 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=PSDG Support; elvh-business-division=gbd; elvh-application-name=GBD - Iris letter Hub; elvh-app-support-dl=dl-gbdxpressionadmins@anthem.com; elvh-costcenter=6590190900; elvh-infra-env=test; elvh-workspace=azrapm1001735-np02; elvh-ci-owner=EBERHTH; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1001735; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1001735-gld-8o423-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1001735-00uat03/databases/xPression_UTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS
+name             : CLMWKS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:25:02 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS2D
+name             : CLMWKS2D
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:25:25 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS2D
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS4D_OFFSHORE
+name             : CLMWKS4D_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:25:49 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/CLMWKS4D_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/23/2025 4:21:33 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/DBAUTIL
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/DREW
+name             : DREW
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:29:29 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/DREW
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/GBDCLMRPT
+name             : GBDCLMRPT
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:27:24 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/GBDCLMRPT
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/GBDCLMSTG
+name             : GBDCLMSTG
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:29:46 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/GBDCLMSTG
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/Pega_UI
+name             : Pega_UI
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:26:02 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/Pega_UI
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PEGA_UI2D
+name             : PEGA_UI2D
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=9/25/2025 6:54:25 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PEGA_UI2D
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/Pega_UI4D_OFFSHORE
+name             : Pega_UI4D_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=6/30/2025 7:42:36 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/Pega_UI4D_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING
+name             : PING
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 7:28:51 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING2D
+name             : PING2D
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=4/28/2025 7:28:59 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING2D
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING4D_OFFSHORE
+name             : PING4D_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/30/2025 7:12:41 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00dev01/databases/PING4D_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS
+name             : CLMWKS
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=4/28/2025 8:04:37 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS2U
+name             : CLMWKS2U
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=4/28/2025 8:05:03 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS2U
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS4U_OFFSHORE
+name             : CLMWKS4U_OFFSHORE
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; creationDate=4/28/2025 8:48:14 PM; collation=SQL_Latin1_General_CP1_CI_AS; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : 
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/CLMWKS4U_OFFSHORE
+
+id               : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/DBAUTIL
+name             : DBAUTIL
+type             : microsoft.sql/managedinstances/databases
+tenantId         : be8c08f2-ac07-442c-9a46-ebeeeb5bd4d7
+kind             : 
+location         : eastus2
+resourceGroup    : apm1002073-gld-ez7cn-01-rg
+subscriptionId   : 298677aa-389d-4c54-9c71-9d8d7178acce
+managedBy        : 
+sku              : 
+plan             : 
+properties       : @{status=Online; defaultSecondaryLocation=centralus; collation=SQL_Latin1_General_CP1_CI_AS; creationDate=1/24/2025 3:58:14 PM; isLedgerOn=False; earliestRestorePoint=3/16/2026 12:00:00 AM}
+tags             : @{elvh-app-servicenow-group=GBD-CM-ClaimsUISupport; elvh-business-division=gbd; elvh-application-name=Intuitive Claims Processing Tool -GBD-; elvh-app-support-dl=dl-claimsworkstation@amerigroup.com; elvh-costcenter=6224801000; elvh-infra-env=test; elvh-workspace=azrapm1002073-np02; elvh-ci-owner=AC85041; elvh-app-env=test; elvh-company=Anthem; elvh-apm-id=apm1002073; PatchWindow=default; PatchGroup=default}
+identity         : 
+zones            : 
+extendedLocation : 
+ResourceId       : /subscriptions/298677aa-389d-4c54-9c71-9d8d7178acce/resourceGroups/apm1002073-gld-ez7cn-01-rg/providers/Microsoft.Sql/managedInstances/zmssql-apm1002073-00uat01/databases/DBAUTIL
+

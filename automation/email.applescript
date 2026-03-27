@@ -10,16 +10,16 @@ on run argv
 	set shortDate to short date string of (current date)
 	
 	-- Create a new outgoing message
-	set newMessage to make new outgoing message with properties {subject:"AWS Files " & shortDate & "", content:"Please find the attached AWS Files for " & shortDate & "."}
+	set newMessage to make new outgoing message with properties {subject:"Azure Data Extract - " & shortDate & "", content:"Please find the attached Azure Data Extract Files for " & shortDate & "."}
 	
 	-- Add recipients
-	-- make new recipient at newMessage with properties {email address:{name:"Kiran, Raghu", address:"raghu.kiran@elevancehealth.com"}}
-	make new recipient at newMessage with properties {email address:{name:"Pease, Daniel", address:"daniel.pease@elevancehealth.com"}}
-	make new recipient at newMessage with properties {email address:{name:"Budreau, Chuck", address:"charles.budreau@elevancehealth.com"}}
-	make new recipient at newMessage with properties {email address:{name:"Strange, James", address:"james.strange@elevancehealth.com"}}
+	make new recipient at newMessage with properties {email address:{name:"Kiran, Raghu", address:"raghu.kiran@elevancehealth.com"}}
+	-- make new recipient at newMessage with properties {email address:{name:"Pease, Daniel", address:"daniel.pease@elevancehealth.com"}}
+	-- make new recipient at newMessage with properties {email address:{name:"Budreau, Chuck", address:"charles.budreau@elevancehealth.com"}}
+	-- make new recipient at newMessage with properties {email address:{name:"dl-InfoHub-Support", address:"dl-infohub-support@anthem.com"}}
 	
 	-- Optional: Add a CC or BCC recipient
-	make new cc recipient at newMessage with properties {email address:{name:"dl-InfoHub-Support", address:"dl-infohub-support@anthem.com"}}
+	-- make new cc recipient at newMessage with properties {email address:{name:"Strange, James", address:"james.strange@elevancehealth.com"}}
 	-- make new bcc recipient at newMessage with properties {email address:{name:"BCC Recipient", address:"bcc@example.com"}}
 	
 	-- Optional: Add an attachment
